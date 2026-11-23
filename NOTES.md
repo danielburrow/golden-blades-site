@@ -10,7 +10,7 @@ A members-only site for the Golden Blades (members of the Holy Reman League, "ou
 - Static site (no build step). Output dir is `public/`. Server logic is Cloudflare Pages Functions in `functions/`.
 
 ## Access control
-- Public: `public/index.html` (Welcome page with hero banner) and `public/denied.html`.
+- Public: `public/index.html`, `about/`, `join/`, `videos/`, and `denied.html`.
 - Everything under `/members/*` (pages, images, downloads) is gated by `functions/members/_middleware.js`.
 - Login is Discord OAuth2 (scopes `identify guilds.members.read`). The server checks that the user holds the "Blade" role in the Golden Blades Discord server. Session is an HMAC-signed cookie (`gb_session`, 3 days).
 - Files: `functions/auth/login.js`, `callback.js`, `logout.js`, `functions/_lib/session.js`.
@@ -21,20 +21,24 @@ A members-only site for the Golden Blades (members of the Holy Reman League, "ou
 - Cloudflare Pages file limit is 25 MiB per file.
 
 ## Site map
-| Section | Path | Status |
-|---|---|---|
-| Welcome (public) | `/` | Done, hero banner uses `public/img/hero.jpg` |
-| Members home | `/members/` | 5 section cards |
-| Crafting Guide | `/members/crafting/` | "Coming soon" placeholder |
-| HRL (hub) | `/members/hrl/` | Cards linking to the pages below |
-| HRL Constitution | `/members/hrl/constitution/` | Single image page |
-| HRL Heraldry & Flags | `/members/hrl/heraldry/` | 27 images, web previews + full downloads |
-| HRL Hierarchy | `/members/hrl/hierarchy/` | Rendered from `people.js` by `hrl.js` |
-| Meme Repository | `/members/memes/` | Gallery: 12 flyers, 15 GIFs (as mp4). Name is temporary; Daniel wants it renamed later |
-| Shopping | `/members/shopping/` | Placeholder |
-| Starter Guide | `/members/starter-guide/` | First draft built from the house-general Discord export (single page, 10 anchored sections, styles under "Starter Guide" in style.css) |
+Public (no sign-in): Home `/`, About `/about/`, Join `/join/`, Videos `/videos/` (media in `/videos/media/`). Videos are credited to Brenin Halvard, except "Armor Stands, GG26" which sits in its own Grand Gathering 2026 section at the bottom.
 
-Nav is injected by `public/js/site.js` (alphabetical: Crafting Guide, HRL, Meme Repository, Shopping, Starter Guide, Sign out). Theme is `public/css/style.css` (dark with gold).
+Members (gated), nav is dropdowns, alphabetical:
+| Menu | Pages |
+|---|---|
+| Guides `/members/guides/` | Combat (Manual of Arms, On Hynawar), Crafting (placeholder), Shopping (placeholder), Starter Guide (single page, 10+ anchored sections) |
+| House `/members/house/` | Contracts, Hierarchy (placeholder, Golden Blades only, never mixed with HRL), House Guide, Regimental Roles, Style Guide |
+| HRL `/members/hrl/` | Constitution, Heraldry & Flags, Hierarchy (rendered from `people.js` by `hrl.js`) |
+| Lore `/members/lore/` | Briefadel and Ownership, Carta Arcanum, Demesne of the Blades |
+| Meme Repository `/members/memes/` | Gallery: 12 flyers, 15 GIFs (as mp4). Name is temporary |
+| Videos | Links to the public `/videos/` |
+
+- Curated downloads live in `public/members/documents/` (one shared folder). House and Lore pages are thin download pages; send text and they can be turned into full pages.
+- Nav is built by `public/js/site.js` (public nav on public pages, members nav under `/members/`). Dropdown CSS is at the end of `style.css`.
+- Old URLs (`/members/crafting|shopping|starter-guide|videos|guild/`) are redirected via `public/_redirects`; `public/members/videos/index.html` is a meta-refresh stub because deleting files is blocked.
+- Foam Pavise Shield guide was dropped by Daniel (kept only in `incoming-documents/`).
+- Terminology: the Golden Blades are a **House** (formerly "Guild"). Never call the Blades a guild; "guilds" now means vocations (Thieves, Assassins, Guardians, Alchemists, etc.). Discord's own "guild" API terms in code are unrelated and stay.
+- Not yet done: Discord invite link on the Join page.
 
 ## HRL hierarchy data
 - Edit `public/members/hrl/people.js` (`window.HRL`): `kaiser`, `archduke`, `electors`, `barons`, `lords`, `citizens`, plus `flag`, `sigil`, `mascirino`.
@@ -69,4 +73,4 @@ Nav is injected by `public/js/site.js` (alphabetical: Crafting Guide, HRL, Meme 
 - Company leaders are intentionally not named (they change). Add if wanted.
 - Regola: chat has the six-rule version, Ulric's guide v3 has seven (adds Fedelta). Confirm which is current.
 - Oberst: the style guide names Anton von Forst, the post-GG 2026 roles document lists a different House Leader. The page names no one.
-- Songbook (guild songs) is in incoming-documents/, not published. Pike class quiz has answers marked; not published.
+- Songbook (house songs) is in incoming-documents/, not published. Pike class quiz has answers marked; not published.
