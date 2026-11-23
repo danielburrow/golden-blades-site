@@ -65,8 +65,9 @@ window.HRL = {
     { rank: "", name: "Tykin Sunderr", role: "Cult Leader of the Convocation of the Void", photo: "3486119f440bf1551f9aa02fec980d75", crest: "sigil" },
     { rank: "", name: "Zadkiel Zadax", role: "The Horned Merchant\nProprietor of Zad’s Pad — A Trinket Emporium", photo: "314a8af5d56a0832ad1cf321cd03a7fb", crest: "sigil" }
   ],
-  // Former Kaisers (not Ulric, who sits in his own rank). Ibb is listed here and also among the Elector Counts. Shown at the bottom of the HRL hierarchy.
+  // Former Kaisers. Ulric is listed here and also in his own rank; Ibb here and also among the Elector Counts. Shown at the bottom of the HRL hierarchy.
   formerKaisers: [
+    { rank: "Landlord", name: "Ulric von Kriegholm", role: "First Kaiser, reigned and slain Sept 12, 810 AC\nErsterhauptmann", photo: "d390a8f7a3126ca6ea5cac59fde2b50c", crest: "sigil" },
     { rank: "Kaiserine", name: "Lisbeth \u201cIbb\u201d Fletcher", role: "Former Kaiserine, reigned Sept 12\u2013Nov 10, 810 AC\nContessa and Elector Count", photo: "c4cc36e6fe3cddb4868107b18f799bc5", crest: "sigil" },
     { rank: "", name: "Rothwyr", role: "Former Kaiser, reigned Nov 10\u201312, 810 AC\nKnight of Vekmarch", photo: "6a820db827051d23fce0d4246be08cb5", crest: { img: "af95529268830d237ae77960e56d310a" } },
     { rank: "", name: "Tal", role: "Former Kaiser, reigned Nov 12\u201314, 810 AC\nOf Sleipnir\u2019s Rise", crest: { img: "e85a175be804601b34b4c5d5eee1d285", tall: true } },
