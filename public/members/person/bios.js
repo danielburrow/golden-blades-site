@@ -127,7 +127,7 @@ window.BIOS = {
     "about": "Cynric joined the Golden Blades at the March 2026 event."
   },
   "talfa": {
-    "about": "Talfa is the Bard Extraordinaire of the Golden Blades. He joined the Blades by walking under an arch of raised pikes and swords at a Court of Pikes."
+    "about": "Talfa is the Bard Extraordinaire of the Golden Blades. He joined the Golden Blades at the Festival of Champions 2026, walking under an arch of raised pikes and swords at a Court of Pikes."
   },
   "alastair-sylveste": {
     "about": "Alastair Sylveste is a member of the Golden Blades."
