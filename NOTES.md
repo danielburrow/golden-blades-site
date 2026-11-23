@@ -32,7 +32,7 @@ A members-only site for the Golden Blades (members of the Holy Reman League, "ou
 | HRL Hierarchy | `/members/hrl/hierarchy/` | Rendered from `people.js` by `hrl.js` |
 | Meme Repository | `/members/memes/` | Gallery: 12 flyers, 15 GIFs (as mp4). Name is temporary; Daniel wants it renamed later |
 | Shopping | `/members/shopping/` | Placeholder |
-| Starter Guide | `/members/starter-guide/` | Placeholder |
+| Starter Guide | `/members/starter-guide/` | First draft built from the house-general Discord export (single page, 10 anchored sections, styles under "Starter Guide" in style.css) |
 
 Nav is injected by `public/js/site.js` (alphabetical: Crafting Guide, HRL, Meme Repository, Shopping, Starter Guide, Sign out). Theme is `public/css/style.css` (dark with gold).
 
@@ -60,3 +60,9 @@ Nav is injected by `public/js/site.js` (alphabetical: Crafting Guide, HRL, Meme 
 - Deleting is blocked in the connected folder, so each `git commit` leaves `.lock` files. After every commit, rename them: `for f in $(find .git -name '*.lock'); do mv "$f" ".git/stale-$(date +%s%N)-$(basename $f)"; done`. Ignore "unable to unlink" warnings.
 - The shell has no git identity. Reuse the last commit's: `git -c user.name="$(git log -1 --format=%an)" -c user.email="$(git log -1 --format=%ae)" commit ...`
 - Daniel pushes from GitHub Desktop ("Push origin"); the shell does not push.
+
+## Starter Guide draft: items to confirm
+- Join flow is from Dec 2024 drafts (contractor, then enlistment contract, then Court of Pikes); confirm it is still current.
+- Operating fee figures are from the Feb 2026 announcement.
+- Kit section is light: no required kit list exists in the chat. Awards are still being formalized.
+- Company leaders are intentionally not named (they change). Add if wanted.

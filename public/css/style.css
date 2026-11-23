@@ -142,3 +142,37 @@ img.constitution { width: 100%; background: #fff; border: 4px double var(--parch
 .hero-text h1 { font-size: clamp(2rem, 6vw, 3.4rem); line-height: 1.15; margin: 0 0 .5rem; color: var(--gold-soft); text-shadow: 0 2px 12px rgba(0,0,0,.8); }
 .hero-text p.lead { font-size: 1.15rem; color: #e8e4da; max-width: 36rem; margin: 0 auto 1.2rem; text-shadow: 0 1px 8px rgba(0,0,0,.8); }
 @media (max-width: 600px) { .hero-banner, .hero-banner img { min-height: 460px; } }
+
+/* ---- Starter Guide ---- */
+.guide-toc { display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center; margin: 0 0 2rem; padding: 0; list-style: none; }
+.guide-toc a { display: inline-block; border: 1px solid var(--line); background: var(--panel); border-radius: 999px; padding: .35rem .9rem; font-size: .9rem; text-decoration: none; color: var(--gold-soft); }
+.guide-toc a:hover { border-color: var(--gold); color: #fff; }
+.guide section { scroll-margin-top: 5rem; }
+.guide h2 { border-bottom: 1px solid var(--line); padding-bottom: .35rem; margin-bottom: .8rem; }
+.guide h3 { color: var(--gold-soft); font-size: 1.1rem; margin: 1.2rem 0 .3rem; }
+.guide .lead { font-size: 1.1rem; color: var(--muted); }
+.rules { list-style: none; margin: 1rem 0; padding: 0; display: grid; gap: .8rem; }
+.rules li { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--gold); border-radius: var(--radius); padding: .8rem 1rem; }
+.rules strong { color: var(--gold); letter-spacing: .02em; }
+.rules em { color: var(--muted); font-style: normal; font-size: .9rem; }
+.steps { counter-reset: step; list-style: none; margin: 1rem 0; padding: 0; display: grid; gap: .8rem; }
+.steps li { counter-increment: step; position: relative; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: .8rem 1rem .8rem 3.4rem; }
+.steps li::before { content: counter(step); position: absolute; left: .9rem; top: .75rem; width: 1.7rem; height: 1.7rem; border-radius: 50%; background: var(--gold); color: #1a1408; font-weight: bold; display: flex; align-items: center; justify-content: center; }
+.steps li strong { color: var(--gold-soft); }
+.guide table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .97rem; }
+.guide th, .guide td { text-align: left; padding: .55rem .7rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+.guide th { color: var(--gold); font-weight: bold; }
+.guide dl.glossary { margin: 1rem 0; }
+.guide dl.glossary dt { color: var(--gold-soft); font-weight: bold; margin-top: .8rem; }
+.guide dl.glossary dd { margin: .1rem 0 0; color: var(--muted); }
+.guide ul.tidy { padding-left: 1.2rem; }
+.guide ul.tidy li { margin: .35rem 0; }
+.back-top { text-align: right; font-size: .85rem; margin: 0; }
+.back-top a { color: var(--muted); text-decoration: none; }
+.tree { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 1.2rem 0 1.5rem; }
+.tree-row { display: flex; flex-wrap: wrap; justify-content: center; gap: .8rem; position: relative; padding-top: 1.4rem; }
+.tree-row::before, .tree > .tree-node.top + .tree-row::before { content: ""; position: absolute; top: 0; left: 50%; width: 2px; height: 1.4rem; background: var(--gold); }
+.tree-node { background: var(--panel); border: 1px solid var(--gold); border-radius: var(--radius); padding: .6rem 1rem; text-align: center; max-width: 18rem; }
+.tree-node.top { border-width: 2px; }
+.tree-node strong { display: block; color: var(--gold-soft); }
+.tree-node span { display: block; color: var(--muted); font-size: .88rem; }
