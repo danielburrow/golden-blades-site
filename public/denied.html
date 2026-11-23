@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Access | Golden Blades Starter Guide</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="/">Golden Blades</a>
+      <nav><a href="/">Welcome</a></nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="hero">
+      <h1>We couldn't sign you in</h1>
+      <hr class="rule">
+      <p class="lead" id="msg">Something went wrong signing you in.</p>
+      <a class="btn" href="/members/">Try again</a>
+    </div>
+  </main>
+  <script>
+    var reasons = {
+      role: "Your Discord account is in the Golden Blades server, but doesn't have the Blade role. If you think that's a mistake, ask a leader in the server.",
+      server: "Your Discord account isn't in the Golden Blades server, or you signed in with a different account than you use there.",
+      cancelled: "Sign-in was cancelled. You can try again whenever you're ready.",
+      state: "That sign-in link expired. Please try again.",
+      token: "Discord didn't complete the sign-in. Please try again in a moment.",
+      error: "Discord had a problem checking your membership. Please try again in a moment."
+    };
+    var r = new URLSearchParams(location.search).get("reason");
+    if (reasons[r]) document.getElementById("msg").textContent = reasons[r];
+  </script>
+</body>
+</html>
