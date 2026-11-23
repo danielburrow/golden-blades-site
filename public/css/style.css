@@ -210,3 +210,16 @@ a.nav-members:hover { background: var(--gold); color: #1a1408; }
 .hrl-flag { margin: 0 auto 2rem; max-width: 520px; text-align: center; }
 .hrl-flag img { display: block; width: 100%; border: 4px double var(--gold); border-radius: 4px; }
 .hrl-flag figcaption { margin-top: .5rem; color: var(--muted); font-size: .9rem; }
+
+/* Person pages and linked cards */
+a.person.linked { text-decoration: none; color: inherit; transition: transform .12s, box-shadow .12s; }
+a.person.linked:hover, a.person.linked:focus-visible { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0,0,0,.45); outline: 2px solid var(--gold); }
+.person-nav { margin: 1.5rem 0 1rem; }
+.person-page { display: grid; gap: 2rem; grid-template-columns: minmax(260px, 340px) 1fr; align-items: start; margin-bottom: 3rem; }
+.person-card .person { width: 100%; }
+.person-body h2 { color: var(--gold-soft); margin-top: 0; }
+.person-body section + section { margin-top: 2rem; }
+.exploit { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem 1.2rem; margin-bottom: 1rem; }
+.exploit h3 { margin: 0 0 .3rem; color: var(--gold-soft); font-size: 1.1rem; }
+.exploit p { margin: 0; }
+@media (max-width: 700px) { .person-page { grid-template-columns: 1fr; } .person-card { max-width: 340px; margin: 0 auto; width: 100%; } }

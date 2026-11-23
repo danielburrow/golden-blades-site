@@ -5,22 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
   <title>House Hierarchy | Golden Blades</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
+<body data-from="house">
   <header class="site" id="site-header"></header>
-  <main class="wrap">
+  <main class="wrap hrl">
     <div class="page-title">
       <h1>Golden Blades Hierarchy</h1>
       <hr class="rule">
-      <p>The regiment's own chain of command.</p>
+      <p>The regiment's own chain of command. Click a person to read their story.</p>
     </div>
-    <section>
-      <h2>Coming soon</h2>
-      <p class="note">This page will hold the Golden Blades hierarchy, kept separate from the Holy Reman League hierarchy. Until then, the Ranks &amp; Roles section of the <a href="/members/house/primer/#ranks">Primer</a> shows the chain of command.</p>
-    </section>
+    <div id="gb-root"></div>
+    <p class="hrl-footer-note">The rest of the chain of command will be added here. Until then, the ranks and their duties are in the <a href="/members/house/primer/#ranks">Primer</a>. See also the <a href="/members/hrl/hierarchy/">Holy Reman League hierarchy</a>.</p>
   </main>
   <footer class="site" id="site-footer"></footer>
   <script src="/js/site.js"></script>
+  <script src="/members/hrl/people.js"></script>
+  <script src="/members/hrl/hrl.js"></script>
+  <script>
+    (function () {
+      var U = window.HRL_UI, D = window.HRL, root = document.getElementById("gb-root");
+      var horst = D.electors.filter(function (p) { return p.name.indexOf("Horst") === 0; })[0];
+      var oberst = { rank: "Oberst", name: horst.name, role: "Commander of the Golden Blades", photo: horst.photo, crest: "sigil" };
+      var anton = { rank: "Former Oberst", name: D.archduke.name, role: "Held the Oberst's seat until 810 AC, when he vacated it to become High Arch Chancellor of the Holy Reman League", photo: D.archduke.photo, crest: "sigil" };
+      root.appendChild(U.tier("Oberst", [oberst], "top"));
+      root.appendChild(U.h("div", "hrl-connector"));
+      root.appendChild(U.tier("Seat History", [anton], "top"));
+    })();
+  </script>
 </body>
 </html>

@@ -93,8 +93,15 @@
     return box;
   }
 
-  function card(p, big) {
-    var el = h("div", "person" + (big ? " big" : "") + (p.struck ? " struck" : "") + (p.vacant ? " vacant" : ""));
+  function slug(name) {
+    return name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  }
+  var FROM = document.body.getAttribute("data-from") || "hrl";
+
+  function card(p, big, nolink) {
+    var linked = !nolink && !p.vacant && p.name;
+    var el = h(linked ? "a" : "div", "person" + (big ? " big" : "") + (p.struck ? " struck" : "") + (p.vacant ? " vacant" : "") + (linked ? " linked" : ""));
+    if (linked) el.href = "/members/person/?id=" + slug(p.slug || p.name) + "&from=" + FROM;
     if (p.emblem && !p.vacant) el.appendChild(emblemEl(p.emblem));
     if (!p.vacant && p.crest !== undefined) {
       var c = crestEl(p.crest);
@@ -125,7 +132,14 @@
     return sec;
   }
 
+  function everyone() {
+    var out = [D.archduke].concat(D.electors, D.barons, D.lords, D.citizens);
+    return out.filter(function (p) { return !p.vacant && p.name; });
+  }
+  window.HRL_UI = { card: card, slug: slug, everyone: everyone, tier: tier, h: h };
+
   var root = document.getElementById("hrl-root");
+  if (!root) return;
   root.appendChild(tier("Kaiser", [D.kaiser], "top"));
   root.appendChild(h("div", "hrl-connector"));
   root.appendChild(tier("Archduke", [D.archduke], "top"));

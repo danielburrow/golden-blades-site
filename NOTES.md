@@ -75,3 +75,10 @@ Members (gated), nav is dropdowns, alphabetical:
 - Regola: chat has the six-rule version, Ulric's guide v3 has seven (adds Fedelta). Confirm which is current.
 - Oberst: the style guide names Anton von Forst, the post-GG 2026 roles document lists a different House Leader. The page names no one.
 - Songbook (house songs) is in incoming-documents/, not published. Pike class quiz has answers marked; not published.
+
+## Person pages and the Golden Blades hierarchy
+- Every non-vacant card in the HRL hierarchy links to `/members/person/?id=<slug>&from=hrl|house`. The slug is the name lowercased with accents dropped and dashes between words (`Horst von Tanzbären` -> `horst-von-tanzbaren`).
+- The page is one template: `public/members/person/index.html` + `person.js`. It shows the person's card, "Who they are" and "Exploits", and buttons back to both hierarchies (the one they came from is highlighted).
+- Write profiles in `public/members/person/bios.js` (`about` text and an `exploits` list per slug). Empty entries show "Their story is still being written."
+- The Golden Blades hierarchy (`/members/house/hierarchy/`) has Oberst Horst von Tanzbären at the top and a "Seat History" card for Anton von Forst (held the seat until 810 AC, then became High Arch Chancellor of the HRL). The rest of the chain of command still needs to be added.
+- `hrl.js` exposes `window.HRL_UI` (card, tier, slug, everyone) so other pages can reuse the cards.
