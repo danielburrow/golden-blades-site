@@ -30,10 +30,10 @@
       var horst = D.electors.filter(function (p) { return p.name.indexOf("Horst") === 0; })[0];
       var oberst = { rank: "Oberst", name: horst.name, role: "Commander of the Golden Blades", photo: horst.photo, crest: "sigil" };
       var anton = { rank: "Former Oberst", name: D.archduke.name, role: "Held the Oberst's seat until 810 AC, when he vacated it to become High Arch Chancellor of the Holy Reman League", photo: D.archduke.photo, crest: "sigil" };
-      function find(first) { return U.everyone().filter(function (p) { return p.name.indexOf(first) === 0; })[0]; }
+      function find(first) { return U.everyone().filter(function (p) { return p.name.indexOf(first) !== -1; })[0]; }
       function gb(first, rank, role) {
         var p = find(first);
-        return { rank: rank, name: p.name, role: role, photo: p.photo, crest: "sigil" };
+        return { rank: rank, name: p.name, slug: p.slug, role: role, photo: p.photo, crest: "sigil" };
       }
       var GAP = function () { root.appendChild(U.h("div", "hrl-connector")); };
       root.appendChild(U.tier("Oberst", [oberst], "top"));
