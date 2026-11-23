@@ -44,8 +44,8 @@ window.HRL = {
     { rank: "Lord", name: "William Folder", role: "", photo: "0af373c3c7bb18a458848647909807c0", crest: "sigil" }
   ],
   citizens: [
-    { rank: "", name: "Alric", role: "", crest: "sigil" },
-    { rank: "", name: "Angus Bronson", role: "Joined at Grand Gathering 810", crest: "sigil" },
+    { rank: "", name: "Alric", role: "", photo: "alric-portrait", crest: "sigil" },
+    { rank: "", name: "Angus Bronson", role: "New recruit\nJoined at Grand Gathering 810", crest: "sigil" },
     { rank: "", name: "Annette", role: "Member of the Convocation of the Void", crest: "sigil" },
     { rank: "", name: "Bo Lionheart", role: "Follower of Invictus", crest: "sigil", emblem: "invictus" },
     { rank: "", name: "Boots", role: "", photo: "boots-portrait", crest: "sigil" },

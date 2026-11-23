@@ -13,6 +13,7 @@
   var membersNav = [
     ["House", "/members/house/", [
       ["Primer", "/members/house/primer/"],
+      ["Annual Shareholders' Meeting", "/members/house/annual-meeting/"],
       ["Heraldry & Flags", "/members/house/heraldry/"],
       ["Hierarchy", "/members/house/hierarchy/"],
       ["Maceball", "/members/house/maceball/"]

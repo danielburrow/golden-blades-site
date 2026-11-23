@@ -8,7 +8,7 @@ window.BIOS = {
   "annette": { about: "Annette is a member of the Convocation of the Void." },
   "golden-brown": { about: "Golden Brown enlisted in the Golden Blades at Grand Gathering 810." },
   "freidrich": { about: "Freidrich joined the Golden Blades at Grand Gathering 810." },
-  "angus-bronson": { about: "Angus Bronson joined the Golden Blades at Grand Gathering 810." },
+  "angus-bronson": { about: "Angus Bronson is a new recruit who joined the Golden Blades at Grand Gathering 810. He is not to be confused with Angus, Ghoti's steed." },
   "anton-von-forst": { about: "Anton von Forst is the High Arch Chancellor of the Holy Reman League and the Founder of the Golden Blades. He held the Oberst's seat until 810 AC, when he vacated it to become High Arch Chancellor. In the League he holds the rank of Archduke." },
   "horst-von-tanzbaren": { about: "Horst von Tanzbären is the Oberst of the Golden Blades, commanding the regiment, and a Count and Elector of the Holy Reman League. The Oberst's seat was held before him by Anton von Forst." },
   "avaline-vetrova": { about: "Avaline Vetrova is the Pale Matron and House Leader of Vekmarch, and an Elector of the Holy Reman League." },

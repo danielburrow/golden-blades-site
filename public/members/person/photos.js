@@ -1,5 +1,8 @@
 // Extra photos for the person pages. Key = person slug, value = list of image paths.
 window.PHOTOS = {
+  "abigail-winterstone": [
+    "/members/person/img/abigail-2.jpg"
+  ],
   "alastair-sylveste": [
     "/members/person/img/alastair-sylveste.jpg"
   ],
@@ -10,7 +13,11 @@ window.PHOTOS = {
     "/members/person/img/anton-2.jpg",
     "/members/person/img/anton-3.jpg",
     "/members/person/img/anton-4.jpg",
-    "/members/person/img/horst-anton-camp.jpg"
+    "/members/person/img/horst-anton-camp.jpg",
+    "/members/person/img/anton-5.jpg",
+    "/members/person/img/anton-6.jpg",
+    "/members/person/img/anton-7.jpg",
+    "/members/person/img/anton-rakien.jpg"
   ],
   "avaline-vetrova": [
     "/members/person/img/avaline-2.jpg",
@@ -25,7 +32,8 @@ window.PHOTOS = {
     "/members/person/img/brenin-3.jpg",
     "/members/person/img/brenin-fancy.jpg",
     "/members/person/img/wellby-brenin-zampf.jpg",
-    "/members/person/img/wellby-brenin-zampf-dalaran.jpg"
+    "/members/person/img/wellby-brenin-zampf-dalaran.jpg",
+    "/members/person/img/brenin-fighting.jpg"
   ],
   "cynric": [
     "/members/person/img/cynric-2.jpg",
@@ -56,11 +64,16 @@ window.PHOTOS = {
     "/members/person/img/zampf-dead.jpg",
     "/members/person/img/zampf-fightoffinery.jpg"
   ],
+  "dr-alexander-di-nathair": [
+    "/members/person/img/doctor-2.jpg"
+  ],
   "eonthee": [
     "/members/person/img/group-at-reverdieball-zad-raiken-horst-eonthee-petrichor-ibb.jpg",
     "/members/person/img/eonthee-petrichor-zampf.jpg",
     "/members/person/img/eonthee-2.jpg",
-    "/members/person/img/eonthee-armor.jpg"
+    "/members/person/img/eonthee-armor.jpg",
+    "/members/person/img/eonthee-3.jpg",
+    "/members/person/img/eonthee-wizard.jpg"
   ],
   "fritz-haber": [
     "/members/person/img/fritz-3.jpg",
@@ -81,14 +94,17 @@ window.PHOTOS = {
     "/members/person/img/ghoti-on-angus-during-jousst.jpg",
     "/members/person/img/joust-ghoti.jpg",
     "/members/person/img/meme-ghoti.jpg",
-    "/members/person/img/ghoti-talfa.jpg"
+    "/members/person/img/ghoti-talfa.jpg",
+    "/members/person/img/ghoti-6.jpg"
   ],
   "gothuli-banti": [
     "/members/person/img/banti-2.jpg",
     "/members/person/img/banti-3.jpg",
     "/members/person/img/banti-hammer.jpg",
     "/members/person/img/banti-shareholdersmeeting.jpg",
-    "/members/person/img/group-shot-fritz-wellby-banti-ghoti.jpg"
+    "/members/person/img/group-shot-fritz-wellby-banti-ghoti.jpg",
+    "/members/person/img/banti-4.jpg",
+    "/members/person/img/banti-5.jpg"
   ],
   "greg": [
     "/members/person/img/greg.jpg",
@@ -98,7 +114,9 @@ window.PHOTOS = {
   "herman-van-guelders": [
     "/members/person/img/herman-camp.jpg",
     "/members/person/img/herman-secondpic.jpg",
-    "/members/person/img/meme-of-herman-and-marklin.jpg"
+    "/members/person/img/meme-of-herman-and-marklin.jpg",
+    "/members/person/img/herman-2.jpg",
+    "/members/person/img/herman-dying.jpg"
   ],
   "horst-von-tanzbaren": [
     "/members/person/img/horst-armored.jpg",
@@ -111,7 +129,8 @@ window.PHOTOS = {
     "/members/person/img/horst-memberofthetidebreakers.jpg"
   ],
   "jean-de-espada": [
-    "/members/person/img/jean-2.jpg"
+    "/members/person/img/jean-2.jpg",
+    "/members/person/img/jean.jpg"
   ],
   "lisbeth-ibb-fletcher": [
     "/members/person/img/ibb-crowned.jpg",
@@ -119,7 +138,8 @@ window.PHOTOS = {
     "/members/person/img/ibb-petrichor-holyremanleague.jpg",
     "/members/person/img/group-at-reverdieball-zad-raiken-horst-eonthee-petrichor-ibb.jpg",
     "/members/person/img/ibb-annualtraining.jpg",
-    "/members/person/img/petrichor-ibb.jpg"
+    "/members/person/img/petrichor-ibb.jpg",
+    "/members/person/img/ibb-fighting.jpg"
   ],
   "marklin-theobold": [
     "/members/person/img/marklin-2.jpg",
@@ -128,7 +148,9 @@ window.PHOTOS = {
     "/members/person/img/meme-of-herman-and-marklin.jpg",
     "/members/person/img/marklin-3.jpg",
     "/members/person/img/marklin-at-work.jpg",
-    "/members/person/img/marklin-with-hat.jpg"
+    "/members/person/img/marklin-with-hat.jpg",
+    "/members/person/img/marklin-4.jpg",
+    "/members/person/img/marklin-ulric.jpg"
   ],
   "maximo": [
     "/members/person/img/maximo-3.jpg",
@@ -144,13 +166,19 @@ window.PHOTOS = {
     "/members/person/img/group-at-reverdieball-zad-raiken-horst-eonthee-petrichor-ibb.jpg",
     "/members/person/img/eonthee-petrichor-zampf.jpg",
     "/members/person/img/petrichor-4.jpg",
-    "/members/person/img/petrichor-ibb.jpg"
+    "/members/person/img/petrichor-ibb.jpg",
+    "/members/person/img/petrichor-5.jpg",
+    "/members/person/img/petrichor-6.jpg",
+    "/members/person/img/petrichor-7.jpg"
   ],
   "raiken-kal-arjac": [
     "/members/person/img/raiken-armor.jpg",
     "/members/person/img/raiken-general.jpg",
     "/members/person/img/group-at-reverdieball-zad-raiken-horst-eonthee-petrichor-ibb.jpg",
-    "/members/person/img/raiken-7.jpg"
+    "/members/person/img/raiken-7.jpg",
+    "/members/person/img/anton-rakien.jpg",
+    "/members/person/img/raiken-8.jpg",
+    "/members/person/img/raiken-9-running.jpg"
   ],
   "roger-jay-mcklay": [
     "/members/person/img/roger-crossbow.jpg",
@@ -159,7 +187,10 @@ window.PHOTOS = {
     "/members/person/img/roger-2.jpg",
     "/members/person/img/roger-3.jpg",
     "/members/person/img/roger-4.jpg",
-    "/members/person/img/roger-fencing.jpg"
+    "/members/person/img/roger-fencing.jpg",
+    "/members/person/img/roger-5.jpg",
+    "/members/person/img/roger-6.jpg",
+    "/members/person/img/roger-7.jpg"
   ],
   "soluna-tivali": [
     "/members/person/img/soluna-3.jpg",
@@ -177,10 +208,18 @@ window.PHOTOS = {
   "thaedra-zena-chamerion": [
     "/members/person/img/thaedra-2.jpg",
     "/members/person/img/thaedra-3.jpg",
-    "/members/person/img/thaedra-hair.jpg"
+    "/members/person/img/thaedra-hair.jpg",
+    "/members/person/img/thaedra-4.jpg"
+  ],
+  "tykin-sunderr": [
+    "/members/person/img/tykin2.jpg"
   ],
   "ulric-von-kriegholm": [
-    "/members/person/img/ulric-cutout.jpg"
+    "/members/person/img/ulric-cutout.jpg",
+    "/members/person/img/marklin-ulric.jpg",
+    "/members/person/img/ulric-2.jpg",
+    "/members/person/img/ulric-pikeshot.jpg",
+    "/members/person/img/ulric-valonten.jpg"
   ],
   "wellby-zulkabi": [
     "/members/person/img/wellby-camp.jpg",
