@@ -29,7 +29,8 @@
     ]],
     ["HRL", "/members/hrl/", [
       ["Constitution", "/members/hrl/constitution/"],
-      ["Hierarchy", "/members/hrl/hierarchy/"]
+      ["Hierarchy", "/members/hrl/hierarchy/"],
+      ["History of the Kaisers", "/members/hrl/kaisers/"]
     ]],
     ["Meme Repository", "/members/memes/"],
     ["Videos", "/videos/"]

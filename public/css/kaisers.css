@@ -6,7 +6,10 @@
 .record figcaption { color: var(--muted); font-size: .9rem; margin-top: .4rem; }
 .reign-controls { margin: 0 0 1rem; }
 details.reign { background: #efe3c4; color: #2b2013; border: 4px double #8a6a22; border-radius: 4px; margin-bottom: 1rem; }
-details.reign summary { cursor: pointer; list-style: none; padding: 1rem 1.2rem; display: grid; gap: .2rem; position: relative; padding-right: 3rem; }
+details.reign summary { cursor: pointer; list-style: none; padding: 1rem 3rem 1rem 1.2rem; display: flex; gap: 1rem; align-items: center; position: relative; }
+.reign-text { display: grid; gap: .2rem; }
+.reign-portrait { width: 84px; height: 84px; border-radius: 50%; object-fit: cover; object-position: center 20%; border: 4px solid #8a6a22; background: #d9c898; flex: none; }
+.numeral { font-family: Georgia, "Times New Roman", serif; font-weight: 700; }
 details.reign summary::-webkit-details-marker { display: none; }
 details.reign summary::after { content: "+"; position: absolute; right: 1.1rem; top: .8rem; font-size: 1.6rem; color: #6e4f12; font-weight: bold; }
 details.reign[open] summary::after { content: "\2212"; }
