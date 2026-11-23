@@ -17,7 +17,7 @@ window.HRL = {
     { rank: "Lady", name: "Thaedra Zena Chamerion", role: "High Priestess of Mascirino\nHoly Elector", photo: "7651caad4ef54e16202794348615a842", crest: "sigil", emblem: "mascirino" },
     { rank: "Countess", name: "Abigail Winterstone", role: "Off on adventure", photo: "ca8a2b455ff27f96f27a11be8a454c2a", struck: true },
     { rank: "Seat Vacant", name: "Elector Designate", role: "Delegate on behalf of Kaiserine Lisbeth Fletcher", vacant: true, crest: { img: "733dbd110875caec60e292cc2a372528" } },
-    { rank: "Seat Vacant", name: "Elector Designate", role: "Delegate on behalf of the House of Sleipnir’s Rise", vacant: true, photo: "3e1349bd740f994d78e1a7db4816da91", crest: { img: "e85a175be804601b34b4c5d5eee1d285", tall: true }, note: "Pictured person is not representative of the delegate." }
+    { rank: "Seat Vacant", name: "Elector Designate", role: "Delegate on behalf of the House of Sleipnir’s Rise", vacant: true, blank: true, crest: { img: "e85a175be804601b34b4c5d5eee1d285", tall: true } }
   ],
   barons: [
     { rank: "Baron", name: "Brenin Halvard", role: "", photo: "df210a8280e36be5368ab72c76104e5a", crest: "sigil" },
@@ -45,7 +45,6 @@ window.HRL = {
     { rank: "", name: "Goosetavo", role: "Hauptmann: Sapper Corps", photo: "a556bb8e45679251afb44976d08ce610", crest: { img: "81c1a4c0e51b697a86217c217ce77781" } },
     { rank: "Sir", name: "Maximo", role: "Spell Master General, Condottiere", photo: "26ae0cd201494a5e0e488132b99ae033", crest: { img: "51cd64b9fcae9beffd0ad1edfa793e5c" } },
     { rank: "", name: "Petrichor", role: "Custodian of Invictus\nLinebreaker of the Golden Blades", photo: "7933525a99cc046e222418e3ccb124e7", crest: { img: "97d64cc35045c221fc0dcdf77d2dc2b9" } },
-    { rank: "“King”", name: "The Mage King", role: "Really wants to be a Golden Blade", photo: "a751367ad05e3ff8ddc527acb94d03af", crest: null },
     { rank: "", name: "Tykin Sunderr", role: "Cult Leader of the Convocation of the Void", photo: "3486119f440bf1551f9aa02fec980d75", crest: "sigil" },
     { rank: "", name: "Zadkiel Zadax", role: "The Horned Merchant\nProprietor of Zad’s Pad — A Trinket Emporium", photo: "314a8af5d56a0832ad1cf321cd03a7fb", crest: "sigil" }
   ]

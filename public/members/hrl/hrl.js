@@ -17,6 +17,7 @@
   }
 
   var SILHOUETTE = '<svg viewBox="0 0 64 64" width="56" height="56" aria-hidden="true"><circle cx="32" cy="24" r="11" fill="none" stroke="#6e5420" stroke-width="3"/><path d="M10 58 C10 42 54 42 54 58" fill="none" stroke="#6e5420" stroke-width="3"/></svg>';
+  var SILHOUETTE_GOLD = SILHOUETTE.replace(/#6e5420/g, "#c9a24a");
   var DASHED_SHIELD = '<svg viewBox="0 0 60 72" width="46" height="56" aria-hidden="true"><path d="M4 4 H56 V38 C56 54 42 64 30 69 C18 64 4 54 4 38 Z" fill="none" stroke="#8a6a22" stroke-width="3" stroke-dasharray="5 4"/></svg>';
   var CROWN = '<svg viewBox="0 0 80 66" width="64" height="52" role="img" aria-label="Holy Reman Crown of the Circular Table"><path d="M8 52 L4 18 L22 33 L40 8 L58 33 L76 18 L72 52 Z" fill="#c9a24a" stroke="#6e4f12" stroke-width="3" stroke-linejoin="round"/><rect x="8" y="52" width="64" height="10" rx="2" fill="#c9a24a" stroke="#6e4f12" stroke-width="3"/><circle cx="4" cy="14" r="5" fill="#c9a24a" stroke="#6e4f12" stroke-width="2.5"/><circle cx="40" cy="5" r="5" fill="#c9a24a" stroke="#6e4f12" stroke-width="2.5"/><circle cx="76" cy="14" r="5" fill="#c9a24a" stroke="#6e4f12" stroke-width="2.5"/><circle cx="40" cy="40" r="12" fill="#efe3c4" stroke="#6e4f12" stroke-width="3"/><circle cx="40" cy="40" r="2.6" fill="#6e4f12"/></svg>';
 
@@ -97,6 +98,7 @@
       var vc = crestEl(p.crest);
       if (vc) el.appendChild(vc);
       if (p.photo) el.appendChild(photoEl(p, "Portrait for the " + p.name + " seat"));
+      else if (p.blank) { var bp = h("div", "portrait"); bp.innerHTML = SILHOUETTE_GOLD; el.appendChild(bp); }
     } else {
       el.appendChild(photoEl(p, "Portrait of " + p.name));
     }
