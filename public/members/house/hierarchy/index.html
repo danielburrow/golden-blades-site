@@ -67,7 +67,7 @@
       }
       function sortKey(n) { return n.replace(/^(Sir |\u201cDr\u201d )/, "").toLowerCase(); }
       var blades = U.everyone().filter(function (p) {
-        return !has(shown, p.name) && !has(notBlades, p.name);
+        return !has(shown, p.name) && !has(notBlades, p.name) && p.name !== "Tal" && p.name.indexOf("Coen") === -1;
       }).sort(function (a, b) { return sortKey(a.name) < sortKey(b.name) ? -1 : 1; })
         .map(function (p) { return { rank: p.rank, name: p.name, slug: p.slug, role: p.role, photo: p.photo, crest: companyShield(p), emblem: p.emblem }; });
       root.appendChild(U.tier("Blades", blades, "center"));
