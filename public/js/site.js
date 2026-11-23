@@ -64,7 +64,19 @@
     header.innerHTML =
       '<div class="wrap">' +
       '<a class="brand" href="' + (members ? "/members/" : "/") + '">Golden Blades</a>' +
-      "<nav>" + items + tail + "</nav></div>";
+      '<button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><span></span><span></span><span></span></button>' +
+      '<nav id="site-nav">' + items + tail + "</nav></div>";
+
+    var toggle = header.querySelector(".nav-toggle");
+    function setNav(open) {
+      header.classList.toggle("nav-open", open);
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    }
+    toggle.addEventListener("click", function (e) { e.stopPropagation(); setNav(!header.classList.contains("nav-open")); });
+    header.querySelector("nav").addEventListener("click", function (e) {
+      var t = e.target.closest ? e.target.closest("a") : null;
+      if (t) setNav(false);
+    });
 
     var dds = header.querySelectorAll(".dd");
     function closeAll(except) {
@@ -86,7 +98,7 @@
       });
     });
     document.addEventListener("click", function () { closeAll(null); });
-    document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeAll(null); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") { closeAll(null); setNav(false); } });
   }
 
   var footer = document.getElementById("site-footer");
