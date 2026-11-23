@@ -307,7 +307,7 @@ window.BIOS = {
     "about": "Talfa is the Bard Extraordinaire of the Golden Blades. He joined the Golden Blades at the Festival of Champions 2026, walking under an arch of raised pikes and swords at a Court of Pikes."
   },
   "alastair-sylveste": {
-    "about": "Alastair Sylveste is a member of the Golden Blades."
+    "about": "Alastair Sylveste is a member of the Golden Blades.\n\nAlastair was inducted into the Golden Blades at the Shareholders’ Meeting in 2026. The video from that day is on his page."
   },
   "william-folder": {
     "about": "William Folder is a Lord of the Holy Reman League.\n\nWilliam holds stables, orchards and camps in the lands of Tir Digon."
