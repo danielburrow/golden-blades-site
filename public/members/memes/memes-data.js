@@ -12,6 +12,7 @@ window.MEMES = {
     ["IMG 7553", "img-7553"],
     ["Infantry", "infantry"],
     ["Intro Announcement", "intro-announcement"],
+    ["Mascirino Approves", "mascirino-approves"],
     ["Petrichor Pizza", "petrichor-pizza"],
     ["Secret Helm", "secret-helm"]
   ],
@@ -24,12 +25,15 @@ window.MEMES = {
     ["Finger Snap (Golden Blades)", "goldenblades-finger-snap"],
     ["Finger Snap (Pirate)", "finger-snap-pirate"],
     ["Flag Wave", "flagwave-goldenblades-01"],
+    ["Get in Nerd", "get-in-nerd"],
     ["Sorry, It's in Your Contract", "gb-sorry-its-in-your-contract"],
     ["How I Win (Anton)", "how-i-win-anton"],
+    ["Imperium", "imperium"],
     ["It's True", "its-true"],
     ["Money Please", "moneyplease"],
     ["On My Way to General Chat", "on-my-way-to-general-chat"],
     ["Pamphlet Marine", "pamphlet-marine"],
+    ["Propane Coin", "propane-coin"],
     ["Signing Contract", "signingcontract-gb-1"],
     ["Who You Gonna Call?", "whoyougonnacall-goldenblades"]
   ]

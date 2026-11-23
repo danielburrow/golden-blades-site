@@ -31,7 +31,10 @@ window.BIOS = {
     "about": "Anton von Forst is the High Arch Chancellor of the Holy Reman League and the Founder of the Golden Blades. He held the Oberst's seat until 810 AC, when he vacated it to become High Arch Chancellor. In the League he holds the rank of Archduke.\n\nHe holds the palace at Altgard, in the province of Oberheim, the Upper Home, and the harbor town of Stretti."
   },
   "horst-von-tanzbaren": {
-    "about": "Horst von Tanzbären is the Oberst of the Golden Blades, commanding the regiment, and a Count and Elector of the Holy Reman League. The Oberst's seat was held before him by Anton von Forst.\n\nAs Count of Die Fernenstadt, the Far Cities, he holds the palazzi of Caldo Elfo, Senza Corona and Vandor, and the outpost at Vicolo. He oversees the farmland, harbor and camps of those lands."
+    "about": "Horst von Tanzbären is the Oberst of the Golden Blades, commanding the regiment, and a Count and Elector of the Holy Reman League. The Oberst's seat was held before him by Anton von Forst.\n\nAs Count of Die Fernenstadt, the Far Cities, he holds the palazzi of Caldo Elfo, Senza Corona and Vandor, and the outpost at Vicolo. He oversees the farmland, harbor and camps of those lands.",
+    "exploits": [
+      { "title": "Festival of Champions", "text": "Winning member of the Tidebreakers Maceball team." }
+    ]
   },
   "avaline-vetrova": {
     "about": "Avaline Vetrova is the Pale Matron and House Leader of Vekmarch, and an Elector of the Holy Reman League."
@@ -84,11 +87,20 @@ window.BIOS = {
   "ulric-von-kriegholm": {
     "about": "Ulric von Kriegholm was the First Kaiser of the Holy Reman League, before his assassination, and holds the rank of Landlord. In the Golden Blades he is the Ersterhauptmann, leading the Infantry Company. His reign is told in the History of the Kaisers.\n\nUlric holds mines, shrines and an orchard in the lands of the Blades."
   },
+  "rothwyr": {
+    "about": "Rothwyr is a strong knight of the dark House of Vekmarch, and Sir Danen Zampfer's brother from Vekmarch. He was the Kaiser of the Holy Reman League for two days in 810 AC. His reign is told in the History of the Kaisers.",
+    "exploits": [
+      { "title": "Kaiser Rothwyr I", "text": "Elected on November 10, 810 AC, by four votes to Sir Danen Zampfer's three, while he was in the latrines at the time. His first words as Kaiser were \u201cI don\u2019t know what I\u2019m doing.\u201d He died two days later of food poisoning from undercooked chicken." }
+    ]
+  },
   "wellby-zulkabi": {
     "about": "Wellby Zulkabi is a Lord of the Holy Reman League and its Minister of the Treasury.\n\nWellby holds a market, orchards and a quarry along the coast."
   },
   "goosetavo": {
-    "about": "Goosetavo is the Hauptmann of the Golden Blades' Sapper Corps."
+    "about": "Goosetavo is the Hauptmann of the Golden Blades' Sapper Corps.",
+    "exploits": [
+      { "title": "Alleged Attempted Regicide(s)", "text": "" }
+    ]
   },
   "maximo": {
     "about": "Sir Maximo is the Spell Master General of the Golden Blades, serving in the Condottiere Company."
@@ -100,19 +112,26 @@ window.BIOS = {
     "about": "Zadkiel Zadax is the Horned Merchant and the proprietor of Zad’s Pad, a trinket emporium."
   },
   "raiken-kal-arjac": {
-    "about": "Sir Raiken kal Arjac is a dwarf, known as Lord Raiken the Short. He is the First Knight of the Holy Reman League, a Count and Elector, and the Duke of Coin. He is a Priest of Mascirino and the Hauptmann of the Golden Blades' Jaeger Company, its Zweiterhauptmann.\n\nAs Duke of Coin he holds Rotbach, Ubelfels, Grunfeld, Neustadt Stadt and Neugarten. He oversees the mines, markets and noble keep of those lands.",
+    "about": "Sir Raiken kal Arjac is a dwarf, known as Lord Raiken the Short and as The Golden Lord. He is the First Knight of the Holy Reman League, a Count and Elector, and the Duke of Coin. He is a Priest of Mascirino and the Hauptmann of the Golden Blades' Jaeger Company, its Zweiterhauptmann.\n\nAs Duke of Coin he holds Rotbach, Ubelfels, Grunfeld, Neustadt Stadt and Neugarten. He oversees the mines, markets and noble keep of those lands.",
     "exploits": [
       {
         "title": "Knight of the Round Table",
         "text": "Year 810."
-      }
+      },
+      { "title": "Knighted at Grand Gathering 810", "text": "Knighted at Grand Gathering 810 AC." }
     ]
   },
   "brenin-halvard": {
-    "about": "Sir Brenin Halvard is a Baron of the Holy Reman League, a Knight, and a Priest of Invictus.\n\nHe is the Baron of Stillwasser, a coastal holding in Laraclea that he rules together with neighboring Lowenhof. He oversees the theatre and markets of the land, and the harbor trade that keeps them busy."
+    "about": "Sir Brenin Halvard is a Baron of the Holy Reman League, a Knight, and a Priest of Invictus.\n\nHe is the Baron of Stillwasser, a coastal holding in Laraclea that he rules together with neighboring Lowenhof. He oversees the theatre and markets of the land, and the harbor trade that keeps them busy.",
+    "exploits": [
+      { "title": "Knighted at Grand Gathering 810", "text": "Knighted at Grand Gathering 810 AC." }
+    ]
   },
   "danen-zampfer": {
-    "about": "Sir Danen Zampfer is a Knight and a Lord of the Holy Reman League.\n\nZampf holds mines, a smithy and havens in the lands of the Blades."
+    "about": "Sir Danen Zampfer, who goes by Zampf, is a Knight and a Lord of the Holy Reman League.\n\nZampf holds mines, a smithy and havens in the lands of the Blades.",
+    "exploits": [
+      { "title": "Knighted at Grand Gathering 810", "text": "Knighted at Grand Gathering 810 AC after numerous Guardian shifts." }
+    ]
   },
   "tess-von-forst": {
     "about": "Tess von Forst is a Baroness of the Holy Reman League.\n\nShe holds Palazzo Nathair, where she oversees the theatre and shops of the port, and keeps the inn and defenses at Altgard."
@@ -121,7 +140,10 @@ window.BIOS = {
     "about": "Herman van Guelders is a Baron of the Holy Reman League.\n\nHe is the Baron of Schoenhof in Tir Digon, a homestead of farms, quarries and stables, and he keeps emporiums and a bazaar at Palazzo Nathair."
   },
   "fritz-haber": {
-    "about": "Fritz Haber is a Baron of the Holy Reman League.\n\nHe is the Baron of San Tyonis in the Tir of Exyle, and oversees the mines and markets of Rotbach."
+    "about": "Fritz Haber is a Baron of the Holy Reman League.\n\nHe is the Baron of San Tyonis in the Tir of Exyle, and oversees the mines and markets of Rotbach.",
+    "exploits": [
+      { "title": "Festival of Champions", "text": "Winning member of the Fencing Tournament." }
+    ]
   },
   "cynric": {
     "about": "Cynric joined the Golden Blades at the March 2026 event."

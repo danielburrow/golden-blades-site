@@ -1,7 +1,8 @@
 // Extra photos for the person pages. Key = person slug, value = list of image paths.
 window.PHOTOS = {
   "abigail-winterstone": [
-    "/members/person/img/abigail-2.jpg"
+    "/members/person/img/abigail-2.jpg",
+    "/members/person/img/abigail-and-fern.jpg"
   ],
   "alastair-sylveste": [
     "/members/person/img/alastair-sylveste.jpg"
@@ -37,14 +38,17 @@ window.PHOTOS = {
     "/members/person/img/brenin-fancy.jpg",
     "/members/person/img/wellby-brenin-zampf.jpg",
     "/members/person/img/wellby-brenin-zampf-dalaran.jpg",
-    "/members/person/img/brenin-fighting.jpg"
+    "/members/person/img/brenin-fighting.jpg",
+    "/members/person/img/brenin-4.jpg",
+    "/members/person/img/brenin-5.jpg"
   ],
   "cynric": [
     "/members/person/img/cynric-2.jpg",
     "/members/person/img/cynric-ghoti-camp.jpg",
     "/members/person/img/cynric-greg-avaline-fighting.jpg",
     "/members/person/img/avaline-cynric-greg-fighting.jpg",
-    "/members/person/img/cynric-3.jpg"
+    "/members/person/img/cynric-3.jpg",
+    "/members/person/img/cynric-face.jpg"
   ],
   "dalaran-artellus": [
     "/members/person/img/dalaran-bonus.jpg",
@@ -66,7 +70,9 @@ window.PHOTOS = {
     "/members/person/img/zampf-annualtraining.jpg",
     "/members/person/img/zampf-as-guardian.jpg",
     "/members/person/img/zampf-dead.jpg",
-    "/members/person/img/zampf-fightoffinery.jpg"
+    "/members/person/img/zampf-fightoffinery.jpg",
+    "/members/person/img/zampf-2.jpg",
+    "/members/person/img/zampf-4.jpg"
   ],
   "dr-alexander-di-nathair": [
     "/members/person/img/doctor-2.jpg",
@@ -201,7 +207,10 @@ window.PHOTOS = {
     "/members/person/img/raiken-7.jpg",
     "/members/person/img/anton-rakien.jpg",
     "/members/person/img/raiken-8.jpg",
-    "/members/person/img/raiken-9-running.jpg"
+    "/members/person/img/raiken-9-running.jpg",
+    "/members/person/img/raiken-4.jpg",
+    "/members/person/img/raiken-5.jpg",
+    "/members/person/img/raiken-6.jpg"
   ],
   "roger-jay-mcklay": [
     "/members/person/img/roger-crossbow.jpg",
@@ -228,7 +237,9 @@ window.PHOTOS = {
     "/members/person/img/golden-blades-talfa-signing-up-festivalofchampions.jpg",
     "/members/person/img/talfa-4.jpg",
     "/members/person/img/talfa-5.jpg",
-    "/members/person/img/talfa-walkingthroughcourtofpikes.jpg"
+    "/members/person/img/talfa-walkingthroughcourtofpikes.jpg",
+    "/members/person/img/talfa-2.jpg",
+    "/members/person/img/talfa-3.jpg"
   ],
   "thaedra-zena-chamerion": [
     "/members/person/img/thaedra-veil.jpg",
@@ -239,7 +250,8 @@ window.PHOTOS = {
   ],
   "tykin-sunderr": [
     "/members/person/img/tykin2.jpg",
-    "/members/person/img/tykin-3.jpg"
+    "/members/person/img/tykin-3.jpg",
+    "/members/person/img/tykin-4.jpg"
   ],
   "ulric-von-kriegholm": [
     "/members/person/img/ulric-cutout.jpg",
@@ -249,9 +261,9 @@ window.PHOTOS = {
     "/members/person/img/ulric-valonten.jpg",
     "/members/person/img/ulric-3.jpg",
     "/members/person/img/ulric-4.jpg",
-    "/members/person/img/ulric-bestpicture.jpg",
     "/members/person/img/ulric-laughing.jpg",
-    "/members/person/img/ulric-and-ulric-clothingswap.jpg"
+    "/members/person/img/ulric-and-ulric-clothingswap.jpg",
+    "/members/person/img/ulric-5.jpg"
   ],
   "wellby-zulkabi": [
     "/members/person/img/wellby-camp.jpg",
@@ -264,6 +276,9 @@ window.PHOTOS = {
     "/members/person/img/wellby-brenin-zampf-dalaran.jpg",
     "/members/person/img/wellby-zampf.jpg",
     "/members/person/img/pikes-grand-gathering-2026.jpg"
+  ],
+  "william-folder": [
+    "/members/person/img/william-2.jpg"
   ],
   "zadkiel-zadax": [
     "/members/person/img/zad.jpg",
