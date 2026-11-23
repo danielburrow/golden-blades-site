@@ -57,6 +57,21 @@
     s2.appendChild(h("p", "note", "No exploits recorded yet."));
   }
   body.appendChild(s2);
+  var pics = (window.PHOTOS || {})[id] || [];
+  if (pics.length) {
+    var s3 = h("section", "");
+    s3.appendChild(h("h2", "", "Gallery"));
+    var grid = h("div", "gallery");
+    pics.forEach(function (src) {
+      var a = h("a", "gallery-item");
+      a.href = src; a.target = "_blank"; a.rel = "noopener";
+      var im = document.createElement("img");
+      im.src = src; im.alt = "Photo of " + person.name; im.loading = "lazy";
+      a.appendChild(im); grid.appendChild(a);
+    });
+    s3.appendChild(grid);
+    body.appendChild(s3);
+  }
   wrap.appendChild(body);
   root.appendChild(wrap);
 })();

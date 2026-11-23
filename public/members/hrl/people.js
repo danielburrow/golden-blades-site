@@ -48,5 +48,11 @@ window.HRL = {
     { rank: "Sir", name: "Maximo", role: "Spell Master General, Condottiere", photo: "7933525a99cc046e222418e3ccb124e7", crest: { img: "51cd64b9fcae9beffd0ad1edfa793e5c" } },
     { rank: "", name: "Tykin Sunderr", role: "Cult Leader of the Convocation of the Void", photo: "3486119f440bf1551f9aa02fec980d75", crest: "sigil" },
     { rank: "", name: "Zadkiel Zadax", role: "The Horned Merchant\nProprietor of Zad’s Pad — A Trinket Emporium", photo: "314a8af5d56a0832ad1cf321cd03a7fb", crest: "sigil" }
+  ],
+  contractors: [
+    { rank: "Contractor", name: "Alastair Sylveste", role: "", photo: "1b2b98d873284edeb6e0ea128ed65da8" },
+    { rank: "Contractor", name: "Cynric", role: "", photo: "399e9c29e1d2387821a8fe9a4424587c" },
+    { rank: "Contractor", name: "Greg", role: "", photo: "a112e77828991ee7bc40a9bac7bce15e" },
+    { rank: "Contractor", name: "Talfa", role: "", photo: "f16919c903b6ac9b5547a563904767a0" }
   ]
 };

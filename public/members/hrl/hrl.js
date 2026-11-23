@@ -133,7 +133,7 @@
   }
 
   function everyone() {
-    var out = [D.archduke].concat(D.electors, D.barons, D.lords, D.citizens);
+    var out = [D.archduke].concat(D.electors, D.barons, D.lords, D.citizens, D.contractors || []);
     return out.filter(function (p) { return !p.vacant && p.name; });
   }
   window.HRL_UI = { card: card, slug: slug, everyone: everyone, tier: tier, h: h };

@@ -8,15 +8,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/hero.css">
 </head>
 <body data-from="house">
   <header class="site" id="site-header"></header>
+  <div class="page-hero"><img src="/members/hero/charge.jpg" alt="The Golden Blades advancing across a field"><div class="hero-text"><h1>Golden Blades Hierarchy</h1><hr class="rule"><p>The regiment's own chain of command. Click a person to read their story.</p></div></div>
   <main class="wrap hrl">
-    <div class="page-title">
-      <h1>Golden Blades Hierarchy</h1>
-      <hr class="rule">
-      <p>The regiment's own chain of command. Click a person to read their story.</p>
-    </div>
     <div id="gb-root"></div>
     <p class="hrl-footer-note">Other companies and staff positions will be added as they are confirmed. The ranks and their duties are in the <a href="/members/house/primer/#ranks">Primer</a>. See also the <a href="/members/hrl/hierarchy/">Holy Reman League hierarchy</a>.</p>
   </main>
@@ -54,6 +51,10 @@
         gb("Marklin", "Treasurer", "Regimental Staff"),
         gb("Thaedra", "Intelligence Officer", "High Priestess of Mascirino")
       ], "center"));
+      GAP();
+      root.appendChild(U.tier("Contractors", (D.contractors || []).map(function (c) {
+        return { rank: c.rank, name: c.name, role: c.role, photo: c.photo };
+      }), "center"));
     })();
   </script>
 </body>
