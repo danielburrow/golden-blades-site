@@ -29,7 +29,7 @@ Members (gated), nav is dropdowns, alphabetical:
 | Guides `/members/guides/` | Combat (On Hynawar, linked to Google Drive), Crafting (placeholder), Shopping (placeholder),  |
 | House `/members/house/` | Hierarchy (placeholder, Golden Blades only, never mixed with HRL), Primer |
 | HRL `/members/hrl/` | Constitution, Heraldry & Flags, Hierarchy (rendered from `people.js` by `hrl.js`) |
-| Carta Arcanum `/members/carta-arcanum/` (formerly Lore) | Briefadel and Ownership (links to a Google Doc), Land and Holdings, Palazzo Program. The hub page explains the Carta Arcanum and the Hex Ledger (hex-ledger.com) and Holdings Ledger (holdings-ledger.com), both House-sensitive tools by Brenin Halvard. Home for everything about the known world of Hynafol and the Carta game. Anything that is not Carta-related belongs under House |
+| Carta Arcanum `/members/carta-arcanum/` (formerly Lore) | Briefadel and Ownership (links to a Google Doc), Hex Ledger (own page: Hex Ledger and Holdings Ledger, both by Brenin Halvard), Land and Holdings, Palazzo Program. The hub page explains the Carta Arcanum and teases the Hex Ledger page (hex-ledger.com and holdings-ledger.com are House-sensitive tools by Brenin Halvard). Home for everything about the known world of Hynafol and the Carta game. Anything that is not Carta-related belongs under House |
 | House `/members/house/` (first in nav) also holds the Primer `/members/house/primer/` | Primer = the old Starter Guide (single page, 10+ anchored sections) |
 | Meme Repository `/members/memes/` | Gallery: 12 flyers, 15 GIFs (as mp4). Name is temporary |
 | Videos | Links to the public `/videos/` |

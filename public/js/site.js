@@ -18,6 +18,7 @@
     ]],
     ["Carta Arcanum", "/members/carta-arcanum/", [
       ["Briefadel and Ownership", "/members/carta-arcanum/briefadel/"],
+      ["Hex Ledger", "/members/carta-arcanum/hex-ledger/"],
       ["Land and Holdings", "/members/carta-arcanum/holdings/"],
       ["Palazzo Program", "/members/carta-arcanum/palazzi/"]
     ]],
