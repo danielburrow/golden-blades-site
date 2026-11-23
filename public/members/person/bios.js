@@ -56,6 +56,11 @@ window.BIOS = {
   "petrichor": {
     "about": "Petrichor is the High Priest of Invictus and a Holy Elector of the Holy Reman League. In the Golden Blades he is the Linebreaker.",
     "exploits": [
+      { "title": "Holds the Bridge", "text": "Held the bridge against all comers." },
+      { "title": "Bearer of the Cursed Shield", "text": "Took up the shield that was angry at the Blades and carried its curse himself, so the House paid nothing for it." },
+      { "title": "Linebreaker Sergeant", "text": "Leads the Linebreakers, and the Forlorn Hope, the formation that throws itself into the worst of the fighting." },
+      { "title": "Cursed by the Devourer", "text": "Cursed by the Devourer three times, and still came back for more." },
+      { "title": "Not Allowed to Die Yet", "text": "Left for dead more than once, until three gods told him he was not allowed to die yet." },
       { "title": "Doppels\u00f6ldner Merit", "text": "Awarded the Doppels\u00f6ldner Merit for marching into every battle in full armor." }
     ]
   },

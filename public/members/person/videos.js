@@ -4,6 +4,9 @@ window.VIDEOS = {
   "golden-blade-53": [
     { title: "Golden Blade #53: Love\u2019s Plumages (video by Brenin)", src: "/members/person/video/golden-blade-53.mp4", poster: "/members/person/video/golden-blade-53.jpg" }
   ],
+  "petrichor": [
+    { title: "Petrichor Holds the Bridge", src: "/videos/media/petrichor-holds-the-bridge.mp4", poster: "/videos/media/petrichor-holds-the-bridge.jpg" }
+  ],
   "thaedra-zena-chamerion": [
     { title: "Thaedra Healing", src: "/videos/media/thaedra-healing.mp4", poster: "/videos/media/thaedra-healing.jpg" }
   ]
