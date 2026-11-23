@@ -12,6 +12,7 @@
   ];
   var membersNav = [
     ["House", "/members/house/", [
+      ["Heraldry & Flags", "/members/house/heraldry/"],
       ["Hierarchy", "/members/house/hierarchy/"],
       ["Primer", "/members/house/primer/"]
     ]],
@@ -27,7 +28,6 @@
     ]],
     ["HRL", "/members/hrl/", [
       ["Constitution", "/members/hrl/constitution/"],
-      ["Heraldry & Flags", "/members/hrl/heraldry/"],
       ["Hierarchy", "/members/hrl/hierarchy/"]
     ]],
     ["Meme Repository", "/members/memes/"],
