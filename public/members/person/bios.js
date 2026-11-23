@@ -28,11 +28,19 @@ window.BIOS = {
     "about": "Angus Bronson joined the Golden Blades at Grand Gathering 810. He is not to be confused with Angus, Ghoti’s steed."
   },
   "anton-von-forst": {
-    "about": "Anton von Forst is the High Arch Chancellor of the Holy Reman League and the Founder of the Golden Blades. He held the Oberst's seat until 810 AC, when he vacated it to become High Arch Chancellor. In the League he holds the rank of Archduke.\n\nHe holds the palace at Altgard, in the province of Oberheim, the Upper Home, and the harbor town of Stretti."
+    "about": "Anton von Forst is the High Arch Chancellor of the Holy Reman League and the Founder of the Golden Blades. He held the Oberst's seat until 810 AC, when he vacated it to become High Arch Chancellor. In the League he holds the rank of Archduke.\n\nHe holds the palace at Altgard, in the province of Oberheim, the Upper Home, and the harbor town of Stretti.",
+    "exploits": [
+      { "title": "Founder of the Golden Blades", "text": "Put pikes in the hands of the first recruits and taught them to stab." },
+      { "title": "Passed the Oberst\u2019s Seat", "text": "Handed the Oberst\u2019s seat to Horst in 810 AC." },
+      { "title": "Ascended to High Arch Chancellor", "text": "Ascended at Grand Gathering 810 AC, with the Blades standing guard at his ritual." }
+    ]
   },
   "horst-von-tanzbaren": {
     "about": "Horst von Tanzbären is the Oberst of the Golden Blades, commanding the regiment, and a Count and Elector of the Holy Reman League. The Oberst's seat was held before him by Anton von Forst.\n\nAs Count of Die Fernenstadt, the Far Cities, he holds the palazzi of Caldo Elfo, Senza Corona and Vandor, and the outpost at Vicolo. He oversees the farmland, harbor and camps of those lands.",
     "exploits": [
+      { "title": "Oberst of the Golden Blades", "text": "Took the Oberst’s seat from Anton in 810 AC, after the Shareholders’ Meeting." },
+      { "title": "Keeper of Pomp and Ceremony", "text": "Runs the Court of Pikes, and explains it to every new Blade." },
+      { "title": "The Paymaster", "text": "Sees that the Blades are paid. Every pay slip passes through his hands." },
       { "title": "Festival of Champions", "text": "Winning member of the Tidebreakers Maceball team." }
     ]
   },
