@@ -133,7 +133,7 @@
   }
 
   function everyone() {
-    var out = [D.archduke].concat(D.electors, D.barons, D.lords, D.citizens, D.contractors || []);
+    var out = [D.archduke].concat(D.electors, D.barons, D.lords, D.citizens, D.formerKaisers || [], D.contractors || []);
     return out.filter(function (p) { return !p.vacant && p.name; });
   }
   window.HRL_UI = { card: card, slug: slug, everyone: everyone, tier: tier, h: h };
@@ -149,4 +149,8 @@
   root.appendChild(tier("Barons", D.barons, "center"));
   root.appendChild(h("div", "hrl-connector"));
   root.appendChild(tier("Lords & Ladies", D.lords));
+  if (D.formerKaisers && D.formerKaisers.length) {
+    root.appendChild(h("div", "hrl-connector"));
+    root.appendChild(tier("Former Kaisers", D.formerKaisers, "center"));
+  }
 })();

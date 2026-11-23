@@ -10,13 +10,13 @@ window.BIOS = {
     "about": "Golden Blade #53 of Love’s Plumages, known for an enormous plumed hat in Golden Blades blue and gold. Brenin made a video of her."
   },
   "greg": {
-    "about": "Greg is a member of the Golden Blades. He joined at The Hunt, in October 810."
+    "about": "Greg is a member of the Golden Blades and serves with the Jaeger Company. He joined at The Hunt, in October 810."
   },
   "bo-lionheart": {
     "about": "Bo Lionheart is a follower of Invictus."
   },
   "annette": {
-    "about": "Annette is a member of the Convocation of the Void."
+    "about": "Annette is a member of the Convocation of the Void and serves with the Marina Mercantile."
   },
   "golden-brown": {
     "about": "Golden Brown enlisted in the Golden Blades at Grand Gathering 810."
@@ -28,7 +28,7 @@ window.BIOS = {
     "about": "Angus Bronson joined the Golden Blades at Grand Gathering 810. He is not to be confused with Angus, Ghoti’s steed."
   },
   "anton-von-forst": {
-    "about": "Anton von Forst is the High Arch Chancellor of the Holy Reman League and the Founder of the Golden Blades. He held the Oberst's seat until 810 AC, when he vacated it to become High Arch Chancellor. In the League he holds the rank of Archduke.\n\nHe holds the palace at Altgard, in the province of Oberheim, the Upper Home, and the harbor town of Stretti.",
+    "about": "Anton von Forst is the High Arch Chancellor of the Holy Reman League and the Founder of the Golden Blades. He held the Oberst's seat until 810 AC, when he vacated it to become High Arch Chancellor. In the League he holds the rank of Archduke.\n\nHe holds the palace at Altgard, in the province of Oberheim, the Upper Home, and the harbor town of Stretti.\n\nAnton plays maceball for the Phighting Phoenixes.",
     "exploits": [
       { "title": "Founder of the Golden Blades", "text": "Put pikes in the hands of the first recruits and taught them to stab." },
       { "title": "Passed the Oberst\u2019s Seat", "text": "Handed the Oberst\u2019s seat to Horst in 810 AC." },
@@ -65,7 +65,7 @@ window.BIOS = {
     ]
   },
   "marklin-theobold": {
-    "about": "Marklin Theobold is the Treasurer of the Golden Blades, part of the regimental staff, and a Count and Elector of the Holy Reman League.\n\nAs Count of Westerland, the Western Land, he holds Glanzholm for now, along with Palazzo Pirate Malo and Palazzo Neugeldenhalde. He oversees the stables, orchards and quarries of those lands."
+    "about": "Marklin Theobold is the Treasurer of the Golden Blades, part of the regimental staff, and a Count and Elector of the Holy Reman League.\n\nAs Count of Westerland, the Western Land, he holds Glanzholm for now, along with Palazzo Pirate Malo and Palazzo Neugeldenhalde. He oversees the stables, orchards and quarries of those lands.\n\nMarklin plays maceball for the Phighting Phoenixes."
   },
   "ohthere": {
     "about": "Ohthere is an Aljarl of the Holy Reman League and House Leader of Sleipnir’s Rise."
@@ -80,7 +80,13 @@ window.BIOS = {
     "about": "Abigail Winterstone is a Countess and Elector of the Holy Reman League, currently off on adventure. She was the Golden Blades' Kommandantin of the Marina Mercantile until she left for Lex Talionus.\n\nAs Countess of Niederheiss, the Lower Hot, she holds the ports of Marina Malavita, Porto Secco and Porto Terzo, along with Urbs Noctis. She oversees the harbors and havens of that coast."
   },
   "lisbeth-ibb-fletcher": {
-    "about": "Lisbeth “Ibb” Fletcher is a Contessa of the Holy Reman League and a former Kaiserine, one of the League's past rulers. Her reign is told in the History of the Kaisers.\n\nAs Contessa of Ostmark, the East March, she holds Geldville, Ebenhof and Ritterthurm. She oversees the mines, shrines and camps of the march."
+    "about": "Lisbeth “Ibb” Fletcher is a Contessa of the Holy Reman League and a former Kaiserine, one of the League's past rulers. Her reign is told in the History of the Kaisers.\n\nAs Contessa of Ostmark, the East March, she holds Geldville, Ebenhof and Ritterthurm. She oversees the mines, shrines and camps of the march.\n\nIbb plays maceball for the Phighting Phoenixes.",
+    "exploits": [
+      { "title": "First Elected Kaiserine", "text": "Elected at the close of Courtly Nights, Sept 12, 810 AC." },
+      { "title": "The Kaiserine Parade", "text": "Paraded through the Hunt in October with the cry \u201cMake way for the Kaiserine!\u201d" },
+      { "title": "Hunter of Werewolves", "text": "Fought grandly at the Hunt in October, werewolves included." },
+      { "title": "Fell in the Grand Battle", "text": "Fell in the first Grand Battle on Nov 10, 810 AC, crushed in the pike block between her own armored guards. The crown was recovered." }
+    ]
   },
   "konrad": {
     "about": "Konrad is a Baron of the Holy Reman League and the Servant of Goosetavo.\n\nHe is the Baron of Heliora in Craig Mor, a shire of quarries and mines."
@@ -101,7 +107,7 @@ window.BIOS = {
     ]
   },
   "gothuli-banti": {
-    "about": "Gothuli Banti is a Lord of the Holy Reman League, of Banti’s Leatherworks.\n\nBanti is a landed Lord who holds workshops, inns and stables across the lands of the Blades.",
+    "about": "Gothuli Banti is a Lord of the Holy Reman League, of Banti’s Leatherworks.\n\nBanti is a landed Lord who holds workshops, inns and stables across the lands of the Blades, and serves with the Marina Mercantile.\n\nBanti plays maceball for the Phighting Phoenixes.",
     "exploits": [
       { "title": "Herald of the Blades", "text": "Appointed Herald in 810 AC, and proclaimed the delivery of the Sellars Keep contract." },
       { "title": "Knight of Logistics", "text": "Called the Knight of Logistics for keeping camp in order, defeating evil with a smile and arranging the dances." },
@@ -114,6 +120,18 @@ window.BIOS = {
   "ulric-von-kriegholm": {
     "about": "Ulric von Kriegholm was the First Kaiser of the Holy Reman League, before his assassination, and holds the rank of Landlord. In the Golden Blades he is the Ersterhauptmann, leading the Infantry Company. His reign is told in the History of the Kaisers.\n\nUlric holds mines, shrines and an orchard in the lands of the Blades."
   },
+  "tal": {
+    "about": "Tal is a Former Kaiser of the Holy Reman League, of Sleipnir’s Rise. His reign is told in the History of the Kaisers.",
+    "exploits": [
+      { "title": "Kaiser Tal I", "text": "Elected on November 12, 810 AC. His first words as Kaiser were \u201cUhh.\u201d Though he held a contract to fight for Equinox, he took the field against the League and outlived the first skirmishes, to the cost of many Golden Blades\u2019 money. Slain by Coen on November 14, 810 AC." }
+    ]
+  },
+  "coen-sunderr": {
+    "about": "Coen Sunderr is a Former Kaiser of the Holy Reman League, a renowned archer of Militum. His reign is told in the History of the Kaisers.",
+    "exploits": [
+      { "title": "Kaiser Coen I", "text": "Slew Kaiser Tal on November 14, 810 AC and so inherited the crown by rights, though he did not know it. The Golden Blades, longtime rivals of Militum, groaned and wailed." }
+    ]
+  },
   "rothwyr": {
     "about": "Rothwyr is a strong knight of the dark House of Vekmarch, and Sir Danen Zampfer's brother from Vekmarch. He was the Kaiser of the Holy Reman League for two days in 810 AC. His reign is told in the History of the Kaisers.",
     "exploits": [
@@ -121,9 +139,9 @@ window.BIOS = {
     ]
   },
   "wellby-zulkabi": {
-    "about": "Wellby Zulkabi is a Lord of the Holy Reman League and its Minister of the Treasury.\n\nWellby holds a market, orchards and a quarry along the coast.",
+    "about": "Wellby Zulkabi is a Lord of the Holy Reman League and its Minister of the Treasury.\n\nWellby holds a market, orchards and a quarry along the coast.\n\nWellby plays maceball for the Phighting Phoenixes.",
     "exploits": [
-      { "title": "House quest leader", "text": "Carries the House on his back with Zampf. Between them they account for about half of the House\u2019s quest points." }
+      { "title": "Questing for the House", "text": "Fulfilled many quests for the House in 2026, together with Zampf." }
     ]
   },
   "goosetavo": {
@@ -142,7 +160,7 @@ window.BIOS = {
     "about": "Zadkiel Zadax is the Horned Merchant and the proprietor of Zad’s Pad, a trinket emporium."
   },
   "raiken-kal-arjac": {
-    "about": "Sir Raiken kal Arjac is a dwarf, known as Lord Raiken the Short and as The Golden Lord. He is the First Knight of the Holy Reman League, a Count and Elector, and the Duke of Coin. He is a Priest of Mascirino and the Hauptmann of the Golden Blades' Jaeger Company, its Zweiterhauptmann.\n\nAs Duke of Coin he holds Rotbach, Ubelfels, Grunfeld, Neustadt Stadt and Neugarten. He oversees the mines, markets and noble keep of those lands.",
+    "about": "Sir Raiken kal Arjac is a dwarf, known as Lord Raiken the Short and as The Golden Lord. He is the First Knight of the Holy Reman League, a Count and Elector, and the Duke of Coin. He is a Priest of Mascirino and the Hauptmann of the Golden Blades' Jaeger Company, its Zweiterhauptmann.\n\nAs Duke of Coin he holds Rotbach, Ubelfels, Grunfeld, Neustadt Stadt and Neugarten. He oversees the mines, markets and noble keep of those lands.\n\nRaiken plays maceball for the Phighting Phoenixes.",
     "exploits": [
       { "title": "Knight of the Round Table", "text": "Knighted to the Round Table at Grand Gathering 810 AC." }
     ]
@@ -154,9 +172,10 @@ window.BIOS = {
     ]
   },
   "danen-zampfer": {
-    "about": "Sir Danen Zampfer, who goes by Zampf, is a Knight and a Lord of the Holy Reman League.\n\nZampf holds mines, a smithy and havens in the lands of the Blades.",
+    "about": "Sir Danen Zampfer, who goes by Zampf, is a Knight and a Lord of the Holy Reman League.\n\nZampf holds mines, a smithy and havens in the lands of the Blades.\n\nZampf plays maceball for the Phighting Phoenixes.",
     "exploits": [
       { "title": "Knighted at Grand Gathering 810", "text": "Knighted at Grand Gathering 810 AC after numerous Guardian shifts." },
+      { "title": "Questing for the House", "text": "Fulfilled many quests for the House in 2026, together with Wellby." },
       { "title": "The Dirty Cop", "text": "Strolled up in his Guardian tabard to ask what was in the pouch Roger had handed Eonthee, a fine distraction for the caravan guards." },
       { "title": "A Guardian Martyr", "text": "Died outside the Lodge to the Kingdom of Tides, killed in the dark by a dozen blades, and was handed back his beer. He says it saved many other Guardians." }
     ]
@@ -168,13 +187,13 @@ window.BIOS = {
     "about": "Herman van Guelders is a Baron of the Holy Reman League.\n\nHe is the Baron of Schoenhof in Tir Digon, a homestead of farms, quarries and stables, and he keeps emporiums and a bazaar at Palazzo Nathair."
   },
   "fritz-haber": {
-    "about": "Fritz Haber is a Baron of the Holy Reman League.\n\nHe is the Baron of San Tyonis in the Tir of Exyle, and oversees the mines and markets of Rotbach.",
+    "about": "Fritz Haber is a Baron of the Holy Reman League and a follower of Mascirino.\n\nHe is the Baron of San Tyonis in the Tir of Exyle, and oversees the mines and markets of Rotbach.\n\nFritz plays maceball for the Phighting Phoenixes.",
     "exploits": [
       { "title": "Festival of Champions", "text": "Winning member of the Fencing Tournament." }
     ]
   },
   "cynric": {
-    "about": "Cynric joined the Golden Blades at the March 2026 event."
+    "about": "Cynric joined the Golden Blades at the March 2026 event.\n\nCynric plays maceball for the Phighting Phoenixes."
   },
   "talfa": {
     "about": "Talfa is the Bard Extraordinaire of the Golden Blades. He joined the Golden Blades at the Festival of Champions 2026, walking under an arch of raised pikes and swords at a Court of Pikes."
@@ -189,14 +208,14 @@ window.BIOS = {
     "about": "Asriel Inkburn is a Lord of the Holy Reman League.\n\nAsriel holds the markets and orchards of Grunfeld."
   },
   "ghoti-garyson": {
-    "about": "Ghoti Garyson is a Lord of the Holy Reman League.\n\nGhoti holds camps and a shrine at Ebenhof.\n\nGhoti founded the Golden Blades Archery Cadre and serves with the Jaeger Company.",
+    "about": "Ghoti Garyson is a Lord of the Holy Reman League.\n\nGhoti holds camps and a shrine at Ebenhof.\n\nGhoti founded the Golden Blades Archery Cadre and serves with the Jaeger Company.\n\nGhoti plays maceball for the Phighting Phoenixes.",
     "exploits": [
       { "title": "Promoted to Captain", "text": "Raised to Captain after Festival of Champions and spoken of for Chief Huntsman." },
       { "title": "The Lime Water Hero", "text": "Kept the camp supplied with lime water at the coronation, and was hailed for it." }
     ]
   },
   "dalaran-artellus": {
-    "about": "Dalaran Artellus is a Lord of the Holy Reman League.\n\nDalaran holds markets at Palazzo Nathair and holdings at Palazzo Caldo Elfo."
+    "about": "Dalaran Artellus is a Lord of the Holy Reman League and a follower of Mascirino.\n\nDalaran holds markets at Palazzo Nathair and holdings at Palazzo Caldo Elfo."
   },
   "boots": {
     "about": "Boots is a member of the Golden Blades.\n\nBoots is a member of the Golden Blades Archery Cadre and serves with the Jaeger Company."
