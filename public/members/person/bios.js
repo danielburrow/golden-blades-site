@@ -3,6 +3,12 @@
 //   about:    who they are (plain text; blank lines start a new paragraph)
 //   exploits: list of short entries, each { title: "...", text: "..." }
 window.BIOS = {
+  "greg": { about: "Greg is a Contractor with the Golden Blades. He joined at The Hunt, in October 810." },
+  "bo-lionheart": { about: "Bo Lionheart is a follower of Invictus." },
+  "annette": { about: "Annette is a member of the Convocation of the Void." },
+  "golden-brown": { about: "Golden Brown enlisted in the Golden Blades at Grand Gathering 810." },
+  "freidrich": { about: "Freidrich joined the Golden Blades at Grand Gathering 810." },
+  "angus-bronson": { about: "Angus Bronson joined the Golden Blades at Grand Gathering 810." },
   "anton-von-forst": { about: "Anton von Forst is the High Arch Chancellor of the Holy Reman League and the Founder of the Golden Blades. He held the Oberst's seat until 810 AC, when he vacated it to become High Arch Chancellor. In the League he holds the rank of Archduke." },
   "horst-von-tanzbaren": { about: "Horst von Tanzbären is the Oberst of the Golden Blades, commanding the regiment, and a Count and Elector of the Holy Reman League. The Oberst's seat was held before him by Anton von Forst." },
   "avaline-vetrova": { about: "Avaline Vetrova is the Pale Matron and House Leader of Vekmarch, and an Elector of the Holy Reman League." },
@@ -31,7 +37,7 @@ window.BIOS = {
   "tykin-sunderr": { about: "Tykin Sunderr is the Cult Leader of the Convocation of the Void." },
   "zadkiel-zadax": { about: "Zadkiel Zadax is the Horned Merchant and the proprietor of Zad’s Pad, a trinket emporium." },
   "raiken-kal-arjac": {
-    about: "Sir Raiken kal Arjac is the First Knight of the Holy Reman League, a Count and Elector, and the Duke of Coin. He is a Priest of Mascirino and the Hauptmann of the Golden Blades' Jaeger Company, its Zweiterhauptmann.",
+    about: "Sir Raiken kal Arjac is a dwarf, known as Lord Raiken the Short. He is the First Knight of the Holy Reman League, a Count and Elector, and the Duke of Coin. He is a Priest of Mascirino and the Hauptmann of the Golden Blades' Jaeger Company, its Zweiterhauptmann.",
     exploits: [
       { title: "Knight of the Round Table", text: "Year 810." }
     ]

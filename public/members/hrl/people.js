@@ -14,7 +14,7 @@ window.HRL = {
     { rank: "Holy Elector", name: "Petrichor", role: "High Priest of Invictus\nLinebreaker of the Golden Blades", photo: "26ae0cd201494a5e0e488132b99ae033", crest: { img: "97d64cc35045c221fc0dcdf77d2dc2b9" }, emblem: "invictus" },
     { rank: "Count", name: "Marklin Theobold", role: "Treasurer of the Golden Blades", photo: "5eee7c3ec6be06d61273233ece1655ad", crest: "sigil" },
     { rank: "Aljarl", name: "Ohthere", role: "House Leader of Sleipnir’s Rise", photo: "840af6af977a1b92f81c1f031b7a34c7", crest: { img: "e85a175be804601b34b4c5d5eee1d285", tall: true } },
-    { rank: "Count", name: "Sir Raiken kal Arjac", slug: "Raiken kal Arjac", role: "First Knight of the Holy Reman League\nDuke of Coin · Priest of Mascirino\nHauptmann: Jaeger Company", photo: "c26e9d1a81f3deb7fbe8c0baba00de43", crest: { img: "5e1bf6ad06cdc58ab958bedf57337b21" }, emblem: "mascirino" },
+    { rank: "Count", name: "Sir Raiken kal Arjac", slug: "Raiken kal Arjac", role: "First Knight of the Holy Reman League\nDuke of Coin · Priest of Mascirino\nHauptmann: Jaeger Company\nLord Raiken the Short, a dwarf", photo: "c26e9d1a81f3deb7fbe8c0baba00de43", crest: { img: "5e1bf6ad06cdc58ab958bedf57337b21" }, emblem: "mascirino" },
     { rank: "Holy Elector, Lady", name: "Thaedra Zena Chamerion", role: "High Priestess of Mascirino", photo: "7651caad4ef54e16202794348615a842", crest: "sigil", emblem: "mascirino" },
     { rank: "Countess", name: "Abigail Winterstone", role: "Off on adventure", photo: "ca8a2b455ff27f96f27a11be8a454c2a", struck: true },
     { rank: "Contessa", name: "Lisbeth “Ibb” Fletcher", role: "Former Kaiserine", photo: "c4cc36e6fe3cddb4868107b18f799bc5", crest: "sigil" },
@@ -44,15 +44,26 @@ window.HRL = {
     { rank: "Lord", name: "William Folder", role: "", photo: "0af373c3c7bb18a458848647909807c0", crest: "sigil" }
   ],
   citizens: [
+    { rank: "", name: "Alric", role: "", crest: "sigil" },
+    { rank: "", name: "Angus Bronson", role: "Joined at Grand Gathering 810", crest: "sigil" },
+    { rank: "", name: "Annette", role: "Member of the Convocation of the Void", crest: "sigil" },
+    { rank: "", name: "Bo Lionheart", role: "Follower of Invictus", crest: "sigil", emblem: "invictus" },
+    { rank: "", name: "Boots", role: "", photo: "boots-portrait", crest: "sigil" },
+    { rank: "", name: "Freidrich", role: "Joined at Grand Gathering 810", crest: "sigil" },
+    { rank: "", name: "Golden Brown", role: "Enlisted at Grand Gathering 810", crest: "sigil" },
     { rank: "", name: "Goosetavo", role: "Hauptmann: Sapper Corps", photo: "a556bb8e45679251afb44976d08ce610", crest: { img: "81c1a4c0e51b697a86217c217ce77781" } },
+    { rank: "", name: "Gustav", role: "", crest: "sigil" },
+    { rank: "", name: "Hildegard", role: "", crest: "sigil" },
     { rank: "Sir", name: "Maximo", role: "Spell Master General, Condottiere", photo: "7933525a99cc046e222418e3ccb124e7", crest: { img: "51cd64b9fcae9beffd0ad1edfa793e5c" } },
+    { rank: "", name: "Mister", role: "", crest: "sigil" },
+    { rank: "", name: "The Misses", role: "", crest: "sigil" },
     { rank: "", name: "Tykin Sunderr", role: "Cult Leader of the Convocation of the Void", photo: "3486119f440bf1551f9aa02fec980d75", crest: "sigil" },
     { rank: "", name: "Zadkiel Zadax", role: "The Horned Merchant\nProprietor of Zad’s Pad — A Trinket Emporium", photo: "314a8af5d56a0832ad1cf321cd03a7fb", crest: "sigil" }
   ],
   contractors: [
     { rank: "Contractor", name: "Alastair Sylveste", role: "", photo: "1b2b98d873284edeb6e0ea128ed65da8" },
     { rank: "Contractor", name: "Cynric", role: "", photo: "399e9c29e1d2387821a8fe9a4424587c" },
-    { rank: "Contractor", name: "Greg", role: "", photo: "a112e77828991ee7bc40a9bac7bce15e" },
+    { rank: "Contractor", name: "Greg", role: "Joined at The Hunt, October 810", photo: "a112e77828991ee7bc40a9bac7bce15e" },
     { rank: "Contractor", name: "Talfa", role: "", photo: "f16919c903b6ac9b5547a563904767a0" }
   ]
 };
