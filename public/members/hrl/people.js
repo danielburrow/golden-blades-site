@@ -10,7 +10,8 @@ window.HRL = {
     { rank: "Pale Matron", name: "Avaline Vetrova", role: "House Leader of Vekmarch", photo: "f0c9fe6b6cb32471026d60d1f05afd70", crest: { img: "af95529268830d237ae77960e56d310a" } },
     { rank: "Elector Designate", name: "Duarte Horvath D’Kraz", role: "Delegate on behalf of the House of Vekmarch", photo: "20c99fffd3b99119e771eb22ee2690fb", crest: { img: "af95529268830d237ae77960e56d310a" } },
     { rank: "Count", name: "Horst von Tanzbären", role: "Oberst of the Golden Blades", photo: "d04996db8843e560241d1854a1d63154", crest: "sigil" },
-    { rank: "", name: "Leif Dagdason", role: "High Priest of the Veiled Path", photo: "a7f7e4a17cb5b8521d7b1ffe3e970d25", crest: { img: "e85a175be804601b34b4c5d5eee1d285", tall: true }, emblem: "veiled" },
+    { rank: "", name: "Leif Dagdason", role: "High Priest of the Veiled Path\nHoly Elector", photo: "a7f7e4a17cb5b8521d7b1ffe3e970d25", crest: { img: "e85a175be804601b34b4c5d5eee1d285", tall: true }, emblem: "veiled" },
+    { rank: "", name: "Petrichor", role: "High Priest of Invictus\nHoly Elector\nLinebreaker of the Golden Blades", photo: "7933525a99cc046e222418e3ccb124e7", crest: { img: "97d64cc35045c221fc0dcdf77d2dc2b9" } },
     { rank: "Count", name: "Marklin Theobold", role: "Treasurer of the Golden Blades", photo: "5eee7c3ec6be06d61273233ece1655ad", crest: "sigil" },
     { rank: "Aljarl", name: "Ohthere", role: "House Leader of Sleipnir’s Rise", photo: "840af6af977a1b92f81c1f031b7a34c7", crest: { img: "e85a175be804601b34b4c5d5eee1d285", tall: true } },
     { rank: "Count", name: "Raiken kal Arjac", role: "Duke of Coin · Priest of Mascirino\nHauptmann: Jaeger Company", photo: "c26e9d1a81f3deb7fbe8c0baba00de43", crest: { img: "5e1bf6ad06cdc58ab958bedf57337b21" }, emblem: "mascirino" },
@@ -26,6 +27,7 @@ window.HRL = {
     { rank: "Baron", name: "Jean de Espada", role: "", photo: "cefbbb94fb0c4d6cd80376db153909f0", crest: "sigil" },
     { rank: "Baron", name: "Konrad", role: "Servant of Goosetavo", crest: "sigil" },
     { rank: "Baron", name: "Roger “Jay” McKlay", role: "Drill Master", photo: "bfea03ca076090f49f24a96df04f8f40", crest: { img: "733dbd110875caec60e292cc2a372528" } },
+    { rank: "Baroness", name: "Soluna Tivali", role: "Aufbringenleutnant of the Golden Blades", crest: "sigil" },
     { rank: "Baroness", name: "Tess von Forst", role: "", crest: "sigil" }
   ],
   lords: [
@@ -44,7 +46,6 @@ window.HRL = {
   citizens: [
     { rank: "", name: "Goosetavo", role: "Hauptmann: Sapper Corps", photo: "a556bb8e45679251afb44976d08ce610", crest: { img: "81c1a4c0e51b697a86217c217ce77781" } },
     { rank: "Sir", name: "Maximo", role: "Spell Master General, Condottiere", photo: "26ae0cd201494a5e0e488132b99ae033", crest: { img: "51cd64b9fcae9beffd0ad1edfa793e5c" } },
-    { rank: "", name: "Petrichor", role: "Custodian of Invictus\nLinebreaker of the Golden Blades", photo: "7933525a99cc046e222418e3ccb124e7", crest: { img: "97d64cc35045c221fc0dcdf77d2dc2b9" } },
     { rank: "", name: "Tykin Sunderr", role: "Cult Leader of the Convocation of the Void", photo: "3486119f440bf1551f9aa02fec980d75", crest: "sigil" },
     { rank: "", name: "Zadkiel Zadax", role: "The Horned Merchant\nProprietor of Zad’s Pad — A Trinket Emporium", photo: "314a8af5d56a0832ad1cf321cd03a7fb", crest: "sigil" }
   ]
