@@ -149,7 +149,7 @@ window.BIOS = {
     "about": "Roger “Jay” McKlay is a Baron of the Holy Reman League and a Drill Master.\n\nHe holds Braunfels, and keeps a market and port at Palazzo Nathair and farms at Neugarten."
   },
   "soluna-tivali": {
-    "about": "Soluna Tivali is the Aufbringenleutnant of the Golden Blades and a Baroness Designate of the Holy Reman League, to be confirmed at Winter Watch 2027. She is a member of the Golden Blades Archery Cadre and serves with the Jaeger Company. She is also an Alchemist.",
+    "about": "Soluna Tivali is the Aufbringenleutnant of the Golden Blades and a Baroness Designate of the Holy Reman League, to be confirmed at Winter Watch 2027. She is a member of the Golden Blades Archery Cadre and serves with the Jaeger Company. She is also an Alchemist.\n\nSoluna joined the Golden Blades at the Shareholders’ Meeting in 2026.",
     "exploits": [
       {
         "title": "Alchemist",
@@ -170,7 +170,7 @@ window.BIOS = {
     ]
   },
   "gothuli-banti": {
-    "about": "Gothuli Banti is a Lord of the Holy Reman League, of Banti’s Leatherworks.\n\nBanti is a landed Lord who holds workshops, inns and stables across the lands of the Blades, and serves with the Marina Mercantile.\n\nBanti plays maceball for the Phighting Phoenixes.",
+    "about": "Gothuli Banti is a Lord of the Holy Reman League, of Banti’s Leatherworks.\n\nBanti is a landed Lord who holds workshops, inns and stables across the lands of the Blades, and serves with the Marina Mercantile.\n\nBanti plays maceball for the Phighting Phoenixes.\n\nBanti joined the Golden Blades in the October Expedition of 2025.",
     "exploits": [
       {
         "title": "Herald of the Blades",
@@ -256,7 +256,7 @@ window.BIOS = {
     ]
   },
   "brenin-halvard": {
-    "about": "Sir Brenin Halvard is a Baron of the Holy Reman League, a Knight, and a Priest of Invictus.\n\nHe is the Baron of Stillwasser, a coastal holding in Laraclea that he rules together with neighboring Lowenhof. He oversees the theatre and markets of the land, and the harbor trade that keeps them busy.",
+    "about": "Sir Brenin Halvard is a Baron of the Holy Reman League, a Knight, and a Priest of Invictus.\n\nHe is the Baron of Stillwasser, a coastal holding in Laraclea that he rules together with neighboring Lowenhof. He oversees the theatre and markets of the land, and the harbor trade that keeps them busy.\n\nBrenin joined the Golden Blades at the Siege, in February 2026.",
     "exploits": [
       {
         "title": "Knighted at Grand Gathering 810",
@@ -265,7 +265,7 @@ window.BIOS = {
     ]
   },
   "danen-zampfer": {
-    "about": "Sir Danen Zampfer, who goes by Zampf, is a Knight and a Lord of the Holy Reman League.\n\nZampf holds mines, a smithy and havens in the lands of the Blades.\n\nZampf plays maceball for the Phighting Phoenixes.",
+    "about": "Sir Danen Zampfer, who goes by Zampf, is a Knight and a Lord of the Holy Reman League.\n\nZampf holds mines, a smithy and havens in the lands of the Blades.\n\nZampf plays maceball for the Phighting Phoenixes.\n\nZampf joined the Golden Blades at Winter Watch, in January 2026.",
     "exploits": [
       {
         "title": "Knighted at Grand Gathering 810",
@@ -316,7 +316,7 @@ window.BIOS = {
     "about": "Asriel Inkburn is a Lord of the Holy Reman League.\n\nAsriel holds the markets and orchards of Grunfeld."
   },
   "ghoti-garyson": {
-    "about": "Ghoti Garyson is a Lord of the Holy Reman League.\n\nGhoti holds camps and a shrine at Ebenhof.\n\nGhoti founded the Golden Blades Archery Cadre and serves with the Jaeger Company.\n\nGhoti plays maceball for the Phighting Phoenixes.",
+    "about": "Ghoti Garyson is a Lord of the Holy Reman League.\n\nGhoti holds camps and a shrine at Ebenhof.\n\nGhoti founded the Golden Blades Archery Cadre and serves with the Jaeger Company.\n\nGhoti plays maceball for the Phighting Phoenixes.\n\nGhoti joined the Golden Blades at Winter Watch, in January 2026.",
     "exploits": [
       {
         "title": "Promoted to Captain",
@@ -329,7 +329,7 @@ window.BIOS = {
     ]
   },
   "dalaran-artellus": {
-    "about": "Dalaran Artellus is a Lord of the Holy Reman League and a follower of Mascirino.\n\nDalaran holds markets at Palazzo Nathair and holdings at Palazzo Caldo Elfo."
+    "about": "Dalaran Artellus is a Lord of the Holy Reman League and a follower of Mascirino.\n\nDalaran holds markets at Palazzo Nathair and holdings at Palazzo Caldo Elfo.\n\nDalaran joined the Golden Blades at Winter Watch, in January 2026."
   },
   "boots": {
     "about": "Boots is a member of the Golden Blades.\n\nBoots is a member of the Golden Blades Archery Cadre and serves with the Jaeger Company."
