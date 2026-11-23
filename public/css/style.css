@@ -55,3 +55,54 @@ h2 { color: var(--gold); font-size: 1.45rem; margin: 0 0 .5rem; letter-spacing: 
 
 footer.site { border-top: 1px solid var(--line); margin-top: 3rem; padding: 1.5rem 0 2.5rem; color: var(--muted); font-size: .9rem; text-align: center; }
 img { max-width: 100%; height: auto; border-radius: var(--radius); }
+
+/* ---------- Section pages ---------- */
+.page-title { text-align: center; padding: 3rem 0 1.5rem; }
+.page-title h1 { margin: 0 0 .4rem; font-size: clamp(1.8rem, 5vw, 2.6rem); color: var(--gold-soft); }
+.page-title p { margin: 0 auto; max-width: 36rem; color: var(--muted); }
+.section-links { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin-bottom: 2rem; }
+.section-links a.card { text-decoration: none; display: block; }
+.section-links a.card:hover { border-color: var(--gold); }
+nav a { white-space: nowrap; }
+header.site nav { display: flex; flex-wrap: wrap; gap: .2rem 0; }
+
+/* ---------- HRL hierarchy ---------- */
+.hrl { --parch: #efe3c4; --parch-line: #8a6a22; --ink: #2b2013; --ink-soft: #4a3a22; --ink-gold: #6e4f12; }
+.hrl-title { text-align: center; padding: 2.5rem 0 1rem; }
+.hrl-title .small { font-family: "UnifrakturCook", Georgia, serif; font-size: clamp(1.4rem, 4vw, 2.2rem); color: var(--text); }
+.hrl-title h1 { font-family: "UnifrakturCook", Georgia, serif; font-size: clamp(2.2rem, 8vw, 4.2rem); line-height: 1.05; margin: .2rem 0 .6rem; color: var(--gold-soft); font-weight: 700; }
+.hrl-title .est { letter-spacing: .25em; text-transform: uppercase; font-size: .8rem; color: var(--gold); }
+.hrl-tier { margin: 2.5rem 0 0; }
+.hrl-tier > h2 { font-family: "UnifrakturCook", Georgia, serif; font-weight: 700; font-size: clamp(1.6rem, 5vw, 2.4rem); color: var(--gold-soft); display: flex; align-items: center; gap: 1rem; margin: 0 0 1.2rem; text-align: center; }
+.hrl-tier > h2::before, .hrl-tier > h2::after { content: ""; flex: 1; height: 2px; background: var(--gold); }
+.hrl-connector { width: 3px; height: 40px; background: var(--gold); margin: 0 auto; }
+.hrl-grid { display: grid; gap: 1.2rem; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+.hrl-grid.center { display: flex; flex-wrap: wrap; justify-content: center; }
+.hrl-grid.center .person { width: min(320px, 100%); }
+.hrl-grid.top { display: flex; justify-content: center; }
+.hrl-grid.top .person { width: min(420px, 100%); }
+
+.person { position: relative; background: var(--parch); color: var(--ink); border: 4px double var(--parch-line); border-radius: 4px; padding: 1.4rem 1rem 1.2rem; text-align: center; display: flex; flex-direction: column; align-items: center; gap: .35rem; }
+.person .portrait { width: 112px; height: 112px; border-radius: 50%; border: 4px solid var(--parch-line); background: #d9c898; overflow: hidden; display: flex; align-items: center; justify-content: center; flex: none; }
+.person .portrait img { width: 100%; height: 100%; object-fit: cover; border-radius: 0; display: block; }
+.person.big .portrait { width: 150px; height: 150px; }
+.person .rank { font-size: .78rem; letter-spacing: .2em; text-transform: uppercase; color: var(--ink-gold); font-weight: bold; min-height: 1.1em; margin-top: .3rem; }
+.person .name { font-size: 1.45rem; line-height: 1.1; font-weight: bold; }
+.person .role { font-style: italic; color: var(--ink-soft); font-size: 1rem; white-space: pre-line; }
+.person .note { font-style: italic; color: #7a6a48; font-size: .85rem; }
+.person .crest { position: absolute; top: 10px; right: 10px; width: 46px; display: flex; justify-content: center; }
+.person .crest img { width: 46px; height: auto; max-height: 76px; object-fit: contain; border-radius: 0; }
+.person .crest .sigil { width: 46px; height: 56px; background: var(--parch-line); clip-path: polygon(0 0,100% 0,100% 48%,92% 70%,72% 88%,50% 100%,28% 88%,8% 70%,0 48%); padding: 3px; }
+.person .crest .sigil img { width: 100%; height: 100%; object-fit: cover; clip-path: polygon(0 0,100% 0,100% 48%,92% 70%,72% 88%,50% 100%,28% 88%,8% 70%,0 48%); }
+.person .emblem { position: absolute; top: 10px; left: 10px; width: 50px; height: 50px; }
+.person .emblem img, .person .emblem svg { width: 100%; height: 100%; border-radius: 0; display: block; }
+.person.struck { background: #b9ab88; border-color: #6b5a35; }
+.person.struck .portrait img { filter: grayscale(1) contrast(.9) brightness(.9); }
+.person.struck .rank, .person.struck .name { text-decoration: line-through; text-decoration-thickness: 3px; }
+.person.vacant { background: transparent; color: var(--text); border: 4px dashed var(--gold); justify-content: center; }
+.person.vacant .rank { color: var(--gold); }
+.person.vacant .role { color: #e3d6b4; }
+.person.vacant .note { color: #c7b88f; }
+.person.vacant .portrait { border-color: var(--gold); }
+.person.vacant .crest { position: static; margin-bottom: .3rem; }
+.hrl-footer-note { text-align: center; margin-top: 3rem; color: var(--muted); font-size: .9rem; }
