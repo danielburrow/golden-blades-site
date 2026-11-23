@@ -123,3 +123,6 @@ dialog#viewer::backdrop { background: rgba(0,0,0,.8); }
 
 .hrl-link { text-align: center; margin: 0 0 1rem; }
 img.constitution { width: 100%; background: #fff; border: 4px double var(--parch-line, #8a6a22); }
+
+.person.vacant .crown-static { margin-bottom: .4rem; }
+.person.vacant .crown-static svg { width: 84px; height: auto; }

@@ -95,6 +95,7 @@
       if (c) el.appendChild(c);
     }
     if (p.vacant) {
+      if (p.crown) { var cw = h("div", "crown-static"); cw.innerHTML = CROWN; el.appendChild(cw); }
       var vc = crestEl(p.crest);
       if (vc) el.appendChild(vc);
       if (p.photo) el.appendChild(photoEl(p, "Portrait for the " + p.name + " seat"));
@@ -119,7 +120,7 @@
   }
 
   var root = document.getElementById("hrl-root");
-  root.appendChild(tier("Kaiserine", [D.kaiserine], "top"));
+  root.appendChild(tier("Kaiser", [D.kaiser], "top"));
   root.appendChild(h("div", "hrl-connector"));
   root.appendChild(tier("Archduke", [D.archduke], "top"));
   root.appendChild(h("div", "hrl-connector"));
