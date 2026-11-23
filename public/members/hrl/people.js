@@ -27,7 +27,7 @@ window.HRL = {
     { rank: "Baron", name: "Jean de Espada", role: "Colonel as of Grand Gathering 810\nBaron of Orta Nova", photo: "cefbbb94fb0c4d6cd80376db153909f0", crest: "sigil" },
     { rank: "Baron", name: "Konrad", role: "Servant of Goosetavo\nBaron of Heliora", crest: "sigil" },
     { rank: "Baron", name: "Roger “Jay” McKlay", role: "Drill Master", photo: "bfea03ca076090f49f24a96df04f8f40", crest: { img: "733dbd110875caec60e292cc2a372528" } },
-    { rank: "Baroness", name: "Soluna Tivali", role: "Aufbringenleutnant of the Golden Blades", crest: "sigil" },
+    { rank: "Baroness Designate", name: "Soluna Tivali", role: "Aufbringenleutnant of the Golden Blades\nTo be confirmed at Winter Watch 2027", crest: "sigil" },
     { rank: "Baroness", name: "Tess von Forst", role: "", crest: "sigil" }
   ],
   lords: [
@@ -44,27 +44,25 @@ window.HRL = {
     { rank: "Lord", name: "William Folder", role: "", photo: "0af373c3c7bb18a458848647909807c0", crest: "sigil" }
   ],
   citizens: [
+    { rank: "", name: "Alastair Sylveste", role: "", photo: "1b2b98d873284edeb6e0ea128ed65da8", crest: "sigil" },
     { rank: "", name: "Alric", role: "", photo: "alric-portrait", crest: "sigil" },
-    { rank: "", name: "Angus Bronson", role: "New recruit\nJoined at Grand Gathering 810", crest: "sigil" },
+    { rank: "", name: "Angus Bronson", role: "Joined at Grand Gathering 810", crest: "sigil" },
     { rank: "", name: "Annette", role: "Member of the Convocation of the Void", crest: "sigil" },
     { rank: "", name: "Bo Lionheart", role: "Follower of Invictus", crest: "sigil", emblem: "invictus" },
     { rank: "", name: "Boots", role: "", photo: "boots-portrait", crest: "sigil" },
+    { rank: "", name: "Cynric", role: "", photo: "399e9c29e1d2387821a8fe9a4424587c", crest: "sigil" },
     { rank: "", name: "Freidrich", role: "Joined at Grand Gathering 810", crest: "sigil" },
     { rank: "", name: "Golden Blade #53", role: "Love\u2019s Plumages", photo: "golden-blade-53-portrait", crest: "sigil" },
     { rank: "", name: "Golden Brown", role: "Enlisted at Grand Gathering 810", crest: "sigil" },
     { rank: "", name: "Goosetavo", role: "Hauptmann: Sapper Corps", photo: "a556bb8e45679251afb44976d08ce610", crest: { img: "81c1a4c0e51b697a86217c217ce77781" } },
+    { rank: "", name: "Greg", role: "Joined at The Hunt, October 810", photo: "a112e77828991ee7bc40a9bac7bce15e", crest: "sigil" },
     { rank: "", name: "Gustav", role: "", crest: "sigil" },
     { rank: "", name: "Hildegard", role: "", crest: "sigil" },
     { rank: "Sir", name: "Maximo", role: "Spell Master General, Condottiere", photo: "7933525a99cc046e222418e3ccb124e7", crest: { img: "51cd64b9fcae9beffd0ad1edfa793e5c" } },
     { rank: "", name: "Mister", role: "", crest: "sigil" },
+    { rank: "", name: "Talfa", role: "Bard Extraordinaire", photo: "f16919c903b6ac9b5547a563904767a0", crest: "sigil" },
     { rank: "", name: "The Misses", role: "", crest: "sigil" },
     { rank: "", name: "Tykin Sunderr", role: "Cult Leader of the Convocation of the Void", photo: "3486119f440bf1551f9aa02fec980d75", crest: "sigil" },
     { rank: "", name: "Zadkiel Zadax", role: "The Horned Merchant\nProprietor of Zad’s Pad — A Trinket Emporium", photo: "314a8af5d56a0832ad1cf321cd03a7fb", crest: "sigil" }
-  ],
-  contractors: [
-    { rank: "Contractor", name: "Alastair Sylveste", role: "", photo: "1b2b98d873284edeb6e0ea128ed65da8" },
-    { rank: "Contractor", name: "Cynric", role: "", photo: "399e9c29e1d2387821a8fe9a4424587c" },
-    { rank: "Contractor", name: "Greg", role: "Joined at The Hunt, October 810", photo: "a112e77828991ee7bc40a9bac7bce15e" },
-    { rank: "Contractor", name: "Talfa", role: "", photo: "f16919c903b6ac9b5547a563904767a0" }
   ]
 };

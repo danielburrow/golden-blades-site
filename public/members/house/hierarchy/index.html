@@ -58,18 +58,13 @@
       GAP();
       var shown = ["Horst", "Anton", "Ulric", "Raiken", "Goosetavo", "Alexander", "Maximo", "Marklin", "Thaedra"];
       var notBlades = ["Avaline", "Duarte", "Leif", "Ohthere", "Abigail"];
-      var contractors = (D.contractors || []).map(function (c) { return c.name; });
       function has(list, name) { return list.some(function (x) { return name.indexOf(x) !== -1; }); }
       function sortKey(n) { return n.replace(/^(Sir |\u201cDr\u201d )/, "").toLowerCase(); }
       var blades = U.everyone().filter(function (p) {
-        return contractors.indexOf(p.name) === -1 && !has(shown, p.name) && !has(notBlades, p.name);
+        return !has(shown, p.name) && !has(notBlades, p.name);
       }).sort(function (a, b) { return sortKey(a.name) < sortKey(b.name) ? -1 : 1; })
         .map(function (p) { return { rank: p.rank, name: p.name, slug: p.slug, role: p.role, photo: p.photo, crest: "sigil", emblem: p.emblem }; });
       root.appendChild(U.tier("Blades", blades, "center"));
-      GAP();
-      root.appendChild(U.tier("Contractors", (D.contractors || []).map(function (c) {
-        return { rank: c.rank, name: c.name, role: c.role, photo: c.photo };
-      }), "center"));
     })();
   </script>
 </body>

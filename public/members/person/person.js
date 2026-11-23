@@ -38,9 +38,7 @@
   var about = bio.about;
   if (!about && person.rank) {
     var rk = person.rank;
-    about = rk === "Contractor"
-      ? person.name + " is a Contractor with the Golden Blades."
-      : person.name + " is a " + rk + " of the Holy Reman League.";
+    about = person.name + " is a " + rk + " of the Holy Reman League.";
   }
   if (about) {
     about.split(/\n\s*\n/).forEach(function (para) { s1.appendChild(h("p", "", para)); });

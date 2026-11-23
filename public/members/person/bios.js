@@ -10,7 +10,7 @@ window.BIOS = {
     "about": "Golden Blade #53 of Love’s Plumages, known for an enormous plumed hat in Golden Blades blue and gold. Brenin made a video of her."
   },
   "greg": {
-    "about": "Greg is a Contractor with the Golden Blades. He joined at The Hunt, in October 810."
+    "about": "Greg is a member of the Golden Blades. He joined at The Hunt, in October 810."
   },
   "bo-lionheart": {
     "about": "Bo Lionheart is a follower of Invictus."
@@ -25,7 +25,7 @@ window.BIOS = {
     "about": "Freidrich joined the Golden Blades at Grand Gathering 810."
   },
   "angus-bronson": {
-    "about": "Angus Bronson is a new recruit who joined the Golden Blades at Grand Gathering 810. He is not to be confused with Angus, Ghoti's steed."
+    "about": "Angus Bronson joined the Golden Blades at Grand Gathering 810. He is not to be confused with Angus, Ghoti’s steed."
   },
   "anton-von-forst": {
     "about": "Anton von Forst is the High Arch Chancellor of the Holy Reman League and the Founder of the Golden Blades. He held the Oberst's seat until 810 AC, when he vacated it to become High Arch Chancellor. In the League he holds the rank of Archduke.\n\nHe holds the palace at Altgard, in the province of Oberheim, the Upper Home, and the harbor town of Stretti."
@@ -46,16 +46,16 @@ window.BIOS = {
     "about": "Petrichor is the High Priest of Invictus and a Holy Elector of the Holy Reman League. In the Golden Blades he is the Linebreaker."
   },
   "marklin-theobold": {
-    "about": "Marklin Theobold is the Treasurer of the Golden Blades, part of the regimental staff, and a Count and Elector of the Holy Reman League.\n\nAs Count of Westerland, the Western Land, he holds Glanzholm, along with Palazzo Pirate Malo and Palazzo Neugeldenhalde. He oversees the stables, orchards and quarries of those lands."
+    "about": "Marklin Theobold is the Treasurer of the Golden Blades, part of the regimental staff, and a Count and Elector of the Holy Reman League.\n\nAs Count of Westerland, the Western Land, he holds Glanzholm for now, along with Palazzo Pirate Malo and Palazzo Neugeldenhalde. He oversees the stables, orchards and quarries of those lands."
   },
   "ohthere": {
     "about": "Ohthere is an Aljarl of the Holy Reman League and House Leader of Sleipnir’s Rise."
   },
   "thaedra-zena-chamerion": {
-    "about": "Thaedra Zena Chamerion is the High Priestess of Mascirino and a Holy Elector of the Holy Reman League, styled Lady. In the Golden Blades she serves on the regimental staff as Intelligence Officer."
+    "about": "Thaedra Zena Chamerion is the High Priestess of Mascirino and a Holy Elector of the Holy Reman League, styled Lady. In the Golden Blades she serves on the regimental staff as Intelligence Officer.\n\nThaedra holds quarries and a shrine in the lands of the Blades."
   },
   "abigail-winterstone": {
-    "about": "Abigail Winterstone is a Countess and Elector of the Holy Reman League, currently off on adventure. She was the Golden Blades' Kommandantin of the Marina Mercantile until she left for Lex Talionus.\n\nAs Countess of Niederheiss, the Lower Hot, she holds the ports of Marina Malavita, Porto Secco and Porto Terzo, and Urbs Noctis. She oversees the harbors and havens of that coast."
+    "about": "Abigail Winterstone is a Countess and Elector of the Holy Reman League, currently off on adventure. She was the Golden Blades' Kommandantin of the Marina Mercantile until she left for Lex Talionus.\n\nAs Countess of Niederheiss, the Lower Hot, she holds the ports of Marina Malavita, Porto Secco and Porto Terzo, along with Urbs Noctis. She oversees the harbors and havens of that coast."
   },
   "lisbeth-ibb-fletcher": {
     "about": "Lisbeth “Ibb” Fletcher is a Contessa of the Holy Reman League and a former Kaiserine, one of the League's past rulers. Her reign is told in the History of the Kaisers.\n\nAs Contessa of Ostmark, the East March, she holds Geldville, Ebenhof and Ritterthurm. She oversees the mines, shrines and camps of the march."
@@ -67,7 +67,7 @@ window.BIOS = {
     "about": "Roger “Jay” McKlay is a Baron of the Holy Reman League and a Drill Master.\n\nHe holds Braunfels, and keeps a market and port at Palazzo Nathair and farms at Neugarten."
   },
   "soluna-tivali": {
-    "about": "Soluna Tivali is a Baroness of the Holy Reman League and the Aufbringenleutnant of the Golden Blades."
+    "about": "Soluna Tivali is the Aufbringenleutnant of the Golden Blades and a Baroness Designate of the Holy Reman League, to be confirmed at Winter Watch 2027."
   },
   "dr-alexander-di-nathair": {
     "about": "“Dr” Alexander Di Nathair is a Lord of the Holy Reman League. In the Golden Blades he is a Condottiere and the company physician.\n\nHe holds Torre Magno in the Tir of Exyle, the university at Altgard, and interests at Ebenhof and Geldville."
@@ -76,16 +76,16 @@ window.BIOS = {
     "about": "Eonthee is a Lord of the Holy Reman League and a Priest of Mascirino, also known as the Naughty Boy.\n\nHe holds Oriago in the Tir of Exyle, along with mines and stables at Neustadt Stadt."
   },
   "gothuli-banti": {
-    "about": "Gothuli Banti is a Lord of the Holy Reman League, of Banti’s Leatherworks."
+    "about": "Gothuli Banti is a Lord of the Holy Reman League, of Banti’s Leatherworks.\n\nBanti is a landed Lord who holds workshops, inns and stables across the lands of the Blades."
   },
   "saucisse": {
-    "about": "Saucisse is a Lord of the Holy Reman League and its Minister of Gambling."
+    "about": "Saucisse is a Lord of the Holy Reman League and its Minister of Gambling.\n\nSaucisse holds orchards and a fort in the lands of the Blades."
   },
   "ulric-von-kriegholm": {
-    "about": "Ulric von Kriegholm was the First Kaiser of the Holy Reman League, before his assassination, and holds the rank of Landlord. In the Golden Blades he is the Ersterhauptmann, leading the Infantry Company. His reign is told in the History of the Kaisers."
+    "about": "Ulric von Kriegholm was the First Kaiser of the Holy Reman League, before his assassination, and holds the rank of Landlord. In the Golden Blades he is the Ersterhauptmann, leading the Infantry Company. His reign is told in the History of the Kaisers.\n\nUlric holds mines, shrines and an orchard in the lands of the Blades."
   },
   "wellby-zulkabi": {
-    "about": "Wellby Zulkabi is a Lord of the Holy Reman League and its Minister of the Treasury."
+    "about": "Wellby Zulkabi is a Lord of the Holy Reman League and its Minister of the Treasury.\n\nWellby holds a market, orchards and a quarry along the coast."
   },
   "goosetavo": {
     "about": "Goosetavo is the Hauptmann of the Golden Blades' Sapper Corps."
@@ -112,7 +112,7 @@ window.BIOS = {
     "about": "Sir Brenin Halvard is a Baron of the Holy Reman League, a Knight, and a Priest of Invictus.\n\nHe is the Baron of Stillwasser, a coastal holding in Laraclea that he rules together with neighboring Lowenhof. He oversees the theatre and markets of the land, and the harbor trade that keeps them busy."
   },
   "danen-zampfer": {
-    "about": "Sir Danen Zampfer is a Knight and a Lord of the Holy Reman League."
+    "about": "Sir Danen Zampfer is a Knight and a Lord of the Holy Reman League.\n\nZampf holds mines, a smithy and havens in the lands of the Blades."
   },
   "tess-von-forst": {
     "about": "Tess von Forst is a Baroness of the Holy Reman League.\n\nShe holds Palazzo Nathair, where she oversees the theatre and shops of the port, and keeps the inn and defenses at Altgard."
@@ -122,5 +122,26 @@ window.BIOS = {
   },
   "fritz-haber": {
     "about": "Fritz Haber is a Baron of the Holy Reman League.\n\nHe is the Baron of San Tyonis in the Tir of Exyle, and oversees the mines and markets of Rotbach."
+  },
+  "cynric": {
+    "about": "Cynric joined the Golden Blades at the March 2026 event."
+  },
+  "talfa": {
+    "about": "Talfa is the Bard Extraordinaire of the Golden Blades. He joined the Blades by walking under an arch of raised pikes and swords at a Court of Pikes."
+  },
+  "alastair-sylveste": {
+    "about": "Alastair Sylveste is a member of the Golden Blades."
+  },
+  "william-folder": {
+    "about": "William Folder is a Lord of the Holy Reman League.\n\nWilliam holds stables, orchards and camps in the lands of Tir Digon."
+  },
+  "asriel-inkburn": {
+    "about": "Asriel Inkburn is a Lord of the Holy Reman League.\n\nAsriel holds the markets and orchards of Grunfeld."
+  },
+  "ghoti-garyson": {
+    "about": "Ghoti Garyson is a Lord of the Holy Reman League.\n\nGhoti holds camps and a shrine at Ebenhof."
+  },
+  "dalaran-artellus": {
+    "about": "Dalaran Artellus is a Lord of the Holy Reman League.\n\nDalaran holds markets at Palazzo Nathair and holdings at Palazzo Caldo Elfo."
   }
 };
