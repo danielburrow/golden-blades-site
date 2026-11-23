@@ -39,12 +39,14 @@ window.PHOTOS = {
   ],
   "horst-von-tanzbaren": [
     "/members/person/img/horst-armored.jpg",
-    "/members/person/img/horst-fancy.jpg"
+    "/members/person/img/horst-fancy.jpg",
+    "/members/person/img/group-at-reverdieball-zad-raiken-horst-eonthee-petrichor-ibb.jpg"
   ],
   "lisbeth-ibb-fletcher": [
     "/members/person/img/ibb-crowned.jpg",
     "/members/person/img/ibb-fancy.jpg",
-    "/members/person/img/ibb-petrichor-holyremanleague.jpg"
+    "/members/person/img/ibb-petrichor-holyremanleague.jpg",
+    "/members/person/img/group-at-reverdieball-zad-raiken-horst-eonthee-petrichor-ibb.jpg"
   ],
   "marklin-theobold": [
     "/members/person/img/marklin-2.jpg",
@@ -61,11 +63,14 @@ window.PHOTOS = {
     "/members/person/img/petrichor-2.jpg",
     "/members/person/img/petrichor-3.jpg",
     "/members/person/img/petrichor-fancy.jpg",
-    "/members/person/img/ibb-petrichor-holyremanleague.jpg"
+    "/members/person/img/ibb-petrichor-holyremanleague.jpg",
+    "/members/person/img/group-at-reverdieball-zad-raiken-horst-eonthee-petrichor-ibb.jpg",
+    "/members/person/img/eonthee-petrichor-zampf.jpg"
   ],
   "raiken-kal-arjac": [
     "/members/person/img/raiken-armor.jpg",
-    "/members/person/img/raiken-general.jpg"
+    "/members/person/img/raiken-general.jpg",
+    "/members/person/img/group-at-reverdieball-zad-raiken-horst-eonthee-petrichor-ibb.jpg"
   ],
   "roger-jay-mcklay": [
     "/members/person/img/roger-crossbow.jpg",
@@ -78,15 +83,22 @@ window.PHOTOS = {
     "/members/person/img/roger-and-wellby.jpg"
   ],
   "danen-zampfer": [
-    "/members/person/img/zampf-eating.jpg"
+    "/members/person/img/zampf-eating.jpg",
+    "/members/person/img/eonthee-petrichor-zampf.jpg",
+    "/members/person/img/zampf-3.jpg"
   ],
   "zadkiel-zadax": [
-    "/members/person/img/zad.jpg"
+    "/members/person/img/zad.jpg",
+    "/members/person/img/group-at-reverdieball-zad-raiken-horst-eonthee-petrichor-ibb.jpg"
   ],
   "talfa": [
     "/members/person/img/talfa.jpg"
   ],
   "alastair-sylveste": [
     "/members/person/img/alastair-sylveste.jpg"
+  ],
+  "eonthee": [
+    "/members/person/img/group-at-reverdieball-zad-raiken-horst-eonthee-petrichor-ibb.jpg",
+    "/members/person/img/eonthee-petrichor-zampf.jpg"
   ]
 };

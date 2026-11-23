@@ -12,9 +12,10 @@
   ];
   var membersNav = [
     ["House", "/members/house/", [
+      ["Primer", "/members/house/primer/"],
       ["Heraldry & Flags", "/members/house/heraldry/"],
       ["Hierarchy", "/members/house/hierarchy/"],
-      ["Primer", "/members/house/primer/"]
+      ["Maceball", "/members/house/maceball/"]
     ]],
     ["Carta Arcanum", "/members/carta-arcanum/", [
       ["Briefadel and Ownership", "/members/carta-arcanum/briefadel/"],
