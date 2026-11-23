@@ -9,18 +9,29 @@
 </head>
 <body>
   <header class="site" id="site-header"></header>
-  <main class="wrap">
+  <main class="wrap wide">
     <div class="page-title">
       <h1>Meme Repository</h1>
       <hr class="rule">
-      <p>The Blades' finest memes.</p>
+      <p>Flyers and GIFs from the Golden Blades. Tap one to view it larger.</p>
     </div>
     <section>
-      <h2>Coming soon</h2>
-      <p class="note">This section is ready for images. Add them under members/images and I'll build the gallery. (The name can be changed whenever you like.)</p>
+      <h2>Flyers</h2>
+      <div class="meme-grid" id="grid-flyers"></div>
+    </section>
+    <section>
+      <h2>GIFs</h2>
+      <div class="meme-grid" id="grid-gifs"></div>
     </section>
   </main>
+  <dialog id="viewer" aria-label="Viewer">
+    <button type="button" id="viewer-close" class="btn ghost" aria-label="Close">Close</button>
+    <div id="viewer-stage"></div>
+    <p id="viewer-cap"></p>
+  </dialog>
   <footer class="site" id="site-footer"></footer>
   <script src="/js/site.js"></script>
+  <script src="/members/memes/memes-data.js"></script>
+  <script src="/members/memes/memes.js"></script>
 </body>
 </html>

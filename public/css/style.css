@@ -106,3 +106,17 @@ header.site nav { display: flex; flex-wrap: wrap; gap: .2rem 0; }
 .person.vacant .portrait { border-color: var(--gold); }
 .person.vacant .crest { position: static; margin-bottom: .3rem; }
 .hrl-footer-note { text-align: center; margin-top: 3rem; color: var(--muted); font-size: .9rem; }
+
+/* ---------- Meme Repository ---------- */
+.wrap.wide { max-width: 1100px; }
+.meme-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+.meme { position: relative; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 0; cursor: pointer; overflow: hidden; color: var(--text); font: inherit; text-align: left; display: flex; flex-direction: column; }
+.meme:hover, .meme:focus-visible { border-color: var(--gold); outline: none; }
+.meme img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 0; display: block; background: #000; }
+.meme span { padding: .6rem .8rem; font-size: .95rem; }
+.meme .play { position: absolute; top: .5rem; right: .5rem; background: rgba(0,0,0,.65); color: var(--gold-soft); border-radius: 999px; width: 2rem; height: 2rem; display: flex; align-items: center; justify-content: center; font-style: normal; font-size: .8rem; }
+dialog#viewer { background: var(--panel); color: var(--text); border: 1px solid var(--gold); border-radius: var(--radius); max-width: min(94vw, 900px); width: 100%; padding: 1rem; text-align: center; }
+dialog#viewer::backdrop { background: rgba(0,0,0,.8); }
+#viewer-stage img, #viewer-stage video { max-width: 100%; max-height: 75vh; width: auto; height: auto; border-radius: var(--radius); }
+#viewer-close { float: right; padding: .35rem .9rem; }
+#viewer-cap { margin: .6rem 0 0; color: var(--muted); }
