@@ -13,6 +13,7 @@ window.MEMES = {
     ["Infantry", "infantry"],
     ["Intro Announcement", "intro-announcement"],
     ["Mascirino Approves", "mascirino-approves"],
+    ["Mic Check", "mic-check"],
     ["Petrichor Pizza", "petrichor-pizza"],
     ["Secret Helm", "secret-helm"]
   ],
