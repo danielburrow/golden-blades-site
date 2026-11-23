@@ -27,7 +27,7 @@ window.HRL = {
     { rank: "Baron", name: "Jean de Espada", role: "Colonel as of Grand Gathering 810\nBaron of Orta Nova", photo: "cefbbb94fb0c4d6cd80376db153909f0", crest: "sigil" },
     { rank: "Baron", name: "Konrad", role: "Servant of Goosetavo\nBaron of Heliora", crest: "sigil" },
     { rank: "Baron", name: "Roger “Jay” McKlay", role: "Drill Master", photo: "bfea03ca076090f49f24a96df04f8f40", crest: { img: "733dbd110875caec60e292cc2a372528" } },
-    { rank: "Baroness Designate", name: "Soluna Tivali", role: "Aufbringenleutnant of the Golden Blades\nArchery Cadre, Jaeger Company\nTo be confirmed at Winter Watch 2027", photo: "6d6acaa89cc7d54ed198b8a7377a0025", crest: "sigil" },
+    { rank: "Baroness Designate", name: "Soluna Tivali", role: "Aufbringenleutnant of the Golden Blades\nArchery Cadre, Jaeger Company\nAlchemist\nTo be confirmed at Winter Watch 2027", photo: "6d6acaa89cc7d54ed198b8a7377a0025", crest: "sigil" },
     { rank: "Baroness", name: "Tess von Forst", role: "", crest: "sigil" }
   ],
   lords: [
@@ -69,7 +69,7 @@ window.HRL = {
   formerKaisers: [
     { rank: "Kaiserine", name: "Lisbeth \u201cIbb\u201d Fletcher", role: "Former Kaiserine, reigned Sept 12\u2013Nov 10, 810 AC\nContessa and Elector Count", photo: "c4cc36e6fe3cddb4868107b18f799bc5", crest: "sigil" },
     { rank: "", name: "Rothwyr", role: "Former Kaiser, reigned Nov 10\u201312, 810 AC\nKnight of Vekmarch", photo: "6a820db827051d23fce0d4246be08cb5", crest: { img: "af95529268830d237ae77960e56d310a" } },
-    { rank: "", name: "Tal", role: "Former Kaiser, reigned Nov 12\u201314, 810 AC\nOf Sleipnir\u2019s Rise", crest: null },
+    { rank: "", name: "Tal", role: "Former Kaiser, reigned Nov 12\u201314, 810 AC\nOf Sleipnir\u2019s Rise", crest: { img: "e85a175be804601b34b4c5d5eee1d285", tall: true } },
     { rank: "", name: "Coen Sunderr", role: "Former Kaiser, reigned Nov 14, 810 AC\nArcher of Militum", crest: null }
   ]
 };

@@ -3,6 +3,9 @@ window.HERALDRY = {
   "petrichor": [
     { label: "Linebreakers", web: "/members/house/heraldry/web/linebreakers.png", full: "/members/house/heraldry/full/linebreakers.png", size: "0.5 MB" }
   ],
+  "tal": [
+    { label: "Sleipnir’s Rise", web: "/members/house/heraldry/web/sleipnirs-rise.png", full: "/members/house/heraldry/full/sleipnirs-rise.png", size: "3.0 MB" }
+  ],
   "ohthere": [
     { label: "Sleipnir’s Rise", web: "/members/house/heraldry/web/sleipnirs-rise.png", full: "/members/house/heraldry/full/sleipnirs-rise.png", size: "3.0 MB" }
   ],
