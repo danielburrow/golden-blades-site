@@ -78,6 +78,12 @@
       im.alt = "Emblem of Mascirino";
       im.onerror = function () { box.style.display = "none"; };
       box.appendChild(im);
+    } else if (kind === "invictus") {
+      var iv = document.createElement("img");
+      iv.src = "/members/hrl/img/invictus.png";
+      iv.alt = "Emblem of Invictus";
+      iv.onerror = function () { box.style.display = "none"; };
+      box.appendChild(iv);
     } else if (kind === "veiled") {
       box.innerHTML = veiled();
     } else if (kind === "crown") {

@@ -11,7 +11,7 @@ window.HRL = {
     { rank: "Elector Designate", name: "Duarte Horvath D’Kraz", role: "Delegate on behalf of the House of Vekmarch", photo: "20c99fffd3b99119e771eb22ee2690fb", crest: { img: "af95529268830d237ae77960e56d310a" } },
     { rank: "Count", name: "Horst von Tanzbären", role: "Oberst of the Golden Blades", photo: "d04996db8843e560241d1854a1d63154", crest: "sigil" },
     { rank: "", name: "Leif Dagdason", role: "High Priest of the Veiled Path\nHoly Elector", photo: "a7f7e4a17cb5b8521d7b1ffe3e970d25", crest: { img: "e85a175be804601b34b4c5d5eee1d285", tall: true }, emblem: "veiled" },
-    { rank: "", name: "Petrichor", role: "High Priest of Invictus\nHoly Elector\nLinebreaker of the Golden Blades", photo: "26ae0cd201494a5e0e488132b99ae033", crest: { img: "97d64cc35045c221fc0dcdf77d2dc2b9" } },
+    { rank: "", name: "Petrichor", role: "High Priest of Invictus\nHoly Elector\nLinebreaker of the Golden Blades", photo: "26ae0cd201494a5e0e488132b99ae033", crest: { img: "97d64cc35045c221fc0dcdf77d2dc2b9" }, emblem: "invictus" },
     { rank: "Count", name: "Marklin Theobold", role: "Treasurer of the Golden Blades", photo: "5eee7c3ec6be06d61273233ece1655ad", crest: "sigil" },
     { rank: "Aljarl", name: "Ohthere", role: "House Leader of Sleipnir’s Rise", photo: "840af6af977a1b92f81c1f031b7a34c7", crest: { img: "e85a175be804601b34b4c5d5eee1d285", tall: true } },
     { rank: "Count", name: "Raiken kal Arjac", role: "Duke of Coin · Priest of Mascirino\nHauptmann: Jaeger Company", photo: "c26e9d1a81f3deb7fbe8c0baba00de43", crest: { img: "5e1bf6ad06cdc58ab958bedf57337b21" }, emblem: "mascirino" },
