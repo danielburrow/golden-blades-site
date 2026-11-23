@@ -80,6 +80,24 @@
     s3.appendChild(grid);
     body.appendChild(s3);
   }
+  var vids = (window.VIDEOS || {})[id] || [];
+  if (vids.length) {
+    var s4 = h("section", "");
+    s4.appendChild(h("h2", "", "Videos"));
+    var vg = h("div", "video-grid");
+    vids.forEach(function (v) {
+      var fig = h("figure", "video-card");
+      var vd = document.createElement("video");
+      vd.controls = true; vd.preload = "none"; vd.setAttribute("playsinline", "");
+      if (v.poster) vd.poster = v.poster;
+      var so = document.createElement("source"); so.src = v.src; so.type = "video/mp4";
+      vd.appendChild(so); fig.appendChild(vd);
+      fig.appendChild(h("figcaption", "", v.title));
+      vg.appendChild(fig);
+    });
+    s4.appendChild(vg);
+    body.appendChild(s4);
+  }
   wrap.appendChild(body);
   root.appendChild(wrap);
 })();

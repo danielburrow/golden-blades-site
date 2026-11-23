@@ -14,6 +14,7 @@
     ["House", "/members/house/", [
       ["Primer", "/members/house/primer/"],
       ["Annual Shareholders' Meeting", "/members/house/annual-meeting/"],
+      ["Golden Shades", "/members/house/golden-shades/"],
       ["Heraldry & Flags", "/members/house/heraldry/"],
       ["Hierarchy", "/members/house/hierarchy/"],
       ["Maceball", "/members/house/maceball/"]

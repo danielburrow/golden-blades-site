@@ -70,7 +70,8 @@ window.PHOTOS = {
   ],
   "dr-alexander-di-nathair": [
     "/members/person/img/doctor-2.jpg",
-    "/members/person/img/doctor-flyers.jpg"
+    "/members/person/img/doctor-flyers.jpg",
+    "/members/person/img/pikes-grand-gathering-2026.jpg"
   ],
   "eonthee": [
     "/members/person/img/group-at-reverdieball-zad-raiken-horst-eonthee-petrichor-ibb.jpg",
@@ -116,10 +117,12 @@ window.PHOTOS = {
   "greg": [
     "/members/person/img/greg.jpg",
     "/members/person/img/cynric-greg-avaline-fighting.jpg",
-    "/members/person/img/avaline-cynric-greg-fighting.jpg"
+    "/members/person/img/avaline-cynric-greg-fighting.jpg",
+    "/members/person/img/pikes-grand-gathering-2026.jpg"
   ],
   "gustav": [
-    "/members/person/img/herman-annette-gustav.jpg"
+    "/members/person/img/herman-annette-gustav.jpg",
+    "/members/person/img/pikes-grand-gathering-2026.jpg"
   ],
   "herman-van-guelders": [
     "/members/person/img/herman-camp.jpg",
@@ -156,7 +159,8 @@ window.PHOTOS = {
     "/members/person/img/group-at-reverdieball-zad-raiken-horst-eonthee-petrichor-ibb.jpg",
     "/members/person/img/ibb-annualtraining.jpg",
     "/members/person/img/petrichor-ibb.jpg",
-    "/members/person/img/ibb-fighting.jpg"
+    "/members/person/img/ibb-fighting.jpg",
+    "/members/person/img/ibb-2.jpg"
   ],
   "marklin-theobold": [
     "/members/person/img/marklin-2.jpg",
@@ -257,7 +261,8 @@ window.PHOTOS = {
     "/members/person/img/wellby-attacking-the-bushes.jpg",
     "/members/person/img/wellby-brenin-zampf.jpg",
     "/members/person/img/wellby-brenin-zampf-dalaran.jpg",
-    "/members/person/img/wellby-zampf.jpg"
+    "/members/person/img/wellby-zampf.jpg",
+    "/members/person/img/pikes-grand-gathering-2026.jpg"
   ],
   "zadkiel-zadax": [
     "/members/person/img/zad.jpg",

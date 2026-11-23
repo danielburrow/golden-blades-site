@@ -28,6 +28,7 @@ window.MEMES = {
     ["How I Win (Anton)", "how-i-win-anton"],
     ["It's True", "its-true"],
     ["Money Please", "moneyplease"],
+    ["On My Way to General Chat", "on-my-way-to-general-chat"],
     ["Pamphlet Marine", "pamphlet-marine"],
     ["Signing Contract", "signingcontract-gb-1"],
     ["Who You Gonna Call?", "whoyougonnacall-goldenblades"]
