@@ -18,7 +18,7 @@
       <p>The regiment's own chain of command. Click a person to read their story.</p>
     </div>
     <div id="gb-root"></div>
-    <p class="hrl-footer-note">The rest of the chain of command will be added here. Until then, the ranks and their duties are in the <a href="/members/house/primer/#ranks">Primer</a>. See also the <a href="/members/hrl/hierarchy/">Holy Reman League hierarchy</a>.</p>
+    <p class="hrl-footer-note">Other companies and staff positions will be added as they are confirmed. The ranks and their duties are in the <a href="/members/house/primer/#ranks">Primer</a>. See also the <a href="/members/hrl/hierarchy/">Holy Reman League hierarchy</a>.</p>
   </main>
   <footer class="site" id="site-footer"></footer>
   <script src="/js/site.js"></script>
@@ -30,9 +30,26 @@
       var horst = D.electors.filter(function (p) { return p.name.indexOf("Horst") === 0; })[0];
       var oberst = { rank: "Oberst", name: horst.name, role: "Commander of the Golden Blades", photo: horst.photo, crest: "sigil" };
       var anton = { rank: "Former Oberst", name: D.archduke.name, role: "Held the Oberst's seat until 810 AC, when he vacated it to become High Arch Chancellor of the Holy Reman League", photo: D.archduke.photo, crest: "sigil" };
+      function find(first) { return U.everyone().filter(function (p) { return p.name.indexOf(first) === 0; })[0]; }
+      function gb(first, rank, role) {
+        var p = find(first);
+        return { rank: rank, name: p.name, role: role, photo: p.photo, crest: "sigil" };
+      }
+      var GAP = function () { root.appendChild(U.h("div", "hrl-connector")); };
       root.appendChild(U.tier("Oberst", [oberst], "top"));
-      root.appendChild(U.h("div", "hrl-connector"));
+      GAP();
       root.appendChild(U.tier("Seat History", [anton], "top"));
+      GAP();
+      root.appendChild(U.tier("Hauptmanns", [
+        gb("Ulric", "Ersterhauptmann", "Infantry Company"),
+        gb("Raiken", "Zweiterhauptmann", "Jaeger Company"),
+        { rank: "Seat Vacant", name: "Kommandantin", role: "Marina Mercantile\nLast held by Abigail Winterstone, who left for Lex Talionus", vacant: true, blank: true, crest: "sigil" }
+      ], "center"));
+      GAP();
+      root.appendChild(U.tier("Regimental Staff", [
+        gb("Marklin", "Treasurer", "Regimental Staff"),
+        gb("Thaedra", "Intelligence Officer", "High Priestess of Mascirino")
+      ], "center"));
     })();
   </script>
 </body>
