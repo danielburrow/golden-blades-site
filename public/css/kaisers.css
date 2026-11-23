@@ -1,0 +1,18 @@
+.kaiser-table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.5rem; }
+.kaiser-table th, .kaiser-table td { text-align: left; padding: .55rem .7rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+.kaiser-table th { color: var(--gold-soft); }
+.record { margin: 1rem 0 0; max-width: 480px; }
+.record img { width: 100%; border: 4px double var(--gold); border-radius: 4px; display: block; }
+.record figcaption { color: var(--muted); font-size: .9rem; margin-top: .4rem; }
+.reign-controls { margin: 0 0 1rem; }
+details.reign { background: #efe3c4; color: #2b2013; border: 4px double #8a6a22; border-radius: 4px; margin-bottom: 1rem; }
+details.reign summary { cursor: pointer; list-style: none; padding: 1rem 1.2rem; display: grid; gap: .2rem; position: relative; padding-right: 3rem; }
+details.reign summary::-webkit-details-marker { display: none; }
+details.reign summary::after { content: "+"; position: absolute; right: 1.1rem; top: .8rem; font-size: 1.6rem; color: #6e4f12; font-weight: bold; }
+details.reign[open] summary::after { content: "\2212"; }
+details.reign summary:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.reign-name { font-family: "UnifrakturCook", Georgia, serif; font-size: 1.6rem; line-height: 1.1; }
+.reign-dates { font-size: .78rem; letter-spacing: .15em; text-transform: uppercase; color: #6e4f12; font-weight: bold; }
+.reign-short { font-style: italic; color: #4a3a22; }
+.reign-body { padding: 0 1.2rem 1.1rem; border-top: 1px solid #8a6a22; }
+.reign-body p { margin: .8rem 0 0; }
