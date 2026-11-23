@@ -19,3 +19,7 @@ details.reign summary:focus-visible { outline: 2px solid var(--gold); outline-of
 .reign-short { font-style: italic; color: #4a3a22; }
 .reign-body { padding: 0 1.2rem 1.1rem; border-top: 1px solid #8a6a22; }
 .reign-body p { margin: .8rem 0 0; }
+.reign-figure { float: right; margin: .9rem 0 .5rem 1.2rem; width: min(220px, 45%); }
+.reign-figure img { width: 100%; display: block; border: 4px double #8a6a22; border-radius: 4px; }
+.reign-figure figcaption { font-size: .85rem; font-style: italic; color: #4a3a22; margin-top: .3rem; text-align: center; }
+.reign-body::after { content: ""; display: block; clear: both; }
