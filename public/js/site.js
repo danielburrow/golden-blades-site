@@ -12,19 +12,13 @@
   ];
   var membersNav = [
     ["House", "/members/house/", [
-      ["Contracts", "/members/house/contracts/"],
       ["Hierarchy", "/members/house/hierarchy/"],
-      ["House Guide", "/members/house/house-guide/"],
-      ["Primer", "/members/house/primer/"],
-      ["Regimental Roles", "/members/house/roles/"],
-      ["Style Guide", "/members/house/style-guide/"]
+      ["Primer", "/members/house/primer/"]
     ]],
     ["Carta Arcanum", "/members/carta-arcanum/", [
       ["Briefadel and Ownership", "/members/carta-arcanum/briefadel/"],
-      ["Demesne of the Blades", "/members/carta-arcanum/demesne/"],
       ["Land and Holdings", "/members/carta-arcanum/holdings/"],
-      ["Palazzo Program", "/members/carta-arcanum/palazzi/"],
-      ["Shorthand", "/members/carta-arcanum/shorthand/"]
+      ["Palazzo Program", "/members/carta-arcanum/palazzi/"]
     ]],
     ["Guides", "/members/guides/", [
       ["Combat", "/members/guides/combat/"],

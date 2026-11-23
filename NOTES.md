@@ -26,15 +26,15 @@ Public (no sign-in): Home `/`, About `/about/`, Join `/join/`, Videos `/videos/`
 Members (gated), nav is dropdowns, alphabetical:
 | Menu | Pages |
 |---|---|
-| Guides `/members/guides/` | Combat (Manual of Arms, On Hynawar), Crafting (placeholder), Shopping (placeholder),  |
-| House `/members/house/` | Contracts, Hierarchy (placeholder, Golden Blades only, never mixed with HRL), House Guide, Regimental Roles, Style Guide |
+| Guides `/members/guides/` | Combat (On Hynawar, linked to Google Drive), Crafting (placeholder), Shopping (placeholder),  |
+| House `/members/house/` | Hierarchy (placeholder, Golden Blades only, never mixed with HRL), Primer |
 | HRL `/members/hrl/` | Constitution, Heraldry & Flags, Hierarchy (rendered from `people.js` by `hrl.js`) |
-| Carta Arcanum `/members/carta-arcanum/` (formerly Lore) | Briefadel and Ownership, Demesne of the Blades, Land and Holdings, Palazzo Program, Shorthand. The hub page explains the Carta Arcanum and the Hex Ledger (hex-ledger.com) and Holdings Ledger (holdings-ledger.com), both House-sensitive tools by Brenin Halvard. Home for everything about the known world of Hynafol and the Carta game. Anything that is not Carta-related belongs under House |
+| Carta Arcanum `/members/carta-arcanum/` (formerly Lore) | Briefadel and Ownership (links to a Google Doc), Land and Holdings, Palazzo Program. The hub page explains the Carta Arcanum and the Hex Ledger (hex-ledger.com) and Holdings Ledger (holdings-ledger.com), both House-sensitive tools by Brenin Halvard. Home for everything about the known world of Hynafol and the Carta game. Anything that is not Carta-related belongs under House |
 | House `/members/house/` (first in nav) also holds the Primer `/members/house/primer/` | Primer = the old Starter Guide (single page, 10+ anchored sections) |
 | Meme Repository `/members/memes/` | Gallery: 12 flyers, 15 GIFs (as mp4). Name is temporary |
 | Videos | Links to the public `/videos/` |
 
-- Curated downloads live in `public/members/documents/` (one shared folder). House and Lore pages are thin download pages; send text and they can be turned into full pages.
+- No files or downloads are hosted on the site: documents are linked from Google Drive (Briefadel, On Hynawar). Daniel removed Carta Arcanum Shorthand, Contract of Service, Demesne, House Guide, Manual of Arms, New Blade Quick Primer, Regimental Roles and Style Guide from the site; copies and old pages are in the gitignored `incoming-documents/_removed-from-site/`.
 - Nav is built by `public/js/site.js` (public nav on public pages, members nav under `/members/`). Dropdown CSS is at the end of `style.css`.
 - Old URLs (`/members/lore/*`, `/members/guides/starter-guide/`, `/members/crafting|shopping|starter-guide|videos|guild/`) are redirected via `public/_redirects`; `public/members/videos/index.html` is a meta-refresh stub because deleting files is blocked.
 - Foam Pavise Shield guide was dropped by Daniel (kept only in `incoming-documents/`).
