@@ -75,7 +75,7 @@ window.BIOS = {
     "about": "Leif Dagdason is the High Priest of the Veiled Path and a Holy Elector of the Holy Reman League."
   },
   "petrichor": {
-    "about": "Petrichor is the High Priest of Invictus and a Holy Elector of the Holy Reman League. In the Golden Blades he is the Linebreaker.",
+    "about": "Petrichor is the High Priest of Invictus and a Holy Elector of the Holy Reman League. In the Golden Blades he is the Linebreaker Sergeant and Master-at-Arms. He is also the Manestus of Invictus.",
     "exploits": [
       {
         "title": "Holds the Bridge",
@@ -100,6 +100,22 @@ window.BIOS = {
       {
         "title": "Doppelsöldner Merit",
         "text": "Awarded the Doppelsöldner Merit for marching into every battle in full armor."
+      },
+      {
+        "title": "Defender of the Realm",
+        "text": "Titled Defender of the Realm by King Arthur himself."
+      },
+      {
+        "title": "Guardian Shield of Sir Ector",
+        "text": "Bearer of the Guardian Shield of Sir Ector."
+      },
+      {
+        "title": "Pegasus of Pageantry Medal",
+        "text": "Awarded the Golden Blades Pegasus of Pageantry Medal for “Best Couples Finery”, with Ibb, at the Reverdie Ball in 2025."
+      },
+      {
+        "title": "Battlefield Accolade Medal",
+        "text": "Awarded a Golden Blades Battlefield Accolade Medal for taking and securing critical battlefield areas at Grand Gathering 810 AC."
       }
     ]
   },
@@ -110,11 +126,31 @@ window.BIOS = {
     "about": "Ohthere is an Aljarl of the Holy Reman League and House Leader of Sleipnir’s Rise."
   },
   "thaedra-zena-chamerion": {
-    "about": "Thaedra Zena Chamerion is the High Priestess of Mascirino and a Holy Elector of the Holy Reman League, styled Lady. In the Golden Blades she serves on the regimental staff as Intelligence Officer.\n\nThaedra holds quarries and a shrine in the lands of the Blades.",
+    "about": "Thaedra Zena Chamerion is the High Priestess of Mascirino and a Holy Elector of the Holy Reman League, styled Lady. Her full style is Thaedra Zena Chamerion, the Gilded Flame, Lizard Queen and Voice of the Gods. She is the Senior High Priestess of Mascirino, a religion of more than fifty followers, and rich beyond means. In the Golden Blades she serves on the regimental staff as Intelligence Officer.\n\nThaedra holds quarries and a shrine in the lands of the Blades.",
     "exploits": [
       {
         "title": "Joined the Golden Blades",
         "text": "Took the blue and gold on March 10, 2025, and was welcomed with rat bread and award-winning hardtack."
+      },
+      {
+        "title": "Battle Healing Medals",
+        "text": "Awarded two medals by the Oberst for amazing battle healing, at Grand Gathering 2026 and Grand Gathering 2025."
+      },
+      {
+        "title": "Second Place in Liar’s Dice",
+        "text": "Placed second in Liar’s Dice at the Festival of Champions 2025."
+      },
+      {
+        "title": "Second Place at the Night of Fortune",
+        "text": "Placed second at the Night of Fortune 2024."
+      },
+      {
+        "title": "Night of Fortune Manager",
+        "text": "Managed the Night of Fortune for two years, a popular and exclusive event."
+      },
+      {
+        "title": "Auction House for Saint Bones",
+        "text": "Founded the original auction house for Saint bones and body parts."
       }
     ]
   },
@@ -139,6 +175,10 @@ window.BIOS = {
       {
         "title": "Fell in the Grand Battle",
         "text": "Fell in the first Grand Battle on Nov 10, 810 AC, crushed in the pike block between her own armored guards. The crown was recovered."
+      },
+      {
+        "title": "Pegasus of Pageantry Medal",
+        "text": "Awarded the Golden Blades Pegasus of Pageantry Medal for “Best Couples Finery”, with Petrichor, at the Reverdie Ball in 2025."
       }
     ]
   },
@@ -182,7 +222,27 @@ window.BIOS = {
       },
       {
         "title": "Mother Henning the Golden Shades",
-        "text": "Mother-henned the Golden Shades at Guy’s Guys, Grand Gathering 810 AC."
+        "text": "Mother-henned the Golden Shades at Guy’s Guys, Grand Gathering 810 AC. Called the Guy’s Guys Pageant Mom, and the best dance mom."
+      },
+      {
+        "title": "Medal for Battle Leadership",
+        "text": "Awarded a medal for battle leadership."
+      },
+      {
+        "title": "Medal for Camp Mommy",
+        "text": "Awarded a medal for being the camp mommy."
+      },
+      {
+        "title": "Leader of Banti’s Blunders",
+        "text": "Led Banti’s Blunders, alongside Zampf."
+      },
+      {
+        "title": "Operation Banti’s Reverse Blunder Sick Ollie 360 No Scope",
+        "text": "Took part in the operation of that name."
+      },
+      {
+        "title": "Ran the Jaegers",
+        "text": "Ran the Jaegers for all of Grand Gathering, though not in charge of them in any official capacity."
       }
     ]
   },
@@ -282,6 +342,10 @@ window.BIOS = {
       {
         "title": "A Guardian Martyr",
         "text": "Died outside the Lodge to the Kingdom of Tides, killed in the dark by a dozen blades, and was handed back his beer. He says it saved many other Guardians."
+      },
+      {
+        "title": "Leader of Banti’s Blunders",
+        "text": "Led Banti’s Blunders."
       }
     ]
   },
