@@ -206,6 +206,7 @@ window.PHOTOS = {
     "/members/person/img/talfa-walkingthroughcourtofpikes.jpg"
   ],
   "thaedra-zena-chamerion": [
+    "/members/person/img/thaedra-veil.jpg",
     "/members/person/img/thaedra-2.jpg",
     "/members/person/img/thaedra-3.jpg",
     "/members/person/img/thaedra-hair.jpg",
