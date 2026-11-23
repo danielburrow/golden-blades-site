@@ -26,16 +26,17 @@ Public (no sign-in): Home `/`, About `/about/`, Join `/join/`, Videos `/videos/`
 Members (gated), nav is dropdowns, alphabetical:
 | Menu | Pages |
 |---|---|
-| Guides `/members/guides/` | Combat (Manual of Arms, On Hynawar), Crafting (placeholder), Shopping (placeholder), Starter Guide (single page, 10+ anchored sections) |
+| Guides `/members/guides/` | Combat (Manual of Arms, On Hynawar), Crafting (placeholder), Shopping (placeholder),  |
 | House `/members/house/` | Contracts, Hierarchy (placeholder, Golden Blades only, never mixed with HRL), House Guide, Regimental Roles, Style Guide |
 | HRL `/members/hrl/` | Constitution, Heraldry & Flags, Hierarchy (rendered from `people.js` by `hrl.js`) |
-| Lore `/members/lore/` | Briefadel and Ownership, Carta Arcanum, Demesne of the Blades |
+| Carta Arcanum `/members/carta-arcanum/` (formerly Lore) | Briefadel and Ownership, Demesne of the Blades, Land and Holdings, Palazzo Program, Shorthand. The hub page explains the Carta Arcanum and the Hex Ledger (hex-ledger.com) and Holdings Ledger (holdings-ledger.com), both House-sensitive tools by Brenin Halvard. Home for everything about the known world of Hynafol and the Carta game. Anything that is not Carta-related belongs under House |
+| House `/members/house/` (first in nav) also holds the Primer `/members/house/primer/` | Primer = the old Starter Guide (single page, 10+ anchored sections) |
 | Meme Repository `/members/memes/` | Gallery: 12 flyers, 15 GIFs (as mp4). Name is temporary |
 | Videos | Links to the public `/videos/` |
 
 - Curated downloads live in `public/members/documents/` (one shared folder). House and Lore pages are thin download pages; send text and they can be turned into full pages.
 - Nav is built by `public/js/site.js` (public nav on public pages, members nav under `/members/`). Dropdown CSS is at the end of `style.css`.
-- Old URLs (`/members/crafting|shopping|starter-guide|videos|guild/`) are redirected via `public/_redirects`; `public/members/videos/index.html` is a meta-refresh stub because deleting files is blocked.
+- Old URLs (`/members/lore/*`, `/members/guides/starter-guide/`, `/members/crafting|shopping|starter-guide|videos|guild/`) are redirected via `public/_redirects`; `public/members/videos/index.html` is a meta-refresh stub because deleting files is blocked.
 - Foam Pavise Shield guide was dropped by Daniel (kept only in `incoming-documents/`).
 - Terminology: the Golden Blades are a **House** (formerly "Guild"). Never call the Blades a guild; "guilds" now means vocations (Thieves, Assassins, Guardians, Alchemists, etc.). Discord's own "guild" API terms in code are unrelated and stay.
 - Not yet done: Discord invite link on the Join page.
@@ -58,7 +59,7 @@ Members (gated), nav is dropdowns, alphabetical:
 ## Conventions and preferences
 - Alphabetize lists by default (nav, galleries, groupings) unless there is a deliberate order.
 - `incoming-portraits/` is a gitignored drop folder for images Daniel sends.
-- `incoming-documents/` is a gitignored drop folder for raw Golden Blades documents. Only curated copies go in `public/members/starter-guide/documents/` (clean file names, linked from the Starter Guide). Never publish pay slips, survey results, or meeting minutes.
+- `incoming-documents/` is a gitignored drop folder for raw Golden Blades documents. Only curated copies go in `public/members/documents/` (clean file names, linked from the Primer). Never publish pay slips, survey results, or meeting minutes.
 - GIFs are converted to mp4 (ffmpeg, even dimensions via `scale=trunc(iw/2)*2:trunc(ih/2)*2`) with a jpg poster.
 
 ## Working with git from Claude's device shell

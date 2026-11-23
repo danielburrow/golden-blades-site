@@ -1,5 +1,5 @@
 // Shared header/footer. Public pages get the public nav; /members/ pages get the
-// members nav with dropdowns. Menus and items are alphabetical.
+// members nav with dropdowns. House comes first; everything else is alphabetical.
 (function () {
   var path = location.pathname;
   var members = path.indexOf("/members/") === 0;
@@ -11,28 +11,30 @@
     ["Videos", "/videos/"]
   ];
   var membersNav = [
-    ["Guides", "/members/guides/", [
-      ["Combat", "/members/guides/combat/"],
-      ["Crafting", "/members/guides/crafting/"],
-      ["Shopping", "/members/guides/shopping/"],
-      ["Starter Guide", "/members/guides/starter-guide/"]
-    ]],
     ["House", "/members/house/", [
       ["Contracts", "/members/house/contracts/"],
       ["Hierarchy", "/members/house/hierarchy/"],
       ["House Guide", "/members/house/house-guide/"],
+      ["Primer", "/members/house/primer/"],
       ["Regimental Roles", "/members/house/roles/"],
       ["Style Guide", "/members/house/style-guide/"]
+    ]],
+    ["Carta Arcanum", "/members/carta-arcanum/", [
+      ["Briefadel and Ownership", "/members/carta-arcanum/briefadel/"],
+      ["Demesne of the Blades", "/members/carta-arcanum/demesne/"],
+      ["Land and Holdings", "/members/carta-arcanum/holdings/"],
+      ["Palazzo Program", "/members/carta-arcanum/palazzi/"],
+      ["Shorthand", "/members/carta-arcanum/shorthand/"]
+    ]],
+    ["Guides", "/members/guides/", [
+      ["Combat", "/members/guides/combat/"],
+      ["Crafting", "/members/guides/crafting/"],
+      ["Shopping", "/members/guides/shopping/"]
     ]],
     ["HRL", "/members/hrl/", [
       ["Constitution", "/members/hrl/constitution/"],
       ["Heraldry & Flags", "/members/hrl/heraldry/"],
       ["Hierarchy", "/members/hrl/hierarchy/"]
-    ]],
-    ["Lore", "/members/lore/", [
-      ["Briefadel and Ownership", "/members/lore/briefadel/"],
-      ["Carta Arcanum", "/members/lore/carta-arcanum/"],
-      ["Demesne of the Blades", "/members/lore/demesne/"]
     ]],
     ["Meme Repository", "/members/memes/"],
     ["Videos", "/videos/"]
