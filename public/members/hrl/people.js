@@ -21,11 +21,11 @@ window.HRL = {
     { rank: "Seat Vacant", name: "Elector Designate", role: "Delegate on behalf of the House of Sleipnir’s Rise", vacant: true, blank: true, crest: { img: "e85a175be804601b34b4c5d5eee1d285", tall: true } }
   ],
   barons: [
-    { rank: "Baron", name: "Sir Brenin Halvard", slug: "Brenin Halvard", role: "Priest of Invictus", photo: "df210a8280e36be5368ab72c76104e5a", crest: "sigil", emblem: "invictus" },
-    { rank: "Baron", name: "Fritz Haber", role: "", photo: "66f37b91441fbc6f888504e08e07560d", crest: "sigil" },
-    { rank: "Baron", name: "Herman van Guelders", role: "", photo: "812facdea4e56432319f63c313c6e8ac", crest: "sigil" },
-    { rank: "Baron", name: "Jean de Espada", role: "Colonel as of Grand Gathering 810", photo: "cefbbb94fb0c4d6cd80376db153909f0", crest: "sigil" },
-    { rank: "Baron", name: "Konrad", role: "Servant of Goosetavo", crest: "sigil" },
+    { rank: "Baron", name: "Sir Brenin Halvard", slug: "Brenin Halvard", role: "Baron of Stillwasser\nPriest of Invictus", photo: "df210a8280e36be5368ab72c76104e5a", crest: "sigil", emblem: "invictus" },
+    { rank: "Baron", name: "Fritz Haber", role: "Baron of San Tyonis", photo: "66f37b91441fbc6f888504e08e07560d", crest: "sigil" },
+    { rank: "Baron", name: "Herman van Guelders", role: "Baron of Schoenhof", photo: "812facdea4e56432319f63c313c6e8ac", crest: "sigil" },
+    { rank: "Baron", name: "Jean de Espada", role: "Colonel as of Grand Gathering 810\nBaron of Orta Nova", photo: "cefbbb94fb0c4d6cd80376db153909f0", crest: "sigil" },
+    { rank: "Baron", name: "Konrad", role: "Servant of Goosetavo\nBaron of Heliora", crest: "sigil" },
     { rank: "Baron", name: "Roger “Jay” McKlay", role: "Drill Master", photo: "bfea03ca076090f49f24a96df04f8f40", crest: { img: "733dbd110875caec60e292cc2a372528" } },
     { rank: "Baroness", name: "Soluna Tivali", role: "Aufbringenleutnant of the Golden Blades", crest: "sigil" },
     { rank: "Baroness", name: "Tess von Forst", role: "", crest: "sigil" }
