@@ -134,7 +134,12 @@
 
   function everyone() {
     var out = [D.archduke].concat(D.electors, D.barons, D.lords, D.citizens, D.formerKaisers || [], D.contractors || []);
-    return out.filter(function (p) { return !p.vacant && p.name; });
+    var seen = {};
+    return out.filter(function (p) {
+      if (p.vacant || !p.name || seen[p.name]) return false;
+      seen[p.name] = true;
+      return true;
+    });
   }
   window.HRL_UI = { card: card, slug: slug, everyone: everyone, tier: tier, h: h };
 
