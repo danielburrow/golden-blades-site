@@ -217,7 +217,8 @@ window.PHOTOS = {
     "/members/person/img/roger-8.jpg"
   ],
   "soluna-tivali": [
-    "/members/person/img/soluna-3.jpg",
+    "/members/person/img/soluna-1.jpg",
+    "/members/person/img/soluna-2.jpg",
     "/members/person/img/soluna-4.jpg",
     "/members/person/img/soluna-5.jpg"
   ],

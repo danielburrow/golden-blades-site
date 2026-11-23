@@ -67,7 +67,7 @@ window.BIOS = {
     "about": "Roger “Jay” McKlay is a Baron of the Holy Reman League and a Drill Master.\n\nHe holds Braunfels, and keeps a market and port at Palazzo Nathair and farms at Neugarten."
   },
   "soluna-tivali": {
-    "about": "Soluna Tivali is the Aufbringenleutnant of the Golden Blades and a Baroness Designate of the Holy Reman League, to be confirmed at Winter Watch 2027."
+    "about": "Soluna Tivali is the Aufbringenleutnant of the Golden Blades and a Baroness Designate of the Holy Reman League, to be confirmed at Winter Watch 2027. She is a member of the Golden Blades Archery Cadre and serves with the Jaeger Company."
   },
   "dr-alexander-di-nathair": {
     "about": "“Dr” Alexander Di Nathair is a Lord of the Holy Reman League. In the Golden Blades he is a Condottiere and the company physician.\n\nHe holds Torre Magno in the Tir of Exyle, the university at Altgard, and interests at Ebenhof and Geldville."
@@ -139,9 +139,12 @@ window.BIOS = {
     "about": "Asriel Inkburn is a Lord of the Holy Reman League.\n\nAsriel holds the markets and orchards of Grunfeld."
   },
   "ghoti-garyson": {
-    "about": "Ghoti Garyson is a Lord of the Holy Reman League.\n\nGhoti holds camps and a shrine at Ebenhof."
+    "about": "Ghoti Garyson is a Lord of the Holy Reman League.\n\nGhoti holds camps and a shrine at Ebenhof.\n\nGhoti founded the Golden Blades Archery Cadre and serves with the Jaeger Company."
   },
   "dalaran-artellus": {
     "about": "Dalaran Artellus is a Lord of the Holy Reman League.\n\nDalaran holds markets at Palazzo Nathair and holdings at Palazzo Caldo Elfo."
+  },
+  "boots": {
+    "about": "Boots is a member of the Golden Blades.\n\nBoots is a member of the Golden Blades Archery Cadre and serves with the Jaeger Company."
   }
 };

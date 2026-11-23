@@ -30,9 +30,10 @@
       var oberst = { rank: "Oberst", name: horst.name, role: "Commander of the Golden Blades", photo: horst.photo, crest: "sigil" };
       var anton = { rank: "Former Oberst", name: D.archduke.name, role: "Held the Oberst's seat until 810 AC, when he vacated it to become High Arch Chancellor of the Holy Reman League", photo: D.archduke.photo, crest: "sigil" };
       function find(first) { return U.everyone().filter(function (p) { return p.name.indexOf(first) !== -1; })[0]; }
-      function gb(first, rank, role) {
+      var SHIELD = { jaeger: { img: "5e1bf6ad06cdc58ab958bedf57337b21" }, condottiere: { img: "51cd64b9fcae9beffd0ad1edfa793e5c" }, sapper: { img: "81c1a4c0e51b697a86217c217ce77781" }, infantry: { img: "733dbd110875caec60e292cc2a372528" }, marina: { img: "33784bbf3e19d3f600bb3f6e861319ca" } };
+      function gb(first, rank, role, crest) {
         var p = find(first);
-        return { rank: rank, name: p.name, slug: p.slug, role: role, photo: p.photo, crest: "sigil" };
+        return { rank: rank, name: p.name, slug: p.slug, role: role, photo: p.photo, crest: crest || "sigil" };
       }
       var GAP = function () { root.appendChild(U.h("div", "hrl-connector")); };
       root.appendChild(U.tier("Oberst", [oberst], "top"));
@@ -40,15 +41,15 @@
       root.appendChild(U.tier("Seat History", [anton], "top"));
       GAP();
       root.appendChild(U.tier("Hauptmanns", [
-        gb("Ulric", "Ersterhauptmann", "Infantry Company"),
-        gb("Raiken", "Zweiterhauptmann", "Jaeger Company"),
-        gb("Goosetavo", "Vierterhauptmann", "Sapper Corps"),
-        { rank: "Seat Vacant", name: "Kommandantin", role: "Marina Mercantile\nLast held by Abigail Winterstone, who left for Lex Talionus", vacant: true, blank: true, crest: "sigil" }
+        gb("Ulric", "Ersterhauptmann", "Infantry Company", SHIELD.infantry),
+        gb("Raiken", "Zweiterhauptmann", "Jaeger Company", SHIELD.jaeger),
+        gb("Goosetavo", "Vierterhauptmann", "Sapper Corps", SHIELD.sapper),
+        { rank: "Seat Vacant", name: "Kommandantin", role: "Marina Mercantile\nLast held by Abigail Winterstone, who left for Lex Talionus", vacant: true, blank: true, crest: SHIELD.marina }
       ], "center"));
       GAP();
       root.appendChild(U.tier("Condottiere Company", [
-        gb("“Dr” Alexander", "Condottiere", "Company physician"),
-        gb("Maximo", "Condottiere", "Spell Master General")
+        gb("“Dr” Alexander", "Condottiere", "Company physician", SHIELD.condottiere),
+        gb("Maximo", "Condottiere", "Spell Master General", SHIELD.condottiere)
       ], "center"));
       GAP();
       root.appendChild(U.tier("Regimental Staff", [
@@ -59,11 +60,16 @@
       var shown = ["Horst", "Anton", "Ulric", "Raiken", "Goosetavo", "Alexander", "Maximo", "Marklin", "Thaedra"];
       var notBlades = ["Avaline", "Duarte", "Leif", "Ohthere", "Abigail"];
       function has(list, name) { return list.some(function (x) { return name.indexOf(x) !== -1; }); }
+      var JAEGERS = ["Boots", "Soluna", "Ghoti"];
+      function companyShield(p) {
+        if (has(JAEGERS, p.name)) return SHIELD.jaeger;
+        return p.crest && p.crest.img ? p.crest : "sigil";
+      }
       function sortKey(n) { return n.replace(/^(Sir |\u201cDr\u201d )/, "").toLowerCase(); }
       var blades = U.everyone().filter(function (p) {
         return !has(shown, p.name) && !has(notBlades, p.name);
       }).sort(function (a, b) { return sortKey(a.name) < sortKey(b.name) ? -1 : 1; })
-        .map(function (p) { return { rank: p.rank, name: p.name, slug: p.slug, role: p.role, photo: p.photo, crest: "sigil", emblem: p.emblem }; });
+        .map(function (p) { return { rank: p.rank, name: p.name, slug: p.slug, role: p.role, photo: p.photo, crest: companyShield(p), emblem: p.emblem }; });
       root.appendChild(U.tier("Blades", blades, "center"));
     })();
   </script>

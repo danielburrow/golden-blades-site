@@ -27,7 +27,7 @@ window.HRL = {
     { rank: "Baron", name: "Jean de Espada", role: "Colonel as of Grand Gathering 810\nBaron of Orta Nova", photo: "cefbbb94fb0c4d6cd80376db153909f0", crest: "sigil" },
     { rank: "Baron", name: "Konrad", role: "Servant of Goosetavo\nBaron of Heliora", crest: "sigil" },
     { rank: "Baron", name: "Roger “Jay” McKlay", role: "Drill Master", photo: "bfea03ca076090f49f24a96df04f8f40", crest: { img: "733dbd110875caec60e292cc2a372528" } },
-    { rank: "Baroness Designate", name: "Soluna Tivali", role: "Aufbringenleutnant of the Golden Blades\nTo be confirmed at Winter Watch 2027", crest: "sigil" },
+    { rank: "Baroness Designate", name: "Soluna Tivali", role: "Aufbringenleutnant of the Golden Blades\nArchery Cadre, Jaeger Company\nTo be confirmed at Winter Watch 2027", photo: "6d6acaa89cc7d54ed198b8a7377a0025", crest: "sigil" },
     { rank: "Baroness", name: "Tess von Forst", role: "", crest: "sigil" }
   ],
   lords: [
@@ -36,7 +36,7 @@ window.HRL = {
     { rank: "Lord", name: "Dalaran Artellus", role: "", photo: "0047047b5209c8eb3984f349666167be", crest: "sigil" },
     { rank: "Lord", name: "Sir Danen Zampfer", slug: "Danen Zampfer", role: "", photo: "c7f05a5c155ea15f1f5bb9f24baba023", crest: "sigil" },
     { rank: "Lord", name: "Eonthee", role: "Priest of Mascirino\nNaughty Boy", photo: "e94ee30e6d1aa08a09bda37d2c6bec35", crest: "sigil", emblem: "mascirino" },
-    { rank: "Lord", name: "Ghoti Garyson", role: "", photo: "00e75018486533db1e4bf51105b481c9", crest: { img: "5e1bf6ad06cdc58ab958bedf57337b21" } },
+    { rank: "Lord", name: "Ghoti Garyson", role: "Founder of the Archery Cadre\nJaeger Company", photo: "00e75018486533db1e4bf51105b481c9", crest: { img: "5e1bf6ad06cdc58ab958bedf57337b21" } },
     { rank: "Lord", name: "Gothuli Banti", role: "of Banti’s Leatherworks", photo: "3e33b84f339d8c97cf0c392f36698240", crest: { img: "33784bbf3e19d3f600bb3f6e861319ca" } },
     { rank: "Lord", name: "Saucisse", role: "Minister of Gambling", crest: "sigil" },
     { rank: "Landlord", name: "Ulric von Kriegholm", role: "First Kaiser, before his assassination\nErsterhauptmann", crest: "sigil" },
@@ -49,7 +49,7 @@ window.HRL = {
     { rank: "", name: "Angus Bronson", role: "Joined at Grand Gathering 810", crest: "sigil" },
     { rank: "", name: "Annette", role: "Member of the Convocation of the Void", crest: "sigil" },
     { rank: "", name: "Bo Lionheart", role: "Follower of Invictus", crest: "sigil", emblem: "invictus" },
-    { rank: "", name: "Boots", role: "", photo: "boots-portrait", crest: "sigil" },
+    { rank: "", name: "Boots", role: "Archery Cadre\nJaeger Company", photo: "boots-portrait", crest: "sigil" },
     { rank: "", name: "Cynric", role: "", photo: "399e9c29e1d2387821a8fe9a4424587c", crest: "sigil" },
     { rank: "", name: "Freidrich", role: "Joined at Grand Gathering 810", crest: "sigil" },
     { rank: "", name: "Golden Blade #53", role: "Love\u2019s Plumages", photo: "golden-blade-53-portrait", crest: "sigil" },
