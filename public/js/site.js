@@ -5,7 +5,8 @@
     ["HRL", "/members/hrl/"],
     ["Meme Repository", "/members/memes/"],
     ["Shopping", "/members/shopping/"],
-    ["Starter Guide", "/members/starter-guide/"]
+    ["Starter Guide", "/members/starter-guide/"],
+    ["Videos", "/members/videos/"]
   ];
   var path = location.pathname;
   var links = sections.map(function (s) {
