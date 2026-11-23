@@ -54,6 +54,7 @@ Nav is injected by `public/js/site.js` (alphabetical: Crafting Guide, HRL, Meme 
 ## Conventions and preferences
 - Alphabetize lists by default (nav, galleries, groupings) unless there is a deliberate order.
 - `incoming-portraits/` is a gitignored drop folder for images Daniel sends.
+- `incoming-documents/` is a gitignored drop folder for raw Golden Blades documents. Only curated copies go in `public/members/starter-guide/documents/` (clean file names, linked from the Starter Guide). Never publish pay slips, survey results, or meeting minutes.
 - GIFs are converted to mp4 (ffmpeg, even dimensions via `scale=trunc(iw/2)*2:trunc(ih/2)*2`) with a jpg poster.
 
 ## Working with git from Claude's device shell
@@ -66,3 +67,6 @@ Nav is injected by `public/js/site.js` (alphabetical: Crafting Guide, HRL, Meme 
 - Operating fee figures are from the Feb 2026 announcement.
 - Kit section is light: no required kit list exists in the chat. Awards are still being formalized.
 - Company leaders are intentionally not named (they change). Add if wanted.
+- Regola: chat has the six-rule version, Ulric's guide v3 has seven (adds Fedelta). Confirm which is current.
+- Oberst: the style guide names Anton von Forst, the post-GG 2026 roles document lists a different House Leader. The page names no one.
+- Songbook (guild songs) is in incoming-documents/, not published. Pike class quiz has answers marked; not published.

@@ -3,3 +3,6 @@
 node_modules/
 incoming-portraits/
 incoming-videos/
+
+# Raw document dumps (not published)
+incoming-documents/
