@@ -50,6 +50,7 @@ window.HRL = {
     { rank: "", name: "Bo Lionheart", role: "Follower of Invictus", crest: "sigil", emblem: "invictus" },
     { rank: "", name: "Boots", role: "", photo: "boots-portrait", crest: "sigil" },
     { rank: "", name: "Freidrich", role: "Joined at Grand Gathering 810", crest: "sigil" },
+    { rank: "", name: "Golden Blade #53", role: "Love\u2019s Plumages", photo: "golden-blade-53-portrait", crest: "sigil" },
     { rank: "", name: "Golden Brown", role: "Enlisted at Grand Gathering 810", crest: "sigil" },
     { rank: "", name: "Goosetavo", role: "Hauptmann: Sapper Corps", photo: "a556bb8e45679251afb44976d08ce610", crest: { img: "81c1a4c0e51b697a86217c217ce77781" } },
     { rank: "", name: "Gustav", role: "", crest: "sigil" },

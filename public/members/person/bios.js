@@ -3,6 +3,7 @@
 //   about:    who they are (plain text; blank lines start a new paragraph)
 //   exploits: list of short entries, each { title: "...", text: "..." }
 window.BIOS = {
+  "golden-blade-53": { about: "Golden Blade #53 of Love\u2019s Plumages, known for an enormous plumed hat in Golden Blades blue and gold. Brenin made a video of her." },
   "greg": { about: "Greg is a Contractor with the Golden Blades. He joined at The Hunt, in October 810." },
   "bo-lionheart": { about: "Bo Lionheart is a follower of Invictus." },
   "annette": { about: "Annette is a member of the Convocation of the Void." },
