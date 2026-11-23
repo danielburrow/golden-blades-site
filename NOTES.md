@@ -26,7 +26,7 @@ Public (no sign-in): Home `/`, About `/about/`, Join `/join/`, Videos `/videos/`
 Members (gated), nav is dropdowns, alphabetical:
 | Menu | Pages |
 |---|---|
-| Guides `/members/guides/` | Combat (On Hynawar, linked to Google Drive), Crafting (placeholder), Shopping (placeholder),  |
+| Guides `/members/guides/` | Combat (On Hynawar, linked to Google Drive), Crafting (built Nov 2026 from the #crafting export: quick answers, dyes, armor paint, shields, fabric, hats, heraldry, leather, mail, patterns, props, A to Z directory), Shopping |
 | House `/members/house/` | Hierarchy (placeholder, Golden Blades only, never mixed with HRL), Primer |
 | HRL `/members/hrl/` | Constitution, Heraldry & Flags, Hierarchy (rendered from `people.js` by `hrl.js`) |
 | Carta Arcanum `/members/carta-arcanum/` (formerly Lore) | Briefadel and Ownership (links to a Google Doc), Hex Ledger (own page: Hex Ledger and Holdings Ledger, both by Brenin Halvard), Land and Holdings, Palazzo Program. The hub page explains the Carta Arcanum and teases the Hex Ledger page (hex-ledger.com and holdings-ledger.com are House-sensitive tools by Brenin Halvard). Home for everything about the known world of Hynafol and the Carta game. Anything that is not Carta-related belongs under House |
@@ -51,7 +51,7 @@ Members (gated), nav is dropdowns, alphabetical:
 - Linebreakers shield (Petrichor's crest): needs `img/97d64cc35045c221fc0dcdf77d2dc2b9.png`.
 - Second Ulric picture for Ulric von Kriegholm: save as `img/40d614ab6c0f96b8894541149cb79073.jpg` and restore his `photo` in `people.js`. `former_kaiser_ulric.png` (in the gitignored `incoming-portraits/`) is reserved for a future "Former Kaiser Ulric" card.
 - No portraits yet: Soluna Tivali, Konrad, Tess von Forst, Asriel Inkburn, Saucisse. Unresolved file: `1792291905068_image.png`.
-- Content wanted for Crafting Guide, Shopping, Starter Guide. Daniel will send more details on the HRL group of pages.
+- Crafting Guide first draft is live; Daniel should review it (see Crafting notes). Content still wanted for Starter Guide. Daniel will send more details on the HRL group of pages.
 - "IMG 7553" flyer needs a real title. Heraldry variant labels (Full shield / Embellishment only / Field only / Line art / Flag) are guesses.
 - Not yet built: quizzes and forms. Pages have not been checked visually in a browser.
 - Confirm Ibb Fletcher's rank/title wording.
@@ -88,3 +88,7 @@ Members (gated), nav is dropdowns, alphabetical:
 - Maceball page `/members/house/maceball/` (Phighting Phoenixes, roster from the May 2026 sign-up in Discord).
 - Person pages: if `bios.js` has no `about`, `person.js` builds a one-line fallback from the card's rank. Title-based `about` text lives in `bios.js`; add exploits there.
 - Primer "Joining Up" has the Court of Pikes photo (`members/house/primer/court-of-pikes.jpg`).
+
+## Crafting guide notes (Nov 2026)
+- Source: Discord #crafting export (Mar 2024 to Nov 2026), condensed and mined for advice and links. No Blade handles are named on the page.
+- Open items: exact dye shades the House prefers (page says exact match is not required); the name of the bleed-prevention product mentioned Jan 2025; whether Weaver Leather should get a link; Etsy pattern links may go stale. Pavise tutorial is only referenced (lives in the Blades' Google Drive).

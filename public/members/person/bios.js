@@ -46,7 +46,10 @@ window.BIOS = {
     "about": "Leif Dagdason is the High Priest of the Veiled Path and a Holy Elector of the Holy Reman League."
   },
   "petrichor": {
-    "about": "Petrichor is the High Priest of Invictus and a Holy Elector of the Holy Reman League. In the Golden Blades he is the Linebreaker."
+    "about": "Petrichor is the High Priest of Invictus and a Holy Elector of the Holy Reman League. In the Golden Blades he is the Linebreaker.",
+    "exploits": [
+      { "title": "Doppels\u00f6ldner Merit", "text": "Awarded the Doppels\u00f6ldner Merit for marching into every battle in full armor." }
+    ]
   },
   "marklin-theobold": {
     "about": "Marklin Theobold is the Treasurer of the Golden Blades, part of the regimental staff, and a Count and Elector of the Holy Reman League.\n\nAs Count of Westerland, the Western Land, he holds Glanzholm for now, along with Palazzo Pirate Malo and Palazzo Neugeldenhalde. He oversees the stables, orchards and quarries of those lands."
@@ -55,7 +58,10 @@ window.BIOS = {
     "about": "Ohthere is an Aljarl of the Holy Reman League and House Leader of Sleipnir’s Rise."
   },
   "thaedra-zena-chamerion": {
-    "about": "Thaedra Zena Chamerion is the High Priestess of Mascirino and a Holy Elector of the Holy Reman League, styled Lady. In the Golden Blades she serves on the regimental staff as Intelligence Officer.\n\nThaedra holds quarries and a shrine in the lands of the Blades."
+    "about": "Thaedra Zena Chamerion is the High Priestess of Mascirino and a Holy Elector of the Holy Reman League, styled Lady. In the Golden Blades she serves on the regimental staff as Intelligence Officer.\n\nThaedra holds quarries and a shrine in the lands of the Blades.",
+    "exploits": [
+      { "title": "Joined the Golden Blades", "text": "Took the blue and gold on March 10, 2025, and was welcomed with rat bread and award-winning hardtack." }
+    ]
   },
   "abigail-winterstone": {
     "about": "Abigail Winterstone is a Countess and Elector of the Holy Reman League, currently off on adventure. She was the Golden Blades' Kommandantin of the Marina Mercantile until she left for Lex Talionus.\n\nAs Countess of Niederheiss, the Lower Hot, she holds the ports of Marina Malavita, Porto Secco and Porto Terzo, along with Urbs Noctis. She oversees the harbors and havens of that coast."
@@ -76,10 +82,18 @@ window.BIOS = {
     "about": "“Dr” Alexander Di Nathair is a Lord of the Holy Reman League. In the Golden Blades he is a Condottiere and the company physician.\n\nHe holds Torre Magno in the Tir of Exyle, the university at Altgard, and interests at Ebenhof and Geldville."
   },
   "eonthee": {
-    "about": "Eonthee is a Lord of the Holy Reman League and a Priest of Mascirino, also known as the Naughty Boy.\n\nHe holds Oriago in the Tir of Exyle, along with mines and stables at Neustadt Stadt."
+    "about": "Eonthee is a Lord of the Holy Reman League and a Priest of Mascirino, also known as the Naughty Boy.\n\nHe holds Oriago in the Tir of Exyle, along with mines and stables at Neustadt Stadt.",
+    "exploits": [
+      { "title": "Keeper of the Dragon Egg", "text": "Guarded the House\u2019s dragon egg through the April 2025 event, and was commended for the watch." }
+    ]
   },
   "gothuli-banti": {
-    "about": "Gothuli Banti is a Lord of the Holy Reman League, of Banti’s Leatherworks.\n\nBanti is a landed Lord who holds workshops, inns and stables across the lands of the Blades."
+    "about": "Gothuli Banti is a Lord of the Holy Reman League, of Banti’s Leatherworks.\n\nBanti is a landed Lord who holds workshops, inns and stables across the lands of the Blades.",
+    "exploits": [
+      { "title": "Herald of the Blades", "text": "Appointed Herald in 810 AC, and proclaimed the delivery of the Sellars Keep contract." },
+      { "title": "Knight of Logistics", "text": "Called the Knight of Logistics for keeping camp in order, defeating evil with a smile and arranging the dances." },
+      { "title": "Mother Henning the Golden Shades", "text": "Mother-henned the Golden Shades at Guy’s Guys, Grand Gathering 810 AC." }
+    ]
   },
   "saucisse": {
     "about": "Saucisse is a Lord of the Holy Reman League and its Minister of Gambling.\n\nSaucisse holds orchards and a fort in the lands of the Blades."
@@ -94,12 +108,15 @@ window.BIOS = {
     ]
   },
   "wellby-zulkabi": {
-    "about": "Wellby Zulkabi is a Lord of the Holy Reman League and its Minister of the Treasury.\n\nWellby holds a market, orchards and a quarry along the coast."
+    "about": "Wellby Zulkabi is a Lord of the Holy Reman League and its Minister of the Treasury.\n\nWellby holds a market, orchards and a quarry along the coast.",
+    "exploits": [
+      { "title": "House quest leader", "text": "Carries the House on his back with Zampf. Between them they account for about half of the House\u2019s quest points." }
+    ]
   },
   "goosetavo": {
     "about": "Goosetavo is the Hauptmann of the Golden Blades' Sapper Corps.",
     "exploits": [
-      { "title": "Alleged Attempted Regicide(s)", "text": "" }
+      { "title": "Alleged Attempted Regicide(s)", "text": "Put on trial for it at Grand Gathering 2025, with the Blades standing by to cause a distraction. He maintains he did nothing wrong." }
     ]
   },
   "maximo": {
@@ -114,11 +131,7 @@ window.BIOS = {
   "raiken-kal-arjac": {
     "about": "Sir Raiken kal Arjac is a dwarf, known as Lord Raiken the Short and as The Golden Lord. He is the First Knight of the Holy Reman League, a Count and Elector, and the Duke of Coin. He is a Priest of Mascirino and the Hauptmann of the Golden Blades' Jaeger Company, its Zweiterhauptmann.\n\nAs Duke of Coin he holds Rotbach, Ubelfels, Grunfeld, Neustadt Stadt and Neugarten. He oversees the mines, markets and noble keep of those lands.",
     "exploits": [
-      {
-        "title": "Knight of the Round Table",
-        "text": "Year 810."
-      },
-      { "title": "Knighted at Grand Gathering 810", "text": "Knighted at Grand Gathering 810 AC." }
+      { "title": "Knight of the Round Table", "text": "Knighted to the Round Table at Grand Gathering 810 AC." }
     ]
   },
   "brenin-halvard": {
@@ -130,7 +143,9 @@ window.BIOS = {
   "danen-zampfer": {
     "about": "Sir Danen Zampfer, who goes by Zampf, is a Knight and a Lord of the Holy Reman League.\n\nZampf holds mines, a smithy and havens in the lands of the Blades.",
     "exploits": [
-      { "title": "Knighted at Grand Gathering 810", "text": "Knighted at Grand Gathering 810 AC after numerous Guardian shifts." }
+      { "title": "Knighted at Grand Gathering 810", "text": "Knighted at Grand Gathering 810 AC after numerous Guardian shifts." },
+      { "title": "The Dirty Cop", "text": "Strolled up in his Guardian tabard to ask what was in the pouch Roger had handed Eonthee, a fine distraction for the caravan guards." },
+      { "title": "A Guardian Martyr", "text": "Died outside the Lodge to the Kingdom of Tides, killed in the dark by a dozen blades, and was handed back his beer. He says it saved many other Guardians." }
     ]
   },
   "tess-von-forst": {
@@ -161,7 +176,11 @@ window.BIOS = {
     "about": "Asriel Inkburn is a Lord of the Holy Reman League.\n\nAsriel holds the markets and orchards of Grunfeld."
   },
   "ghoti-garyson": {
-    "about": "Ghoti Garyson is a Lord of the Holy Reman League.\n\nGhoti holds camps and a shrine at Ebenhof.\n\nGhoti founded the Golden Blades Archery Cadre and serves with the Jaeger Company."
+    "about": "Ghoti Garyson is a Lord of the Holy Reman League.\n\nGhoti holds camps and a shrine at Ebenhof.\n\nGhoti founded the Golden Blades Archery Cadre and serves with the Jaeger Company.",
+    "exploits": [
+      { "title": "Promoted to Captain", "text": "Raised to Captain after Festival of Champions and spoken of for Chief Huntsman." },
+      { "title": "The Lime Water Hero", "text": "Kept the camp supplied with lime water at the coronation, and was hailed for it." }
+    ]
   },
   "dalaran-artellus": {
     "about": "Dalaran Artellus is a Lord of the Holy Reman League.\n\nDalaran holds markets at Palazzo Nathair and holdings at Palazzo Caldo Elfo."
