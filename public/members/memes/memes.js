@@ -26,6 +26,7 @@
 
   function fill(id, items, kind) {
     var grid = document.getElementById(id);
+    if (!grid) return;
     items.forEach(function (it) {
       var b = document.createElement("button");
       b.type = "button"; b.className = "meme";

@@ -223,3 +223,8 @@ a.person.linked:hover, a.person.linked:focus-visible { color: var(--ink); transf
 .exploit h3 { margin: 0 0 .3rem; color: var(--gold-soft); font-size: 1.1rem; }
 .exploit p { margin: 0; }
 @media (max-width: 700px) { .person-page { grid-template-columns: 1fr; } .person-card { max-width: 340px; margin: 0 auto; width: 100%; } }
+
+/* Photo figure used inside guide pages */
+.photo-fig { margin: 1.2rem 0; }
+.photo-fig img { width: 100%; max-width: 760px; display: block; margin: 0 auto; border: 1px solid var(--line); border-radius: var(--radius); }
+.photo-fig figcaption { text-align: center; font-size: .9rem; font-style: italic; color: var(--muted, #888); margin-top: .4rem; }

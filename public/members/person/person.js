@@ -35,11 +35,19 @@
 
   var s1 = h("section", "");
   s1.appendChild(h("h2", "", "Who they are"));
-  if (bio.about) {
-    bio.about.split(/\n\s*\n/).forEach(function (para) { s1.appendChild(h("p", "", para)); });
+  var about = bio.about;
+  if (!about && person.rank) {
+    var rk = person.rank;
+    about = rk === "Contractor"
+      ? person.name + " is a Contractor with the Golden Blades."
+      : person.name + " is a " + rk + " of the Holy Reman League.";
+  }
+  if (about) {
+    about.split(/\n\s*\n/).forEach(function (para) { s1.appendChild(h("p", "", para)); });
   } else {
     s1.appendChild(h("p", "note", "Their story is still being written."));
   }
+  if (!bio.about && about) s1.appendChild(h("p", "note", "More of their story is still to be written."));
   body.appendChild(s1);
 
   var s2 = h("section", "");

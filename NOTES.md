@@ -31,7 +31,7 @@ Members (gated), nav is dropdowns, alphabetical:
 | HRL `/members/hrl/` | Constitution, Heraldry & Flags, Hierarchy (rendered from `people.js` by `hrl.js`) |
 | Carta Arcanum `/members/carta-arcanum/` (formerly Lore) | Briefadel and Ownership (links to a Google Doc), Hex Ledger (own page: Hex Ledger and Holdings Ledger, both by Brenin Halvard), Land and Holdings, Palazzo Program. The hub page explains the Carta Arcanum and teases the Hex Ledger page (hex-ledger.com and holdings-ledger.com are House-sensitive tools by Brenin Halvard). Home for everything about the known world of Hynafol and the Carta game. Anything that is not Carta-related belongs under House |
 | House `/members/house/` (first in nav) also holds the Primer `/members/house/primer/` | Primer = the old Starter Guide (single page, 10+ anchored sections) |
-| Meme Repository `/members/memes/` | Gallery: 12 flyers, 15 GIFs (as mp4). Name is temporary |
+| Memes `/members/memes/` | Hub with two pages: `/flyers/` (12) and `/gifs/` (15, as mp4). Shared `memes.js` / `memes-data.js` |
 | Videos | Links to the public `/videos/` |
 
 - No files or downloads are hosted on the site: documents are linked from Google Drive (Briefadel, On Hynawar). Daniel removed Carta Arcanum Shorthand, Contract of Service, Demesne, House Guide, Manual of Arms, New Blade Quick Primer, Regimental Roles and Style Guide from the site; copies and old pages are in the gitignored `incoming-documents/_removed-from-site/`.
@@ -82,3 +82,9 @@ Members (gated), nav is dropdowns, alphabetical:
 - Write profiles in `public/members/person/bios.js` (`about` text and an `exploits` list per slug). Empty entries show "Their story is still being written."
 - The Golden Blades hierarchy (`/members/house/hierarchy/`) has Oberst Horst von Tanzbären at the top and a "Seat History" card for Anton von Forst (held the seat until 810 AC, then became High Arch Chancellor of the HRL). The rest of the chain of command still needs to be added.
 - `hrl.js` exposes `window.HRL_UI` (card, tier, slug, everyone) so other pages can reuse the cards.
+
+## Later additions (Nov 2026)
+- Hero banners (`css/hero.css`, images in `/members/hero/`) on Members home, House, HRL hub, GB hierarchy and Heraldry.
+- Maceball page `/members/house/maceball/` (Phighting Phoenixes, roster from the May 2026 sign-up in Discord).
+- Person pages: if `bios.js` has no `about`, `person.js` builds a one-line fallback from the card's rank. Title-based `about` text lives in `bios.js`; add exploits there.
+- Primer "Joining Up" has the Court of Pikes photo (`members/house/primer/court-of-pikes.jpg`).

@@ -33,7 +33,10 @@
       ["Hierarchy", "/members/hrl/hierarchy/"],
       ["History of the Kaisers", "/members/hrl/kaisers/"]
     ]],
-    ["Meme Repository", "/members/memes/"],
+    ["Memes", "/members/memes/", [
+      ["Flyers", "/members/memes/flyers/"],
+      ["GIFs", "/members/memes/gifs/"]
+    ]],
     ["Videos", "/videos/"]
   ];
 
