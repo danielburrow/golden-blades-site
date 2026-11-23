@@ -234,11 +234,7 @@ window.BIOS = {
       },
       {
         "title": "Leader of Banti’s Blunders",
-        "text": "Led Banti’s Blunders, alongside Zampf."
-      },
-      {
-        "title": "Operation Banti’s Reverse Blunder Sick Ollie 360 No Scope",
-        "text": "Took part in the operation of that name."
+        "text": "Led Banti’s Blunders."
       },
       {
         "title": "Ran the Jaegers",
@@ -342,10 +338,6 @@ window.BIOS = {
       {
         "title": "A Guardian Martyr",
         "text": "Died outside the Lodge to the Kingdom of Tides, killed in the dark by a dozen blades, and was handed back his beer. He says it saved many other Guardians."
-      },
-      {
-        "title": "Leader of Banti’s Blunders",
-        "text": "Led Banti’s Blunders."
       }
     ]
   },
