@@ -65,6 +65,24 @@
     s2.appendChild(h("p", "note", "No exploits recorded yet."));
   }
   body.appendChild(s2);
+  var arms = (window.HERALDRY || {})[id] || [];
+  if (arms.length) {
+    var s5 = h("section", "");
+    s5.appendChild(h("h2", "", "Heraldry"));
+    var hg = h("div", "heraldry-grid");
+    arms.forEach(function (a) {
+      var fig = h("figure", "heraldry");
+      var link = document.createElement("a"); link.href = a.full;
+      var im = document.createElement("img"); im.src = a.web; im.alt = person.name + ": " + a.label; im.loading = "lazy";
+      link.appendChild(im); fig.appendChild(link);
+      var cap = h("figcaption", "", a.label);
+      cap.appendChild(document.createElement("br"));
+      var dl = document.createElement("a"); dl.href = a.full; dl.setAttribute("download", ""); dl.textContent = "Download full size (" + a.size + ")";
+      cap.appendChild(dl); fig.appendChild(cap); hg.appendChild(fig);
+    });
+    s5.appendChild(hg);
+    body.appendChild(s5);
+  }
   var pics = (window.PHOTOS || {})[id] || [];
   if (pics.length) {
     var s3 = h("section", "");

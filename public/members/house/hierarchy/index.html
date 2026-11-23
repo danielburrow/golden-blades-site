@@ -16,7 +16,7 @@
   <main class="wrap hrl">
     <div id="gb-root"></div>
     <p class="hrl-footer-note">Other companies and staff positions will be added as they are confirmed. The ranks and their duties are in the <a href="/members/house/primer/#ranks">Primer</a>. See also the <a href="/members/hrl/hierarchy/">Holy Reman League hierarchy</a>.</p>
-      <figure class="photo-fig"><img src="/members/groups/winterwatch-january.jpg" alt="The Golden Blades posed in front of a timber lodge in January" loading="lazy"><figcaption>The regiment at Winterwatch, January.</figcaption></figure>
+      <figure class="photo-fig"><img src="/members/groups/winterwatch-january.jpg" alt="The Golden Blades posed in front of a timber lodge in January" loading="lazy"><figcaption>The regiment at Winter Watch, January.</figcaption></figure>
   </main>
   <footer class="site" id="site-footer"></footer>
   <script src="/js/site.js"></script>
@@ -54,6 +54,17 @@
         gb("Marklin", "Treasurer", "Regimental Staff"),
         gb("Thaedra", "Intelligence Officer", "High Priestess of Mascirino")
       ], "center"));
+      GAP();
+      var shown = ["Horst", "Anton", "Ulric", "Raiken", "Goosetavo", "Alexander", "Maximo", "Marklin", "Thaedra"];
+      var notBlades = ["Avaline", "Duarte", "Leif", "Ohthere", "Abigail"];
+      var contractors = (D.contractors || []).map(function (c) { return c.name; });
+      function has(list, name) { return list.some(function (x) { return name.indexOf(x) !== -1; }); }
+      function sortKey(n) { return n.replace(/^(Sir |\u201cDr\u201d )/, "").toLowerCase(); }
+      var blades = U.everyone().filter(function (p) {
+        return contractors.indexOf(p.name) === -1 && !has(shown, p.name) && !has(notBlades, p.name);
+      }).sort(function (a, b) { return sortKey(a.name) < sortKey(b.name) ? -1 : 1; })
+        .map(function (p) { return { rank: p.rank, name: p.name, slug: p.slug, role: p.role, photo: p.photo, crest: "sigil", emblem: p.emblem }; });
+      root.appendChild(U.tier("Blades", blades, "center"));
       GAP();
       root.appendChild(U.tier("Contractors", (D.contractors || []).map(function (c) {
         return { rank: c.rank, name: c.name, role: c.role, photo: c.photo };

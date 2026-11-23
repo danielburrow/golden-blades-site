@@ -228,3 +228,8 @@ a.person.linked:hover, a.person.linked:focus-visible { color: var(--ink); transf
 .photo-fig { margin: 1.2rem 0; }
 .photo-fig img { width: 100%; max-width: 760px; display: block; margin: 0 auto; border: 1px solid var(--line); border-radius: var(--radius); }
 .photo-fig figcaption { text-align: center; font-size: .9rem; font-style: italic; color: var(--muted, #888); margin-top: .4rem; }
+
+.co-shield { display: block; width: 88px; height: 88px; object-fit: contain; margin: 0 0 .4rem; }
+
+.hero-banner.short, .hero-banner.short img { min-height: 340px; max-height: 480px; }
+@media (max-width: 600px) { .hero-banner.short, .hero-banner.short img { min-height: 400px; } }

@@ -149,6 +149,4 @@
   root.appendChild(tier("Barons", D.barons, "center"));
   root.appendChild(h("div", "hrl-connector"));
   root.appendChild(tier("Lords & Ladies", D.lords));
-  root.appendChild(h("div", "hrl-connector"));
-  root.appendChild(tier("Titled Citizens", D.citizens, "center"));
 })();
