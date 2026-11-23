@@ -1,7 +1,8 @@
 (function () {
   var D = window.HRL;
   var NS = "http://www.w3.org/2000/svg";
-  function img(id) { return "/members/hrl/img/" + id + ".png"; }
+  function img(id) { return "/members/hrl/img/" + id + ".png"; }   // crests, shields, emblems
+  function photo(id) { return "/members/hrl/img/" + id + ".jpg"; } // portraits
 
   function h(tag, cls, text) {
     var e = document.createElement(tag);
@@ -36,7 +37,7 @@
     var wrap = h("div", "portrait");
     if (p.photo) {
       var im = document.createElement("img");
-      im.src = img(p.photo);
+      im.src = photo(p.photo);
       im.alt = alt;
       im.loading = "lazy";
       im.onerror = function () { wrap.innerHTML = SILHOUETTE; };

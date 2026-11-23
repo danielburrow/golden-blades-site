@@ -84,7 +84,7 @@ header.site nav { display: flex; flex-wrap: wrap; gap: .2rem 0; }
 
 .person { position: relative; background: var(--parch); color: var(--ink); border: 4px double var(--parch-line); border-radius: 4px; padding: 1.4rem 1rem 1.2rem; text-align: center; display: flex; flex-direction: column; align-items: center; gap: .35rem; }
 .person .portrait { width: 112px; height: 112px; border-radius: 50%; border: 4px solid var(--parch-line); background: #d9c898; overflow: hidden; display: flex; align-items: center; justify-content: center; flex: none; }
-.person .portrait img { width: 100%; height: 100%; object-fit: cover; border-radius: 0; display: block; }
+.person .portrait img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; border-radius: 0; display: block; }
 .person.big .portrait { width: 150px; height: 150px; }
 .person .rank { font-size: .78rem; letter-spacing: .2em; text-transform: uppercase; color: var(--ink-gold); font-weight: bold; min-height: 1.1em; margin-top: .3rem; }
 .person .name { font-size: 1.45rem; line-height: 1.1; font-weight: bold; }
