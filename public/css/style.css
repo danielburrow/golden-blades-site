@@ -236,27 +236,12 @@ a.person.linked:hover, a.person.linked:focus-visible { color: var(--ink); transf
 
 .photo-fig.coa img { max-width: min(680px, 100%); border: 0; border-radius: 0; background: transparent; }
 
-/* ---------- Blue and gold: the Golden Blades colors ----------
-   --edge is the accent for Golden Blades pages (heraldic blue). Holy Reman League pages
-   (body.theme-hrl) swap it for a dim gold so they keep their black-and-gold look. */
-:root { --edge: #1f56b8; --edge-deep: #0d3b8c; }
-body.theme-hrl { --edge: #8a6a22; --edge-deep: #5a4514; }
-body:not(.theme-hrl) { background: radial-gradient(1200px 600px at 50% -10%, #17264a 0%, var(--bg) 62%) fixed; }
+/* ---------- Header edge: blue and gold stripe ---------- */
+:root { --edge: #1f56b8; }
 header.site { border-bottom: 5px solid; border-image: repeating-linear-gradient(90deg, var(--edge) 0 26px, var(--gold) 26px 52px) 1; }
-footer.site { border-top: 3px solid var(--edge); }
-.rule { background: linear-gradient(90deg, transparent, var(--edge), var(--gold), var(--edge), transparent); }
-.card { border-top: 3px solid var(--edge); }
-.section-links a.card:hover { border-top-color: var(--gold); }
-main section > h2 { border-bottom: 2px solid var(--edge); padding-bottom: .25rem; margin-bottom: .8rem; }
-.note { border-left-color: var(--edge); }
-body .page-hero { border-bottom: 5px solid var(--edge); box-shadow: 0 2px 0 var(--gold); }
-.hero-banner { border-bottom: 5px solid var(--edge); box-shadow: 0 2px 0 var(--gold); }
-.btn.ghost { border-color: var(--edge); }
-body[data-from="house"] .hrl-tier > h2::before, body[data-from="house"] .hrl-tier > h2::after { background: var(--edge); height: 3px; }
-body[data-from="house"] .hrl-connector { background: var(--edge); }
 
 /* ---------- Mobile menu: compact header with a hamburger ---------- */
-.nav-toggle { display: none; background: none; border: 1px solid var(--edge); border-radius: var(--radius); width: 2.6rem; height: 2.3rem; padding: 0; cursor: pointer; flex-direction: column; align-items: center; justify-content: center; gap: 4px; }
+.nav-toggle { display: none; background: none; border: 1px solid var(--gold); border-radius: var(--radius); width: 2.6rem; height: 2.3rem; padding: 0; cursor: pointer; flex-direction: column; align-items: center; justify-content: center; gap: 4px; }
 .nav-toggle span { display: block; width: 1.3rem; height: 2px; background: var(--gold); border-radius: 2px; }
 .nav-toggle:hover { border-color: var(--gold); }
 @media (max-width: 720px) {
