@@ -212,8 +212,8 @@ a.nav-members:hover { background: var(--gold); color: #1a1408; }
 .hrl-flag figcaption { margin-top: .5rem; color: var(--muted); font-size: .9rem; }
 
 /* Person pages and linked cards */
-a.person.linked { text-decoration: none; color: inherit; transition: transform .12s, box-shadow .12s; }
-a.person.linked:hover, a.person.linked:focus-visible { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0,0,0,.45); outline: 2px solid var(--gold); }
+a.person.linked { text-decoration: none; color: var(--ink); transition: transform .12s, box-shadow .12s; }
+a.person.linked:hover, a.person.linked:focus-visible { color: var(--ink); transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0,0,0,.45); outline: 2px solid var(--gold); }
 .person-nav { margin: 1.5rem 0 1rem; }
 .person-page { display: grid; gap: 2rem; grid-template-columns: minmax(260px, 340px) 1fr; align-items: start; margin-bottom: 3rem; }
 .person-card .person { width: 100%; }
